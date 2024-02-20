@@ -1,0 +1,5 @@
+.codeBlockContainer {
+  background: var(--ifm-background-surface-color);
+  color: var(--prism-color);
+  margin-bottom: var(--ifm-leading);
+}
