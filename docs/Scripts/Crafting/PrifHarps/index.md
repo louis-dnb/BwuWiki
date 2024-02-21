@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="PrifHarps" version="v1.0.6" skill="crafting">
+<TopBanner title="PrifHarps" version="v1.0.6" skill="Crafting">
 </TopBanner>
 
 :::hidden
