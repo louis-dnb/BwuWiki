@@ -14,8 +14,13 @@ import changes from './changes.json'
 
 <TopBanner title="Introduction">
 </TopBanner>
+:::hidden
 
+## Client Status
+
+:::
 <ContentBlock title="Client Status">
+
 - Non-Jagex accounts: ✅
 - Jagex Accounts: ✅
 - Steam: 🔴
@@ -42,10 +47,6 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 ```
 
 :::
-
-</ContentBlock>
-
-<ContentBlock title="Client Status">
 
 </ContentBlock>
 
