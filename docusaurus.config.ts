@@ -110,6 +110,12 @@ scripts:[
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'introSidebar',
+          position: 'left',
+          label: 'Introduction',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'kbSidebar',
           position: 'left',
           label: 'Scripts',
