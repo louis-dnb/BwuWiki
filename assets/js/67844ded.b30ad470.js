@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbotwithuswiki=self.webpackChunkbotwithuswiki||[]).push([[356],{2368:i=>{i.exports=JSON.parse('{"title":"Scripts","slug":"/category/scripts","permalink":"/category/scripts","navigation":{"next":{"title":"RasialWithUs","permalink":"/rasial-with-us"}}}')}}]);
