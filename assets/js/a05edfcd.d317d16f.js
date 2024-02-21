@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbotwithuswiki=self.webpackChunkbotwithuswiki||[]).push([[700],{7818:i=>{i.exports=JSON.parse('{"title":"Guides","slug":"/category/guides","permalink":"/BwuWiki/category/guides","navigation":{"next":{"title":"Getting Started","permalink":"/BwuWiki/Guides/Guides/01gettingStarted"}}}')}}]);
