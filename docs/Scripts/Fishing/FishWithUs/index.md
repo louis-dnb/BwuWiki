@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="FishWithUs" version="v1.0.6" skill="fishing">
+<TopBanner title="FishWithUs" version="v1.0.6" skill="Fishing">
 </TopBanner>
 
 :::hidden
