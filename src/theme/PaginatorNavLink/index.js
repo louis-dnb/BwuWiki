@@ -17,7 +17,7 @@ export default function PaginatorNavLink(props) {
     display: "flex",
     flexDirection: "column",
     flexWrap: "wrap",
-    color: "#1a8870",
+    color: "#9677bb",
     backgroundColor: "#201b23",
     padding: 12,
     height: "auto",
