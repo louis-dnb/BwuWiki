@@ -19,6 +19,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 
 - Our wiki is completely open source, you can find the code <u>[**here**](https://github.com/BotWithUs/BwuWiki)</u>.
 - This wiki is a NodeJS project, which means you can run the code locally yourself, all while it updates in real time in your local browser once you save files.
+- The minimum supported NodeJS Version is 18
 
 :::info You can help!
     If you'd like to contriubute, you can by making a [**pull request**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to our [**master branch**](https://github.com/BotWithUs/BwuWiki)!
@@ -32,7 +33,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 ## Getting setup
 :::
 <ContentBlock title="Getting setup">
-> - First, let's make sure that you have [**NodeJS**](https://nodejs.org/en/download) installed.
+> - First, let's make sure that you have [**NodeJS 18+**](https://nodejs.org/en/download) installed.
 > - Then, install yarn, the package manager for this project:
 ```bash
 npm install --global yarn

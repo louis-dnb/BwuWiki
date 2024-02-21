@@ -7,47 +7,47 @@
  
 /* You can override the default Infima variables here. */
 html[data-theme='dark'] {
-    color: #25c2a0;
+    color: #9677bb;
   --ifm-background-color: #1a171d;
   --ifm-background-surface-color: #201b23;
   --ifm-menu-color-background-active: #201b23;
   --ifm-color-emphasis-200: #2e2731;
-  --ifm-color-emphasis-1000: #29d5b0;
+  --ifm-color-emphasis-1000: #c6a5e5;
   --prism-background-color: #201b23;
-  --docusaurus-highlighted-code-line-bg: #0b3028;
+  --docusaurus-highlighted-code-line-bg: #785b99;
 }
 h1 {
   font-family: 'Monoton', sans-serif !important;
 }
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #a686cc; 
+  --ifm-color-primary-dark: #9677bb; 
+  --ifm-color-primary-darker: #8769aa;
+  --ifm-color-primary-darkest: #785b99;
+  --ifm-color-primary-light: #b896d8;
+  --ifm-color-primary-lighter: #c6a5e5;
+  --ifm-color-primary-lightest: #d7b7f1;
   --ifm-code-font-size: 95%;
   --ifm-global-radius: 12px;
   --prism-background-color: #201b23;
-  --docusaurus-highlighted-code-line-bg: #0b3028;
+  --docusaurus-highlighted-code-line-bg: #785b99;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   /* --ifm-background-color: #1c1b1d; */
   /* --ifm-background-surface-color: #252429; */
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --ifm-accent-color: #0f5546;
+  --ifm-color-primary: #a686cc; /* Lighter purple */
+  --ifm-color-primary-dark: #9677bb; /* Darker purple */
+  --ifm-color-primary-darker: #8769aa; /* Even darker purple */
+  --ifm-color-primary-darkest: #785b99; /* Darkest purple */
+  --ifm-color-primary-light: #b896d8; /* Light purple */
+  --ifm-color-primary-lighter: #c6a5e5; /* Lighter purple */
+  --ifm-color-primary-lightest: #d7b7f1; /* Lightest purple */
+  --ifm-accent-color: #6109d3;
   /* --prism-background-color: #201b23; */
   --ifm-pre-background: var(--ifm-background-surface-color);
-  --docusaurus-highlighted-code-line-bg: #0b3028;
+  --docusaurus-highlighted-code-line-bg: #6c0a79;
   scrollbar-color: var(--ifm-color-primary-darkest) var(--ifm-background-color);
 }
 
@@ -97,16 +97,16 @@ code[class*="language-"], pre[class*="language-"] {
   border-radius: 8px;
   border-top-right-radius: calc(var(--height) * 0.5);
   border-bottom-right-radius: calc(var(--height) * 0.5);
-  box-shadow: 10px 10px 12px #0b5645;
+  box-shadow: 10px 10px 12px #9677bb;
 }
 
 .footer {
   background-color: #1a171d;
-  color: #25c2a0;
+  color: #9677bb;
 }
 
 .MuiTimelineConnector-root {
-  background-color: #0b5645 !important;
+  background-color: #9677bb !important;
 }
 
 .MuiPaper-root {

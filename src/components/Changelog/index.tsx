@@ -32,12 +32,12 @@ export default function Changelog(props) {
             <TimelineOppositeContent>
               <h3 style={{marginTop:10}}>{change.date}</h3>
             </TimelineOppositeContent>
-            <TimelineSeparator sx={{color:'#1a8870'}}>
+            <TimelineSeparator sx={{color:'#d153eb'}}>
               <LightbulbTwoToneIcon fontSize="medium" sx={{marginBlockStart:2, marginBlockEnd:2}}/>
               <TimelineConnector/>
             </TimelineSeparator>
             <TimelineContent>
-              <Paper sx={{ width: '100%', color:'#1a8870', borderRadius:6, borderTopRightRadius: 36, borderBottomRightRadius: 36 }} variant="outlined">
+              <Paper sx={{ width: '100%', color:'#9677bb', borderRadius:6, borderTopRightRadius: 36, borderBottomRightRadius: 36 }} variant="outlined">
               <h3 style={{paddingLeft:16, paddingTop: 8}}>{change.title}</h3>
               <List>
               {change.items.map((item) => (

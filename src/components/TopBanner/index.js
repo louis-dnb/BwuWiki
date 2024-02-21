@@ -15,7 +15,7 @@ export default function TopBanner(props) {
   const image = props.skill;
   const radiusToSet = height > maxRadius ? maxRadius : height * 0.5;
   const stylesObj = {
-    color: "#1a8870",
+    color: "#9677bb",
     backgroundColor: "#201b23",
     padding: 12,
     height: "auto",
