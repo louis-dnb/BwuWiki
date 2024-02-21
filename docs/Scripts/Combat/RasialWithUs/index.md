@@ -37,7 +37,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-> - Fights Rasial, averaging 1:10 - 1:30 killtimes using BIS gear.
+> - Fights Rasial, averaging 1:10 - 1:30 killtimes using BIS gear, or 1:30-2:00 using T90 gear.
 > - Picks up drops, rinse and repeat.
 > - Has a number of safety mechanisms to lobby when the player is out of critical resources like item charge, runes, etc.
 > - Makes you a TON of gp! 
