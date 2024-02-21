@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbotwithuswiki=self.webpackChunkbotwithuswiki||[]).push([[8356],{2368:t=>{t.exports=JSON.parse('{"title":"Scripts","slug":"/category/scripts","permalink":"/category/scripts","navigation":{"next":{"title":"qBots Agility","permalink":"/qBots Agility"}}}')}}]);

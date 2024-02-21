@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbotwithuswiki=self.webpackChunkbotwithuswiki||[]).push([[192],{9520:t=>{t.exports=JSON.parse('{"title":"Guides","slug":"/category/guides","permalink":"/category/guides","navigation":{"next":{"title":"Getting Started Botting","permalink":"/getting-started-botting"}}}')}}]);
