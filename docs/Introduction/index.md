@@ -52,6 +52,27 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 
 :::hidden
 
+## Contributors
+
+:::
+
+<ContentBlock title="Active Contributors">
+
+| Role      | Contributor  | Discord ID  |
+| --------- | ------------ | ----------- |
+| Staff     | Pookie       | @pookie420  |
+| Staff     | DrJavatar    | @drjavatar  |
+| Staff     | Cipher       | @ciphers    |
+| Staff     | Sudo         | @sudopro    |
+| Staff     | ARMAR X K1NG | @armarxk1ng |
+| Staff     | Timmy        | @timmyb     |
+| Web Dev   | offline      | @anjato     |
+| Moderator | KBD          | @KBD        |
+
+</ContentBlock>
+
+:::hidden
+
 ## Changelog
 
 :::

@@ -112,7 +112,7 @@ scripts:[
           type: 'docSidebar',
           sidebarId: 'mainSidebar',
           position: 'left',
-          label: 'Introduction',
+          label: 'Docs',
         }
       ],
     },
