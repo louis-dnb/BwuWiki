@@ -24,7 +24,7 @@
             "ItemTypes now calculate the noted variant.",
        
             "🛠️Loader Update:🛠️",
-            "1.1.2a"
+            "Revision bump 1.1.2a"
         ]
     },  
     {
@@ -87,7 +87,7 @@
             "New core snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240123.223505-20`.",
 
             "🛠️Loader Update:🛠️",
-            "Version bump 1.1.0a."
+            "Revision bump 1.1.0a."
         ]
         
     },
@@ -114,7 +114,8 @@
             "This update does not require you to recompile your scripts. However, we always recommend staying up to date.",
 
             "🛠️Loader Update:🛠️",
-            "Version bump 1.0.9a for steam support fix."
+            "Revision bump 1.0.9a",
+            "Steam support fix."
         ]
     },
     {
@@ -127,7 +128,7 @@
             "Moved component interacts synchronized to game ticks - Reverted.",
             
             "🛠️Loader Update:🛠️",
-            "Version bump 1.0.8a.",
+            "Revision bump 1.0.8a.",
             "Added support for steam/google accounts."
         ]
     },
