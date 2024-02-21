@@ -1,6 +1,7 @@
 ---
-title: Getting Started
+title: Getting Started Botting
 description: How to download the client and start your botting adventure!
+slug: /getting-started-botting
 ---
 
 import React from 'react';
@@ -57,7 +58,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 - #### How do I start botting?
     > - First, you'll need to purchase access. 
     >
-    > - Then, check out our <u>[**start botting**](https://discord.gg/botwithus)</u> discord channel or view the guides here.
+    > - Then, check out our <u>[**start botting**](https://discord.com/channels/973830420858810378/1173623488163098686)</u> discord channel or view the guide [**above**](/getting-started-botting).
 ---
 - #### I redeemed my serial, now what?
     > - Once your sub is active, the "Download" button will appear for you in the top right dropdown of your website profile. Download away! Please note any installed antivirus may mess with the software's ability to perform properly.
@@ -76,7 +77,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
     > - Local scripts will appear under "Scripts" while scripts from the marketplace will appear under "SDN Scripts"
 ---
 - #### Why don't i see any scripts?
-    > - Make sure you have subscribed to them on our <u>[**script marketplace**](https://discord.gg/botwithus)</u>
+    > - Make sure you have subscribed to them on our <u>[**script marketplace**](https://botwithus.net/sdn)</u>
     >
     > - Local scripts will appear under "Scripts" while scripts from the marketplace will appear under "SDN Scripts"
 ---
