@@ -12,11 +12,11 @@
         "title": "v1.0.1",
         "importance": "secondary",
         "items": [
-            "- Added option to utilize lantadyme incense sticks in your preset",
-            "- Added option to throw a 2nd vuln bomb for slower t90/unlucky t95 kills",
-            "- Bot will activate bonfire buff if its not active",
-            "- Added option to drink super sara brews instead of normal ones",
-            "- Fixed area loot support"
+            "Added option to utilize lantadyme incense sticks in your preset",
+            "Added option to throw a 2nd vuln bomb for slower t90/unlucky t95 kills",
+            "Bot will activate bonfire buff if its not active",
+            "Added option to drink super sara brews instead of normal ones",
+            "Fixed area loot support"
         ]
     },
     {
@@ -24,13 +24,13 @@
         "title": "v1.0.2",
         "importance": "secondary",
         "items": [
-            "- Drinks super restore if low prayer",
-            "- Added imbued HSR/LOTD support for luck ring switch",
-            "- Added option to ring of vigour switch for death skulls (for those without passive vigour effect)",
-            "- Added safeguard to logout bot when your scripture of Jas runs out of charge",
-            "- If you run out of reaver scrolls, bot will continue but print a warning to the console.",
-            "- Bot will lobby if you happen to find yourself at death's office",
-            "- Fixed super saradomin brew drinking"
+            "Drinks super restore if low prayer",
+            "Added imbued HSR/LOTD support for luck ring switch",
+            "Added option to ring of vigour switch for death skulls (for those without passive vigour effect)",
+            "Added safeguard to logout bot when your scripture of Jas runs out of charge",
+            "If you run out of reaver scrolls, bot will continue but print a warning to the console.",
+            "Bot will lobby if you happen to find yourself at death's office",
+            "Fixed super saradomin brew drinking"
         ]
     },
     {
@@ -38,11 +38,11 @@
         "title": "v1.0.3",
         "importance": "secondary",
         "items": [
-            "- Remove checkbox for super brews, bot now drinks liquids in this order of priority: Super Guthix brews, Guthix rest, Super sara brews, sara brews",
-            "- Fixed a scenario where adren pot could fail to activate after living death for t90 rotation",
-            "- Added a safeguard for praying too many times at wars altar",
-            "- Script will lobby if player is out of ectoplasm or runes.",
-            "- Added support for prism of restoration spell to be cast for better reaver healing"
+            "Remove checkbox for super brews, bot now drinks liquids in this order of priority: Super Guthix brews, Guthix rest, Super sara brews, sara brews",
+            "Fixed a scenario where adren pot could fail to activate after living death for t90 rotation",
+            "Added a safeguard for praying too many times at wars altar",
+            "Script will lobby if player is out of ectoplasm or runes.",
+            "Added support for prism of restoration spell to be cast for better reaver healing"
         ]
     },
     {
@@ -50,14 +50,14 @@
         "title": "v1.0.4",
         "importance": "secondary",
         "items": [
-            "- Randomized war's retreat activity: More random altar -> bank times, with a small chance of a short afk",
-            "- Bot will surge toward the crystal the majority of the time now, but sometimes still walk",
-            "- Optimized prism of restoration timing for better coverage during the kill and less waste on the 2nd prism",
-            "- Optimized start of fight to get an extra tick out of command skeleton warrior",
-            "- In the rare event of death, the bot will now reclaim its items and continue on fighting rasial. Safeguard for failed death reclaim is added at war's retreat (checks for missing equipment) in order to prevent dying again with items in death storage should a reclaim go wrong.",
-            "- Bot will no longer re-summon undead army at the very end of fight in rare circumstances",
-            "- General bot statistics like kills, drops, etc will now be tracked centrally (and anonymously)",
-            "- Dashboards coming :soon~1:"
+            "Randomized war's retreat activity: More random altar -> bank times, with a small chance of a short afk",
+            "Bot will surge toward the crystal the majority of the time now, but sometimes still walk",
+            "Optimized prism of restoration timing for better coverage during the kill and less waste on the 2nd prism",
+            "Optimized start of fight to get an extra tick out of command skeleton warrior",
+            "In the rare event of death, the bot will now reclaim its items and continue on fighting rasial. Safeguard for failed death reclaim is added at war's retreat (checks for missing equipment) in order to prevent dying again with items in death storage should a reclaim go wrong.",
+            "Bot will no longer re-summon undead army at the very end of fight in rare circumstances",
+            "General bot statistics like kills, drops, etc will now be tracked centrally (and anonymously)",
+            "Dashboards coming :soon~1:"
         ]
     },
     {
@@ -65,10 +65,10 @@
         "title": "v1.0.5",
         "importance": "secondary",
         "items": [
-            "- Greatly improved effectiveness of p4 walking mechanics",
-            "- Fixed a bug that could cause guthix/sara brews to not be sipped depending on dosage",
-            "- Increased reliability of death reclaim feature",
-            "- Added a safety check for lack of death touched bracelet charge"
+            "Greatly improved effectiveness of p4 walking mechanics",
+            "Fixed a bug that could cause guthix/sara brews to not be sipped depending on dosage",
+            "Increased reliability of death reclaim feature",
+            "Added a safety check for lack of death touched bracelet charge"
         ]
     },
     {
@@ -76,11 +76,11 @@
         "title": "v1.0.6",
         "importance": "secondary",
         "items": [
-            "- Added support for eof/conjur necklace switching when summoning conjures in the fight lobby",
-            "- Fixed a rare post-fight death scenario where fight logic had stopped processing but Rasial fired one more explosion.",
-            "- Fixed health buff conflicts between bonfire/valentines/thermal bath/other health boosts, now always interacting the bonfire only if health is not boosted by any means (instead of just boosted by bonfire)",
-            "- Fixed a rare scenario where certain abilities would occasionally not activate for an unlucky user",
-            "- Added an additional check at wars retreat that turns off your prayer if it was still on."
+            "Added support for eof/conjur necklace switching when summoning conjures in the fight lobby",
+            "Fixed a rare post-fight death scenario where fight logic had stopped processing but Rasial fired one more explosion.",
+            "Fixed health buff conflicts between bonfire/valentines/thermal bath/other health boosts, now always interacting the bonfire only if health is not boosted by any means (instead of just boosted by bonfire)",
+            "Fixed a rare scenario where certain abilities would occasionally not activate for an unlucky user",
+            "Added an additional check at wars retreat that turns off your prayer if it was still on."
         ]
     }
 

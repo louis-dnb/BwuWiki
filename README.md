@@ -1,19 +1,27 @@
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Here are the [Docusuarus markdown docs](https://docusaurus.io/docs/markdown-features)
 
 ### Contributing
 
 In order to contribute to our wiki, please either fork our repo or create a branch, and make a pull request to the master branch of this repo. Once we review and approve it, the changes will go live to the site in minutes.
 
+### Honorable Mentions
+Thank you @dea.d for providing a great jump start to this project.
+
 ### Installation
 This project requires that you  have [NPM 18+](https://nodejs.org/en/blog/release/v18.12.0) installed.
 
+Copy this repo, if you haven't already
+```
+git clone https://github.com/BotWithUs/BwuWiki.git
+```
 Once NPM is installed, make sure to install yarn, the package manager for this project.
 ```
 npm install --global yarn
 ```
-Then, to install this projects dependencies:
+Then, from the root of this project, to install this projects dependencies:
 ```
 yarn
 ```
