@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Introduction">
+<TopBanner title="Introduction" skill="hello">
 </TopBanner>
 :::hidden
 

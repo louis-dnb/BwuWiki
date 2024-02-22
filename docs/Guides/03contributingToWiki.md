@@ -9,9 +9,7 @@ import ContentBlock from '@site/src/components/ContentBlock';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
 :::hidden
-
 ## Introduction
-
 :::
 
 <ContentBlock title="Introduction">
@@ -33,10 +31,9 @@ If you'd like to contriubute, you can by making a [**pull request**](https://doc
 </ContentBlock>
 
 :::hidden
-
 ## Getting setup
-
 :::
+
 <ContentBlock title="Getting setup">
 
 > - First, let's make sure that you have [**NodeJS 18+**](https://nodejs.org/en/download) installed.
@@ -47,8 +44,6 @@ If you'd like to contriubute, you can by making a [**pull request**](https://doc
 npm install --global yarn
 ```
 
-:::
-
 > - Next, you'll need to make sure that you have [**Git**](https://git-scm.com/downloads) or [**GitHub Desktop**](https://desktop.github.com/) installed.
 > - Then, clone our code using GitHub Desktop, or run the following commands:
 >   :::info Clone the Wiki repository
@@ -58,7 +53,6 @@ git clone https://github.com/BotWithUs/BwuWiki
 cd BwuWiki
 ```
 
-:::
 :::warning Before proceeding
 You should make a new branch as you cannot commit changes to master. Or you can fork the repository. If you make a bunch of changes to the locally checked out master branch, you wont be able to push them to the repo.
 :::
@@ -70,8 +64,6 @@ You should make a new branch as you cannot commit changes to master. Or you can 
 yarn
 ```
 
-:::
-
 > - Now you are all set to run the project locally!
 > - The following command will launch the project locally and connect you to it via your browser.
 >   :::info Its local dev time baby!
@@ -80,7 +72,6 @@ yarn
 yarn start
 ```
 
-:::
 :::warning Changes reflect instantly!
 While the server is running, any changes you make to files and save, should reflect live in your local browser.
 :::
@@ -88,10 +79,9 @@ While the server is running, any changes you make to files and save, should refl
 </ContentBlock>
 
 :::hidden
-
 ## Making your changes live
-
 :::
+
 <ContentBlock title="Making your changes live">
 
 - Once you've finished your contributions, commit and push them back to your side branch or forked repo.
@@ -107,30 +97,28 @@ While the server is running, any changes you make to files and save, should refl
 
 :::
 
-<ContentBlock title="Best wiki editing practices">
-
-Clarity and Conciseness:
+<ContentBlock  title="Best wiki editing practices">
+### Clarity and Conciseness:
 
 > - Write in a clear and concise manner to enhance readability.
 > - Break down complex information into easily understandable sections.
 
-Structure and Formatting:
+### Structure and Formatting:
 
 > - Follow the established structure and formatting guidelines of the wiki.
 > - Use headers, bullet points, and other formatting tools to organize content effectively.
 
-Avoid Plagiarism:
+### Avoid Plagiarism:
 
 > - Always create original content or properly attribute the source if using someone else's work.
 > - Respect copyright laws and the intellectual property of others.
 
-User-Friendly Language:
+### User-Friendly Language:
 
 > - Write in a way that is accessible to a wide audience, avoiding jargon or overly technical language when unnecessary.
 
-Regular Updates:
+### Regular Updates:
 
 > - Keep information up-to-date by revisiting and editing content periodically.
 > - Add new information and remove outdated or irrelevant details.
-
 </ContentBlock>
