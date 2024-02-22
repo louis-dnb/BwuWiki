@@ -20,19 +20,19 @@ import changes from './changes.json'
 
 :::
 <ContentBlock title="Client Status">
-
-- Non-Jagex accounts: ✅
-- Jagex Accounts: ✅
-- Steam: 🔴
-- Google accounts: ✅
-
+<div class="centered-content">
+Non-Jagex accounts: ✅ |
+Jagex Accounts: ✅ |
+Google accounts: ✅ |
+Steam: 🔴
+</div>
 :::warning Jagex accounts
 Jagex accounts are currently manually injected due to an update to the Jagex launcher. An elegant solution is in progress.
 :::
 
 # Current API Versions:
 
-:::info The current version of the core API is:
+:::tip The current version of the core API is:
 
 ```kotlin
 net.botwithus.rs3:botwithus-api:1.0.0-20240213.053515-21
@@ -40,7 +40,7 @@ net.botwithus.rs3:botwithus-api:1.0.0-20240213.053515-21
 
 :::
 
-:::info The current version of the extended API is:
+:::tip The current version of the extended API is:
 
 ```kotlin
 net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
@@ -57,19 +57,20 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 :::
 
 <ContentBlock title="Active Contributors">
-
+<div class="centered-content">
 | Role      | Contributor  | Discord ID  |
 | --------- | ------------ | ----------- |
 | Staff     | Pookie       | @pookie420  |
 | Staff     | DrJavatar    | @drjavatar  |
-| Staff     | Cipher       | @ciphers    |
+| Staff     | Cipher       | @ciphers.   |
 | Staff     | Sudo         | @sudopro    |
 | Staff     | ARMAR X K1NG | @armarxk1ng |
 | Staff     | Timmy        | @timmyb     |
 | Web Dev   | offline      | @anjato     |
 | Moderator | KBD          | @KBD        |
-
+</div>
 </ContentBlock>
+
 
 :::hidden
 

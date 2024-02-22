@@ -1,5 +1,5 @@
 ---
-title: Wiki Contriutions
+title: Wiki Contributions
 description: How to contribute to our wiki.
 slug: /contributing-to-wiki
 ---
