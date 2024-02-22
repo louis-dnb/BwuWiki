@@ -4,7 +4,7 @@
     border: 3px solid var(--ifm-background-surface-color);
     box-shadow: var(--ifm-global-shadow-lw);
     margin-bottom: var(--ifm-leading);
-    color: var(--ifm-color-primary);
+
   }
   
   .browserWindowHeader {
@@ -39,16 +39,12 @@
     margin: 0 1rem 0 0.5rem;
     border-radius: 12.5px;
     background-color: var(--ifm-background-color);
-    color: var(--ifm-color-primary);
+    
     padding: 5px 15px;
     font: 400 13px Arial, sans-serif;
     user-select: none;
   }
-  
-  [data-theme='dark'] .browserWindowAddressBar {
-    color: var(--ifm-color-primary);
-  }
-  
+    
   .dot {
     margin-right: 6px;
     margin-top: 4px;
