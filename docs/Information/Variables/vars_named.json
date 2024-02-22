@@ -1078,6 +1078,300 @@
     "varId":   2614,
     "type": "VARP",
     "description": "Incite Fear Stacks"
+  },
+  {
+    "id":  15191,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Frozen key text:Charges remaining:"
+  },
+  {
+    "id":  15191,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Cursed ushabti text: Soul contained:"
+  },
+  {
+    "id":  36325,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Ushabti text: Soul contained:"
+  },
+  {
+    "id":  37518,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Portable fairy ring text: Charges remaining:"
+  },
+  {
+    "id":  37519,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Spirit tree re-rooter text: Charges remaining:"
+  },
+  {
+    "id":  37521,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Divine-o-matic vacuum text: Empty divine charges stored:"
+  },
+  {
+    "id":  37522,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Divine-o-matic vacuum text: Divine charges stored:"
+  },
+  {
+    "id":  37523,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Divine-o-matic vacuum text: Charge container filled:"
+  },
+  {
+    "id":  37520,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Flatpack depacker text: Charges remaining:"
+  },
+  {
+    "id":  40669,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Omni soulstone text: Commander Zilyana kills stored:"
+  },
+  {
+    "id":  40671,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Omni soulstone text: K'ril Tsutsaroth kills stored:"
+  },
+  {
+    "id":  40673,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Omni soulstone text: General Graardor kills stored:"
+  },
+  {
+    "id":  40675,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Omni soulstone text: Kree'arra kills stored:"
+  },
+  {
+    "id":  17957,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Slayer contract text: Kills:"
+  },
+  {
+    "id":  16523,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Massive pouch text: Charges remaining:"
+  },
+  {
+    "id":  5129,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Sceptre of the gods text: Charges remaining:"
+  },
+  {
+    "id":  40136,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Pitch can text: Doses remaining:"
+  },
+  {
+    "id":  11080,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Drakan's medallion text: Charges remaining:"
+  },
+  {
+    "id":  11080,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Mysterious medallion text: Charges remaining:"
+  },
+  {
+    "id":  11080,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Big Book o' Piracy text: Charges remaining:"
+  },
+  {
+    "id":  43225,
+    "varId":   3,
+    "type": "INV VARBIT",
+    "description": "Unfinished smithing item text: Current heat :"
+  },
+  {
+    "id":  43223,
+    "varId":   1,
+    "type": "INV VARBIT",
+    "description": "Unfinished smithing item text: Current progress:"
+  },
+  {
+    "id":  43224,
+    "varId":   2,
+    "type": "INV VARBIT",
+    "description": "Unfinished smithing item text: Experience left in item:"
+  },
+  {
+    "id":  43229,
+    "varId":   1,
+    "type": "INV VARBIT",
+    "description": "Partially folded alloy bar text: Folding progress :"
+  },
+  {
+    "id":  18550,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Blessed flask text: Doses remaining:"
+  },
+  {
+    "id":  47034,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "XP Capacitor 5000 (used) text: Charges left:"
+  },
+  {
+    "id":  31400,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "B.A.N.K. Stander text: Charge: [varbit value * 100 / 30]"
+  },
+  {
+    "id":  48985,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Enchanted lyre text: Charges remaining:"
+  },
+  {
+    "id":  30214,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Grace of the elves text: Stored sign of the porter charges::"
+  },
+  {
+    "id":  20171,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Grace of the elves text: Charges remaining:"
+  },
+  {
+    "id":  30212,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Any Augmented Item text: Item XP:"
+  },
+  {
+    "id":  6114,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Brawling Gloves text: Charges remaining:"
+  },
+  {
+    "id":  20976,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Spirit gems (Spirit onyx, etc) text: Charges used:"
+  },
+  {
+    "id":  20977,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Spirit gems (Spirit onyx, etc) text: Max charge"
+  },
+  {
+    "id":  34484,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Item Category: 4058 text: Charges remaining:"
+  },
+  {
+    "id":  40679,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Memory jar text: Jar filled: [to get % -> (varbit value / 10000) * 100]"
+  },
+  {
+    "id":  40679,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Memory jar (empty) text: Jar filled: [to get % -> (varbit value / 10000) * 100]"
+  },
+  {
+    "id":  35985,
+    "varId":   8176,
+    "type": "VARBIT",
+    "description": "Grace of the elves text: Porter disabled [0 = false / 1 = true]"
+  },
+  {
+    "id":  42023,
+    "varId":   8154,
+    "type": "VARBIT",
+    "description": "Tainted shard text: Charges:"
+  },
+  {
+    "id":  42160,
+    "varId":   8185,
+    "type": "VARBIT",
+    "description": "Adrenaline urn text: Adrenaline stored:"
+  },
+  {
+    "id":  22902,
+    "varId":   4519,
+    "type": "VARBIT",
+    "description": "Grim gem text: Kills remaining:"
+  },
+  {
+    "id":  37578,
+    "varId":   7251,
+    "type": "VARBIT",
+    "description": "Mechanised siphon text: Siphons stored:"
+  },
+  {
+    "id":  37579,
+    "varId":   7251,
+    "type": "VARBIT",
+    "description": "Mechanised siphon text: Crystal Siphons stored:"
+  },
+  {
+    "id":  49361,
+    "varId":   9865,
+    "type": "VARBIT",
+    "description": "Guardian's Gift text: Charges remaining:"
+  },
+  {
+    "id":  27394,
+    "varId":   5186,
+    "type": "VARBIT",
+    "description": "Advanced pulse core text: XP remaining:"
+  },
+  {
+    "id":  45288,
+    "varId":   9009,
+    "type": "VARBIT",
+    "description": "Cinder core text: Bonus XP burn remaining:"
+  },
+  {
+    "id":  15960,
+    "varId":   3101,
+    "type": "VARBIT",
+    "description": "Completed elite Seers' Village achievements 0= false / 1 = true"
+  },
+  {
+    "id":  17232,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Any Scrimshaw Scrimshaw on/off 0 = off / 1 = on"
+  },
+  {
+    "id":  30602,
+    "varId":   0,
+    "type": "INV VARBIT",
+    "description": "Any Book / Scripture on/off 0 = off / 1 = on"
   }
 ]
 
