@@ -65,7 +65,9 @@ export default function VarTable(props) {
                 </tr>
                 </thead>
                 <tbody>
-                {props.variables.map((item) => (
+                {props.variables
+                .sort((a, b) => a.varId - b.varId)
+                .map((item) => (
                     <tr key={item.id} className={item.id % 2 === 0 ? 'even' : 'odd'}>
                         <td>{item.type}</td>
                         <td>{item.id}</td>
