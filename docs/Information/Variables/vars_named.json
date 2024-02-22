@@ -34,5 +34,710 @@
     "varId": 1786,
     "type": "VARBIT",
     "description": "Returns remaining time, in minutes, on your summoning familiar"
-  }
+  },
+  {
+    "id": 16789,
+    "varId": 3277,
+    "type": "Varbit",
+    "description": "Using curses vs normal 0 == normal, 1 == curses"
+  },
+  {
+    "id": 16739,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Thick Skin / Rock Skin / Steel Skin"
+  },
+  {
+    "id": 16740,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Burst of Strength / Superhuman Strength / Ultimate Strength"
+  },
+  {
+    "id": 16741,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Incredible Reflexes"
+  },
+  {
+    "id": 16742,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Rapid Restore"
+  },
+  {
+    "id": 16743,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Rapid Heal"
+  },
+  {
+    "id": 16744,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Protect Item"
+  },
+  {
+    "id": 16745,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Protect from Magic"
+  },
+  {
+    "id": 16746,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Protect from Ranged"
+  },
+  {
+    "id": 16747,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Protect from Melee"
+  },
+  {
+    "id": 16748,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Retribution"
+  },
+  {
+    "id": 16749,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Redemption"
+  },
+  {
+    "id": 16750,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Smite"
+  },
+  {
+    "id": 16751,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Sharp Eye / Hawk Eye / Eagle eye"
+  },
+  {
+    "id": 16752,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Mystic Will / Mystic Lore / Mystic Might"
+  },
+  {
+    "id": 16753,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Unstoppable Force / Unrelenting Force / Overpowering Force"
+  },
+  {
+    "id": 16754,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Charge / Super Charge / Overcharge"
+  },
+  {
+    "id": 16755,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Protect from Summoning"
+  },
+  {
+    "id": 16756,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Chivalry"
+  },
+  {
+    "id": 16757,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Piety"
+  },
+  {
+    "id": 16758,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Rapid Renewal"
+  },
+  {
+    "id": 16759,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Augury"
+  },
+  {
+    "id": 16760,
+    "varId": 3272,
+    "type": "Varbit",
+    "description": "Rigour"
+  },
+  {
+    "id": 53271,
+    "varId": 3273,
+    "type": "Varbit",
+    "description": "Hand of judgement / Hand of Fate / Hand of Doom"
+  },
+  {
+    "id": 53272,
+    "varId": 3273,
+    "type": "Varbit",
+    "description": "Decay / Hastened Decay / Accelerated Decay"
+  },
+  {
+    "id": 53273,
+    "varId": 3273,
+    "type": "Varbit",
+    "description": "Sanctity"
+  },
+  {
+    "id": 53274,
+    "varId": 3273,
+    "type": "Varbit",
+    "description": "Protect from Necromancy"
+  },
+  {
+    "id": 16761,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Protect Item"
+  },
+  {
+    "id": 16762,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Melee Attack"
+  },
+  {
+    "id": 16763,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Ranged Attack"
+  },
+  {
+    "id": 16786,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Ranged Strength"
+  },
+  {
+    "id": 16764,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Magic Attack"
+  },
+  {
+    "id": 16787,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Melee Strength"
+  },
+  {
+    "id": 16788,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Defence"
+  },
+  {
+    "id": 16765,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Sap Adrenaline"
+  },
+  {
+    "id": 16766,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Berserker"
+  },
+  {
+    "id": 16767,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Deflect Summoning"
+  },
+  {
+    "id": 16768,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Deflect Magic"
+  },
+  {
+    "id": 16769,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Deflect Ranged"
+  },
+  {
+    "id": 16770,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Deflect Melee"
+  },
+  {
+    "id": 16771,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Melee Attack"
+  },
+  {
+    "id": 16772,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Ranged Attack"
+  },
+  {
+    "id": 16781,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Ranged Strength"
+  },
+  {
+    "id": 16773,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Magic Attack"
+  },
+  {
+    "id": 16782,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Magic Strength"
+  },
+  {
+    "id": 16774,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Defence"
+  },
+  {
+    "id": 16775,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Melee Strength"
+  },
+  {
+    "id": 16776,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Run Energy"
+  },
+  {
+    "id": 16777,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Leech Adrenaline"
+  },
+  {
+    "id": 16778,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Wrath"
+  },
+  {
+    "id": 16779,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Soul Split"
+  },
+  {
+    "id": 16780,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Turmoil"
+  },
+  {
+    "id": 16784,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Torment"
+  },
+  {
+    "id": 16783,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Anguish"
+  },
+  {
+    "id": 29065,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Fortitude"
+  },
+  {
+    "id": 29066,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Light Form"
+  },
+  {
+    "id": 29067,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Dark Form"
+  },
+  {
+    "id": 29068,
+    "varId": 3275,
+    "type": "Varbit",
+    "description": "Soul Link"
+  },
+  {
+    "id": 29069,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Teamwork Protection"
+  },
+  {
+    "id": 49330,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Chronicle Attraction"
+  },
+  {
+    "id": 29071,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Superheat Form"
+  },
+  {
+    "id": 34866,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Malevolence"
+  },
+  {
+    "id": 34867,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Desolation"
+  },
+  {
+    "id": 34868,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Affliction"
+  },
+  {
+    "id": 53275,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Sap Necromancy Attack"
+  },
+  {
+    "id": 53276,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Sap Necromancy Strength"
+  },
+  {
+    "id": 53277,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Leech Necromancy Attack"
+  },
+  {
+    "id": 53278,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Leech Necromancy Strength"
+  },
+  {
+    "id": 53278,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Sorrow"
+  },
+  {
+    "id": 53280,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Ruination"
+  },
+  {
+    "id": 53281,
+    "varId": 5859,
+    "type": "Varbit",
+    "description": "Deflect Necormancy"
+  },
+  {
+    "id":  679,
+    "varId": 248,
+    "type": "VARP",
+    "description": "Gives your adrenaline, 0-1200"
+  },
+  {
+    "id":  896,
+    "varId": 288,
+    "type": "VARBIT",
+    "description": "Contains various buffs/debuffs on target frame a useful one been bit 30 Vulnerability"
+  },
+  {
+    "id":  11303,
+    "varId": 2392,
+    "type": "VARBIT",
+    "description": "bit 6 Bloat bit 8 Death Mark"
+  },
+  {
+    "id":  6055,
+    "varId": 3131,
+    "type": "VARBIT",
+    "description": "returns remaining time, in minutes, on your summoning familiar"
+  },
+  {
+    "id":  25412,
+    "varId": 4823,
+    "type": "VARBIT",
+    "description": "returns the number of scrolls stored in your familiar"
+  },
+  {
+    "id":  1831,
+    "varId": 5326,
+    "type": "VARP",
+    "description": "returns Item ID of the pouch you have summoned"
+  },
+  {
+    "id":  41524,
+    "varId": 8040,
+    "type": "VARBIT",
+    "description": "returns current summoning points"
+  },
+  {
+    "id":  26474,
+    "varId": 1787,
+    "type": "VARP",
+    "description": "returns current special points"
+  },
+  {
+    "id":  6054,
+    "varId": 7003,
+    "type": "VARBIT",
+    "description": "returns 1 if your familiar timer is mm:30 and 0 if your familiar timer is mm:00, where mm is the amount of minutes remaining"
+  },
+  {
+    "id":  25413,
+    "varId": 4823,
+    "type": "VARBIT",
+    "description": "returns familiar autofire interval in familiar attacks (Use scroll every n attacks)"
+  },
+  {
+    "id":  49035,
+    "varId": 4823,
+    "type": "VARBIT",
+    "description": "returns familiar autofire interval in seconds (Use scroll every n seconds)"
+  },
+  {
+    "id":  23196,
+    "varId": 9901,
+    "type": "VARBIT",
+    "description": "returns familiar combat mode setting (0=Default, 1=Attack Same Target, 2=Reactive, 3=Passive)"
+  },
+  {
+    "id":  19034,
+    "varId": 5194,
+    "type": "VARBIT",
+    "description": "returns familiar life points"
+  },
+  {
+    "id":  27403,
+    "varId": 5194,
+    "type": "VARBIT",
+    "description": "returns familiar maximum life points"
+  },
+  {
+    "id":  44137,
+    "varId": 8564,
+    "type": "VARBIT",
+    "description": "returns 1 if the Spirit cape passive effect is unlocked (Familiar special abilities cost 20% less)"
+  },
+  {
+    "id":  45522,
+    "varId": 9056,
+    "type": "VARBIT",
+    "description": "returns 1 if the Powerburst of Feats effect is active (Familiar special abilities cost 0 spell points) "
+  },
+  {
+    "id":  11035,
+    "varId": 2361,
+    "type": "NA",
+    "description": "Residual Soul count "
+  },
+  {
+    "id":  10986,
+    "varId": 2358,
+    "type": "NA",
+    "description": "Necrosis stack count"
+  },
+  {
+    "id":  11085,
+    "varId": 2369,
+    "type": "NA",
+    "description": "Death Spark stacks (Omni guard passive)"
+  },
+  {
+    "id":  11051,
+    "varId": 2362,
+    "type": "NA",
+    "description": "Second Spectral Scythe ability available (1 if true, 0 if false)"
+  },
+  {
+    "id":  11054,
+    "varId": 2362,
+    "type": "NA",
+    "description": "Third Spectral Scythe ability available (1 if true, 0 if false)"
+  },
+  {
+    "id":  11018,
+    "varId": 2359,
+    "type": "NA",
+    "description": "Ghost conjure status (1 if ghost is summoned, 0 if not)"
+  },
+  {
+    "id":  10994,
+    "varId": 2357,
+    "type": "NA",
+    "description": "Skeleton conjure status (1 if skeleton is summoned, 0 if not)"
+  },
+  {
+    "id":  10997,
+    "varId": 2357,
+    "type": "NA",
+    "description": "Skeleton Rage stack count"
+  },
+  {
+    "id":  11059,
+    "varId": 2362,
+    "type": "NA",
+    "description": "Living Death start tick (tick number if Living Death active, -1 if not)"
+  },
+  {
+    "id":  463,
+    "varId": 169,
+    "type": "NA",
+    "description": "Run status | 0=run disabled 1=run enabled 3=resting"
+  },
+  {
+    "id":  462,
+    "varId": 169,
+    "type": "VARP",
+    "description": "Auto-retaliate | 0 = enabled 1 = disabled"
+  },
+  {
+    "id":  10621,
+    "varId": 10621,
+    "type": "VARBIT",
+    "description": "Opted into PVP | 0 = opted out of PVP 1 = opted into PVP"
+  },
+  {
+    "id":  715,
+    "varId": 284,
+    "type": "VARP",
+    "description": "Main-hand weapon damage "
+  },
+  {
+    "id":  716,
+    "varId": 284,
+    "type": "VARP",
+    "description": "Off-hand hand weapon damage "
+  },
+  {
+    "id":  27394,
+    "varId": 5186,
+    "type": "VARBIT",
+    "description": "10 Advanced pulse core XP remaining"
+  },
+  {
+    "id":  45288,
+    "varId": 9009,
+    "type": "VARBIT",
+    "description": "10  Cinder core XP remaining"
+  },
+  {
+    "id":  1097,
+    "varId": 438,
+    "type": "VARBIT",
+    "description": "Dungeoneering Tokens"
+  },
+  {
+    "id":  17234,
+    "varId": 3433,
+    "type": "VARBIT",
+    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
+  },
+  {
+    "id":  17233,
+    "varId": 0,
+    "type": "OBJECT",
+    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
+  },
+  {
+    "id":  30602,
+    "varId": 0,
+    "type": "OBJECT",
+    "description": "Book/scripture 0 = off / 1 = on"
+  },
+  {
+    "id":  30604,
+    "varId": 6145,
+    "type": "VARBIT",
+    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
+  },
+  {
+    "id":  30603,
+    "varId": 0,
+    "type": "OBJECT",
+    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
+  },
+  {
+    "id":  35985,
+    "varId": 8176,
+    "type": "VARBIT",
+    "description": "Grace of the elves porters disabled 0 = false / 1 = true"
+  },
+  {
+    "id":  15960,
+    "varId": 3101,
+    "type": "VARBIT",
+    "description": "Player completed elite Seers' Village achievements 0= false / 1=true"
+  } 
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
