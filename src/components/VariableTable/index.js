@@ -11,7 +11,11 @@ function UsageDialog({ open, onClose, item }) {
         }
     };
     return (
-        <Dialog open={open} onClose={onClose}>
+        <Dialog open={open} onClose={onClose} sx={{
+            '& .MuiDialog-paper': {
+                backgroundColor: 'rgba(0, 0, 0, 1)', // Example of a dark background color
+            }
+        }}>
             <DialogTitle>Variable Usage</DialogTitle>
             <DialogContent>
                 <DialogContentText>Type: {item.type}</DialogContentText>
