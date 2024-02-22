@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1899,
+    "varId": 689,
+    "type": "VARBIT",
+    "description": "Toggles the logout menu buttons"
+  },
+  {
+    "id": 16789,
+    "varId": 3277,
+    "type": "VARBIT",
+    "description": "Is the player on curses or normal prayers"
+  },
+  {
+    "id": 53246,
+    "varId": 11303,
+    "type": "VARBIT",
+    "description": "Is Bloat active"
+  },
+  {
+    "id": 53248,
+    "varId": 11303,
+    "type": "VARBIT",
+    "description": "Is Death Mark active"
+  },
+  {
+    "id": 896,
+    "varId": -1,
+    "type": "VARP (Server Side)",
+    "description": "Contains various buffs debuffs on target frame a useful one been bit 30 (Vulnerability)"
+  },
+  {
+    "id": 6055,
+    "varId": 1786,
+    "type": "VARBIT",
+    "description": "Returns remaining time, in minutes, on your summoning familiar"
+  }
+]
