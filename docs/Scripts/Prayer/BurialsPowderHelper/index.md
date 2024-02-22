@@ -47,7 +47,12 @@ import changes from './changes.json'
 :::
 <ContentBlock title="Requirements">
 
-- example
+- Stand close to a Bank chest.
+- Load the preset you want to use before starting the script.
+- A preset containing the following items:
+    - Powder of burials
+    - Any type of bones
+    - Any type of ashes (optional)
 
 </ContentBlock>
 
@@ -59,16 +64,25 @@ import changes from './changes.json'
 <ContentBlock title="Setup">
 
 <details>
-<summary>example</summary>
-
-- example
+<summary>Before starting the script</summary>
+- Make a preset containing:
+    - Powder of burials
+    - Any type of bones
+    - Any type of ashes (optional)
+- Load the the preset you just made.
+- Stand close to a Bank chest.
+- Start the script.
 
 </details>
 
 <details>
 <summary>UI Settings Guide</summary>
 
-- example
+- Settings
+    - Logout when out of bones: this option will automatically logout your account when out of bones.
+- Debug
+    - Min Script Delay: this will change the minimum delay in the onLoop function.
+    - Max Script Delay: this will change the maximum delay in the onLoop function.
 
 </details>
 

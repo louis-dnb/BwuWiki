@@ -660,36 +660,6 @@
     "description": "Dungeoneering Tokens"
   },
   {
-    "id":  17234,
-    "varId": 3433,
-    "type": "VARBIT",
-    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
-  },
-  {
-    "id":  17233,
-    "varId": 0,
-    "type": "OBJECT",
-    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
-  },
-  {
-    "id":  30602,
-    "varId": 0,
-    "type": "OBJECT",
-    "description": "Book/scripture 0 = off / 1 = on"
-  },
-  {
-    "id":  30604,
-    "varId": 6145,
-    "type": "VARBIT",
-    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
-  },
-  {
-    "id":  30603,
-    "varId": 0,
-    "type": "OBJECT",
-    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
-  },
-  {
     "id":  35985,
     "varId": 8176,
     "type": "VARBIT",
@@ -1368,10 +1338,34 @@
     "description": "Any Scrimshaw Scrimshaw on/off 0 = off / 1 = on"
   },
   {
+    "id":  17233,
+    "varId": 0,
+    "type": "INV VARBIT",
+    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
+  },
+  {
+    "id":  17234,
+    "varId": 3433,
+    "type": "VARBIT",
+    "description": "Amount of ticks left on scrimshaw (value * 0.6 seconds to get time left)"
+  },
+  {
     "id":  30602,
     "varId":   0,
     "type": "INV VARBIT",
     "description": "Any Book / Scripture on/off 0 = off / 1 = on"
+  },
+  {
+    "id":  30603,
+    "varId": 0,
+    "type": "INV VARBIT",
+    "description": "Amount of ticks left on book / scripture (value * 0.6 seconds to get time left)"
+  },
+  {
+    "id":  30604,
+    "varId": 6145,
+    "type": "VARBIT",
+    "description": "Amount of ticks left on book / scripture (value * 0.6 seconds to get time left)"
   }
 ]
 
