@@ -700,7 +700,385 @@
     "varId": 3101,
     "type": "VARBIT",
     "description": "Player completed elite Seers' Village achievements 0= false / 1=true"
-  } 
+  },
+  {
+    "id":  40606,
+    "varId": 7916,
+    "type": "VARBIT",
+    "description": "Elven Shard"
+  },
+  {
+    "id":  22838,
+    "varId": 1299,
+    "type": "VARBIT",
+    "description": "Excalibur"
+  },
+  {
+    "id":  48834,
+    "varId": 8663,
+    "type": "VARBIT",
+    "description": "Overload"
+  },
+  {
+    "id":  47576,
+    "varId": 9055,
+    "type": "VARBIT",
+    "description": "Adrenaline Potion"
+  },
+  {
+    "id":  33448,
+    "varId": 6456,
+    "type": "VARBIT",
+    "description": "Aggression"
+  },
+  {
+    "id":  2102,
+    "varId": 9057,
+    "type": "VARBIT",
+    "description": "Weapon Poison"
+  },
+  {
+    "id":  45518,
+    "varId": 9054,
+    "type": "VARBIT",
+    "description": "Charming Potion"
+  },
+  {
+    "id":  26021,
+    "varId": 4909,
+    "type": "VARBIT",
+    "description": "Juju Farming"
+  },
+  {
+    "id":  45523,
+    "varId": 9056,
+    "type": "VARBIT",
+    "description": "Sorcery PowerBurst"
+  },
+  {
+    "id":  45519,
+    "varId": 9054,
+    "type": "VARBIT",
+    "description": "PowerBurst Cooldown"
+  },
+  {
+    "id":  45364,
+    "varId": 3182,
+    "type": "VARBIT",
+    "description": "Vitality PowerBurst"
+  },
+  {
+    "id":  41918,
+    "varId": 8092,
+    "type": "VARBIT",
+    "description": "Extreme Runecrafting"
+  },
+  {
+    "id":  498,
+    "varId": 1299,
+    "type": "VARBIT",
+    "description": "Antifire"
+  },
+  {
+    "id":  28663,
+    "varId": 11320,
+    "type": "VARBIT",
+    "description": "Boss Health"
+  },
+  {
+    "id":  22900,
+    "varId": 1230,
+    "type": "VARBIT",
+    "description": "Aura Non-specific type"
+  },
+  {
+    "id":  22842,
+    "varId": 627,
+    "type": "VARBIT",
+    "description": "Shield Tier"
+  },
+  {
+    "id":  43695,
+    "varId": 8406,
+    "type": "VARBIT",
+    "description": "1-4. 4 = Overloaded"
+  },
+  {
+    "id":  43707,
+    "varId": 8407,
+    "type": "VARBIT",
+    "description": "Kwuarm Incense 1-4. 4 = Overloaded"
+  },
+  {
+    "id":  43713,
+    "varId": 8409,
+    "type": "VARBIT",
+    "description": "SpiritWeed Incense Time 0 - 200"
+  },
+  {
+    "id":  43725,
+    "varId": 8412,
+    "type": "VARBIT",
+    "description": "Kwuarm Incense Time 0 - 200"
+  },
+  {
+    "id":  20147,
+    "varId": 3831,
+    "type": "VARBIT",
+    "description": "Sign Of Life"
+  },
+  {
+    "id":  19000,
+    "varId": 3709,
+    "type": "VARBIT",
+    "description": "Grand Exchange Tab"
+  },
+  {
+    "id":  4318,
+    "varId": 10415,
+    "type": "VARBIT",
+    "description": "Passive Vigour"
+  },
+  {
+    "id":  45689,
+    "varId": 9154,
+    "type": "VARBIT",
+    "description": "Marks Of War"
+  },
+  {
+    "id":  45690,
+    "varId": 9155,
+    "type": "VARBIT",
+    "description": "Earned Marks"
+  },
+  {
+    "id":  45691,
+    "varId": 9155,
+    "type": "VARBIT",
+    "description": "Mark Cooldown"
+  },
+  {
+    "id":  1939,
+    "varId": 896,
+    "type": "VARBIT",
+    "description": "Vulnerability"
+  },
+  {
+    "id":  49447,
+    "varId": 8758,
+    "type": "VARBIT",
+    "description": "Animate Dead"
+  },
+  {
+    "id":  41465,
+    "varId": 7944,
+    "type": "VARBIT",
+    "description": "Enchantment Of Dispelling"
+  },
+  {
+    "id":  51481,
+    "varId": 10528,
+    "type": "VARBIT",
+    "description": "Enchantment Of Shadows"
+  },
+  {
+    "id":  51566,
+    "varId": 9679,
+    "type": "VARBIT",
+    "description": "Greater Deaths Swiftness"
+  },
+  {
+    "id":  51567,
+    "varId": 9679,
+    "type": "VARBIT",
+    "description": "Greater Sunshine"
+  },
+  {
+    "id":  30983,
+    "varId": 6219,
+    "type": "VARBIT",
+    "description": "Planted Feet"
+  },
+  {
+    "id":  48719,
+    "varId": 9679,
+    "type": "VARBIT",
+    "description": "Greater Ricochet"
+  },
+  {
+    "id":  35826,
+    "varId": 6944,
+    "type": "VARBIT",
+    "description": "Bladed Dive"
+  },
+  {
+    "id":  35816,
+    "varId": 6943,
+    "type": "VARBIT",
+    "description": "Greater Dazing Shot"
+  },
+  {
+    "id":  21067,
+    "varId": 3951,
+    "type": "VARBIT",
+    "description": "Sacrifice"
+  },
+  {
+    "id":  21068,
+    "varId": 3951,
+    "type": "VARBIT",
+    "description": "Devotion"
+  },
+  {
+    "id":  44244,
+    "varId": 8583,
+    "type": "VARBIT",
+    "description": "Double Surge 44246 went from 0 -> 2 after unlocking as well"
+  },
+  {
+    "id":  39185,
+    "varId": 7702,
+    "type": "VARBIT",
+    "description": "Vampyrism Aura"
+  },
+  {
+    "id":  34891,
+    "varId": 6773,
+    "type": "VARBIT",
+    "description": "Desolation"
+  },
+  {
+    "id":  16374,
+    "varId": 3167,
+    "type": "VARBIT",
+    "description": "1 = one spell unlocked, 2 = two, 7 = Disruption Shield"
+  },
+  {
+    "id":  19034,
+    "varId": 5194,
+    "type": "VARBIT",
+    "description": "FamiliarHealth"
+  },
+  {
+    "id":  51511,
+    "varId": 10532,
+    "type": "VARBIT",
+    "description": "Last Guardian Stacks"
+  },
+  {
+    "id":  49448,
+    "varId":  9418,
+    "type": "VARBIT",
+    "description": "Smoke Cloud"
+  },
+  {
+    "id":  48721,
+    "varId":  9679,
+    "type": "VARBIT",
+    "description": "Divert"
+  },
+  {
+    "id":  25413,
+    "varId":  4823,
+    "type": "VARBIT",
+    "description": "Familiar Fire Rate"
+  },
+  {
+    "id":  49568,
+    "varId":  9914,
+    "type": "VARBIT",
+    "description": "Wrack And Ruin"
+  },
+  {
+    "id":  1899,
+    "varId":  689,
+    "type": "VARBIT",
+    "description": "Combat Stance"
+  },
+  {
+    "id":  30340,
+    "varId":  6089,
+    "type": "VARBIT",
+    "description": "Turtling Rank"
+  },
+  {
+    "id":  30340,
+    "varId":  7547,
+    "type": "VARBIT",
+    "description": "Borrowed Power Charges"
+  },
+  {
+    "id":  2,
+    "varId":  9533,
+    "type": "VARBIT",
+    "description": "Vengeance"
+  },
+  {
+    "id":  3,
+    "varId":  4,
+    "type": "VARBIT",
+    "description": "Vengeance Cooldowne"
+  },
+  {
+    "id":  9,
+    "varId":  4,
+    "type": "VARBIT",
+    "description": "Disruption Shield"
+  },
+  {
+    "id":  10,
+    "varId":  4,
+    "type": "VARBIT",
+    "description": "DisruptionCooldown"
+  },
+  {
+    "id":  1898,
+    "varId":  689,
+    "type": "VARBIT",
+    "description": "Revenge Stacks"
+  },
+  {
+    "id":  28800,
+    "varId":  4877,
+    "type": "VARBIT",
+    "description": "Kalgerion Roar and Bonfire Health Boost"
+  },
+  {
+    "id":  10264,
+    "varId":  2257,
+    "type": "VARP",
+    "description": "Pernix Quiver Ammo Item Id of active bolt/arrow"
+  },
+  {
+    "id":  722,
+    "varId":  286,
+    "type": "VARP",
+    "description": "Antipoison"
+  },
+  {
+    "id":  711,
+    "varId":  284,
+    "type": "VARP",
+    "description": "Armor Rating"
+  },
+  {
+    "id":  3531,
+    "varId":  1267,
+    "type": "VARP",
+    "description": "Ability Damage"
+  },
+  {
+    "id":  5984,
+    "varId":   1768,
+    "type": "VARP",
+    "description": "Divine Charge Divide by 3000"
+  },
+  {
+    "id":  9912,
+    "varId":   2614,
+    "type": "VARP",
+    "description": "Incite Fear Stacks"
+  }
 ]
 
 
