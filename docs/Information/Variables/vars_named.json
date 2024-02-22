@@ -38,427 +38,427 @@
   {
     "id": 16789,
     "varId": 3277,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Using curses vs normal 0 == normal, 1 == curses"
   },
   {
     "id": 16739,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Thick Skin / Rock Skin / Steel Skin"
   },
   {
     "id": 16740,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Burst of Strength / Superhuman Strength / Ultimate Strength"
   },
   {
     "id": 16741,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Incredible Reflexes"
   },
   {
     "id": 16742,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Rapid Restore"
   },
   {
     "id": 16743,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Rapid Heal"
   },
   {
     "id": 16744,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect Item"
   },
   {
     "id": 16745,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect from Magic"
   },
   {
     "id": 16746,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect from Ranged"
   },
   {
     "id": 16747,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect from Melee"
   },
   {
     "id": 16748,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Retribution"
   },
   {
     "id": 16749,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Redemption"
   },
   {
     "id": 16750,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Smite"
   },
   {
     "id": 16751,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sharp Eye / Hawk Eye / Eagle eye"
   },
   {
     "id": 16752,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Mystic Will / Mystic Lore / Mystic Might"
   },
   {
     "id": 16753,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Unstoppable Force / Unrelenting Force / Overpowering Force"
   },
   {
     "id": 16754,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Charge / Super Charge / Overcharge"
   },
   {
     "id": 16755,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect from Summoning"
   },
   {
     "id": 16756,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Chivalry"
   },
   {
     "id": 16757,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Piety"
   },
   {
     "id": 16758,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Rapid Renewal"
   },
   {
     "id": 16759,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Augury"
   },
   {
     "id": 16760,
     "varId": 3272,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Rigour"
   },
   {
     "id": 53271,
     "varId": 3273,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Hand of judgement / Hand of Fate / Hand of Doom"
   },
   {
     "id": 53272,
     "varId": 3273,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Decay / Hastened Decay / Accelerated Decay"
   },
   {
     "id": 53273,
     "varId": 3273,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sanctity"
   },
   {
     "id": 53274,
     "varId": 3273,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect from Necromancy"
   },
   {
     "id": 16761,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Protect Item"
   },
   {
     "id": 16762,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Melee Attack"
   },
   {
     "id": 16763,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Ranged Attack"
   },
   {
     "id": 16786,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Ranged Strength"
   },
   {
     "id": 16764,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Magic Attack"
   },
   {
     "id": 16787,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Melee Strength"
   },
   {
     "id": 16788,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Defence"
   },
   {
     "id": 16765,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Adrenaline"
   },
   {
     "id": 16766,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Berserker"
   },
   {
     "id": 16767,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Deflect Summoning"
   },
   {
     "id": 16768,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Deflect Magic"
   },
   {
     "id": 16769,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Deflect Ranged"
   },
   {
     "id": 16770,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Deflect Melee"
   },
   {
     "id": 16771,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Melee Attack"
   },
   {
     "id": 16772,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Ranged Attack"
   },
   {
     "id": 16781,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Ranged Strength"
   },
   {
     "id": 16773,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Magic Attack"
   },
   {
     "id": 16782,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Magic Strength"
   },
   {
     "id": 16774,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Defence"
   },
   {
     "id": 16775,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Melee Strength"
   },
   {
     "id": 16776,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Run Energy"
   },
   {
     "id": 16777,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Adrenaline"
   },
   {
     "id": 16778,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Wrath"
   },
   {
     "id": 16779,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Soul Split"
   },
   {
     "id": 16780,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Turmoil"
   },
   {
     "id": 16784,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Torment"
   },
   {
     "id": 16783,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Anguish"
   },
   {
     "id": 29065,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Fortitude"
   },
   {
     "id": 29066,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Light Form"
   },
   {
     "id": 29067,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Dark Form"
   },
   {
     "id": 29068,
     "varId": 3275,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Soul Link"
   },
   {
     "id": 29069,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Teamwork Protection"
   },
   {
     "id": 49330,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Chronicle Attraction"
   },
   {
     "id": 29071,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Superheat Form"
   },
   {
     "id": 34866,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Malevolence"
   },
   {
     "id": 34867,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Desolation"
   },
   {
     "id": 34868,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Affliction"
   },
   {
     "id": 53275,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Necromancy Attack"
   },
   {
     "id": 53276,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sap Necromancy Strength"
   },
   {
     "id": 53277,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Necromancy Attack"
   },
   {
     "id": 53278,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Leech Necromancy Strength"
   },
   {
     "id": 53278,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Sorrow"
   },
   {
     "id": 53280,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Ruination"
   },
   {
     "id": 53281,
     "varId": 5859,
-    "type": "Varbit",
+    "type": "VARBIT",
     "description": "Deflect Necormancy"
   },
   {
