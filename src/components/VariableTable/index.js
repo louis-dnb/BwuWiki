@@ -1,35 +1,84 @@
-import {useRef, useLayoutEffect, useState} from "react";
-import "./styles.module.css";
+import React, { useState } from 'react';
+import {Button, Dialog, DialogTitle, DialogContent, DialogContentText} from "@mui/material";
 
-const data = [
-    { id: 1, name: 'Item 1', value: 'Value 1' },
-    { id: 2, name: 'Item 2', value: 'Value 2' },
-    { id: 3, name: 'Item 3', value: 'Value 3' },
-    { id: 4, name: 'Item 4', value: 'Value 4' },
-    // Add more items as needed
-];
+function UsageDialog({ open, onClose, item }) {
+    const copyToClipboard = async (text) => {
+        if ('clipboard' in navigator) {
+            return await navigator.clipboard.writeText(text);
+        } else {
+            // Fallback for older browsers
+            document.execCommand('copy', true, text);
+        }
+    };
+    return (
+        <Dialog open={open} onClose={onClose}>
+            <DialogTitle>Variable Usage</DialogTitle>
+            <DialogContent>
+                <DialogContentText>Type: {item.type}</DialogContentText>
+                <DialogContentText>ID: {item.id}</DialogContentText>
+                <DialogContentText>Var ID: {item.varId}</DialogContentText>
+                <DialogContentText>Description: {item.description}</DialogContentText>
+                <DialogContentText>Var Access: {`VarManager.getVarValue(VarDomainType.PLAYER, ${item.varId})`}</DialogContentText>
+                <DialogContentText>Varbit Access: {`VarManager.getVarbitValue(${item.id})`}</DialogContentText>
+                <Button
+                    onClick={() => copyToClipboard(`VarManager.getVarValue(VarDomainType.PLAYER, ${item.varId})`)}
+                    variant="outlined">
+                    Copy Var Access
+                </Button>
+                <Button
+                    onClick={() => copyToClipboard(`VarManager.getVarbitValue(${item.id})`)}
+                    variant="outlined">
+                    Copy Varbit Access
+                </Button>
+            </DialogContent>
+        </Dialog>
+    );
+}
 
 export default function VarTable(props) {
+    const [open, setDialogOpen] = useState(false);
+    const [currentVariable, setCurrentVariable] = useState({});
+
+    const handleShowDialog = (variable) => {
+        setCurrentVariable(variable);
+        setDialogOpen(true);
+    };
+
+    const handleCloseDialog = () => {
+        setDialogOpen(false);
+    };
+
     return (
-        <div className="App">
+        <>
             <table>
                 <thead>
                 <tr>
+                    <th>TYPE</th>
                     <th>ID</th>
-                    <th>Name</th>
-                    <th>Value</th>
+                    <th>VAR_ID</th>
+                    <th>Description</th>
+                    <th>Usage</th>
                 </tr>
                 </thead>
                 <tbody>
-                {data.map((item, index) => (
-                    <tr key={item.id} className={index % 2 === 0 ? 'even' : 'odd'}>
+                {props.variables.map((item) => (
+                    <tr key={item.id} className={item.id % 2 === 0 ? 'even' : 'odd'}>
+                        <td>{item.type}</td>
                         <td>{item.id}</td>
-                        <td>{item.name}</td>
-                        <td>{item.value}</td>
+                        <td>{item.varId}</td>
+                        <td>{item.description}</td>
+                        <td>
+                            <Button onClick={() => handleShowDialog(item)}>
+                                Show
+                            </Button>
+                        </td>
                     </tr>
                 ))}
                 </tbody>
             </table>
-        </div>
-    )
+            {currentVariable && (
+                <UsageDialog open={open} onClose={handleCloseDialog} item={currentVariable} />
+            )}
+        </>
+    );
 }

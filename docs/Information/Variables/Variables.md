@@ -1,8 +1,9 @@
 import React from 'react';
 import VarTable from '@site/src/components/VariableTable';
+import names from './vars_named.json'
 
 ::hidden
 
-<VarTable>
+<VarTable variables={names}>
 
 </VarTable>
