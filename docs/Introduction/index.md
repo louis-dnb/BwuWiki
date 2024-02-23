@@ -74,7 +74,7 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 
 :::hidden
 
-## Change log
+## Changelog
 
 :::
 
