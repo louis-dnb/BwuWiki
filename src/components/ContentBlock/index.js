@@ -16,7 +16,7 @@ export default function ContentBlock(props) {
   const stylesObj = {
     color: "#ffff",
     backgroundColor: "#121212",
-    padding: 12,
+    padding: 32,
     height: "auto",
     borderRadius: "var(--ifm-global-radius)",
     borderTopRightRadius: radiusToSet,
