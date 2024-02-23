@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="MineWithUs" version="v1.0.6" skill="Mining">
+<TopBanner title="MineWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Mining">
 </TopBanner>
 
 :::hidden
@@ -36,6 +36,8 @@ import changes from './changes.json'
 <ContentBlock title="Features">
 
 > - A full-featured bot supporting several locations, multiple playstyles, ore boxes, seren spirits, Juju potions, and more!
+
+![Example](01MineWithus.png)
 
 </ContentBlock>
 

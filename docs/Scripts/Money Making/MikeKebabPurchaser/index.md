@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="MikeKebabPurchaser" version="v1.0.6" skill="Necromancy">
+<TopBanner title="MikeKebabPurchaser" version="v1.0.6" author="Mike" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -41,39 +41,8 @@ import changes from './changes.json'
 > - Open-source, not built with best programming practices in mind, but it is a simple functional script which should be easy to follow :)
 >   https://github.com/devMikeyB/MikeKebabBuyer
 
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-- example
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](01MikeKebabPurchaser.png)
+![Example](02MikeKebabPurchaser.png)
 
 </ContentBlock>
 

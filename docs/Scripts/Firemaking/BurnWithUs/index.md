@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="BurnWithUs" version="v1.0.6" skill="Firemaking">
+<TopBanner title="BurnWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Firemaking">
 </TopBanner>
 
 :::hidden
@@ -39,6 +39,8 @@ import changes from './changes.json'
 > - Use existing brazier
 > - Deploy your own brazier
 
+![Example](01BurnWithUs.png)
+
 </ContentBlock>
 
 :::hidden
@@ -50,29 +52,6 @@ import changes from './changes.json'
 
 - Use at lumbridge training area.
 - (Optional) Use RandomsWithUs to capture fire spirits, and this script will open and bank rewards for you.
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

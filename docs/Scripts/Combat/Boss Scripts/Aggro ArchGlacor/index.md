@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Aggro ArchGlacor" version="v1.0.0" skill="Necromancy">
+<TopBanner title="Aggro ArchGlacor" version="v1.0.0" author="Aggro" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -40,6 +40,9 @@ import changes from './changes.json'
 > - Supports Curses, Normal Prayers, and no Prayers (Just eating)
 > - Supports Overloads, Weapon Poison, Excalibur, Ancient Ritual Shard, Familiars, Extreme potions
 
+![Example](01ArchGlacor.png)
+![Example](02ArchGlacor.png)
+
 </ContentBlock>
 
 :::hidden
@@ -50,29 +53,6 @@ import changes from './changes.json'
 <ContentBlock title="Requirements">
 
 - Boss Hub Teleport and Arch-Glacor Portal unlocked and visible.
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

@@ -1,6 +1,6 @@
 ---
 title: NecroRC
-description: Example.
+description: Creates necromancy runes.
 # Slug is the URL path for this page.
 slug: /NecroRC
 ---
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="NecroRC" version="v1.0.6" skill="Runecrafting">
+<TopBanner title="NecroRC" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Runecrafting">
 </TopBanner>
 
 :::hidden
@@ -35,37 +35,10 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-</ContentBlock>
+> - Creates necromancy runes
+> - Uses bracelet, tome, surge
 
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](01NecroRC.png)
 
 </ContentBlock>
 

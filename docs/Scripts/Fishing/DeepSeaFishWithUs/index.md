@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="DeepSeaFishWithUs" version="v1.0.6" skill="Fishing">
+<TopBanner title="DeepSeaFishWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Fishing">
 </TopBanner>
 
 :::hidden
@@ -42,6 +42,8 @@ import changes from './changes.json'
 > - Minnow spot supports turning your minnows into bait
 > - Sailfish fishes the swift sailfish spot
 
+![Example](01DeapSeaFishWithUs.png)
+
 </ContentBlock>
 
 :::hidden
@@ -54,29 +56,6 @@ import changes from './changes.json'
 - Minimum fishing level 68
 - Select bot options responsibly. Dont use an option you dont have the fishing level for.
 - (Optional) Use cRandomEvents to capture seren spirits, catalysts of alteration, divine blessings, or manifested knowledge.
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="RunecraftWithUs" version="v1.0.6" skill="Runecrafting">
+<TopBanner title="RunecraftWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Runecrafting">
 </TopBanner>
 
 :::hidden
@@ -44,6 +44,9 @@ import changes from './changes.json'
 > - Will summon abyssal titans from your bank (make sure you have plenty) - recharges points at obelisk near GE.
 > - Gets you lots of runes for bossing / selling.
 
+![Example](01RuneCraftWithus.png)
+![Example](02RuneCraftWithus.png)
+![Example](03RuneCraftWithus.png)
 </ContentBlock>
 
 :::hidden
@@ -55,29 +58,6 @@ import changes from './changes.json'
 
 - Select a rune that you can make / have the altar unlocked for
 - A bank preset with desired equipment / rune essence and one of: wildy sword/charged glory equipped, desired pouches, powerburst of sorcery (optional), abyssal titan pouches in bank
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

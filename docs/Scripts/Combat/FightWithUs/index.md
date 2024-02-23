@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="FightWithus" version="v1.0.6" skill="Necromancy">
+<TopBanner title="FightWithus" version="v1.0.0" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -35,41 +35,8 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-> - example
-
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-- example
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](02fightwithus.png)
+![Example](01fightwithus.png)
 
 </ContentBlock>
 

@@ -75,7 +75,8 @@ export default function TopBanner(props) {
               marginLeft: -14,
             }}
           >
-            {props.version}
+             {props.version}
+            
           </div>
         </div>
         {props.children}

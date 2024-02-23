@@ -57,13 +57,38 @@ export default function TopBanner(props) {
           <div
           className="revision"
             style={{
-              fontSize: 24,
+              fontSize: 15,
               fontFamily: "Arial",
               fontWeight: 100,
               letterSpacing: 4,
             }}
           >
-            {props.version}
+      <div style={{ textAlign: 'center' }}>
+  {props.showofficial !== false && (
+    <span style={{ color: 'yellow', textShadow: '0 0 10px yellow' }}>
+      {props.offical}
+      &nbsp;&nbsp;&nbsp;
+    </span>
+  )}
+
+  {props.showversion !== false && (
+    <span style={{ color: 'yellow', textShadow: '0 0 10px #3498db' }}>
+      Version: {props.version}
+    </span>
+  )}
+
+  &nbsp;&nbsp;&nbsp;
+
+  {props.showauthor !== false && (
+    <span style={{ color: 'yellow', textShadow: '0 0 10px #3498db' }}>
+      Author: {props.author}
+    </span>
+  )}
+</div>
+
+
+
+            
           </div>
         </div>
         {props.children}

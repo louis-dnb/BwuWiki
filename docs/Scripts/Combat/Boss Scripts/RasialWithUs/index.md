@@ -5,7 +5,6 @@ description: Fights Rasial, the First Necromancer using T90 or T95 gear.
 slug: /rasial-with-us
 ---
 
-
 import React from 'react';
 import TopBanner from '@site/src/components/TopBanner';
 import ContentBlock from '@site/src/components/ContentBlock';
@@ -13,17 +12,21 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="RasialWithUs" version="v1.0.6" skill="Necromancy">
+<TopBanner title="RasialWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Necromancy" >
 </TopBanner>
 
 :::hidden
+
 ## Cost
+
 :::
 
 <ContentBlock title="Cost">
 
 > - $150 USD / month (not including client access)
+
 :::danger Limitations
+
 - **In order to preserve the viability of the method and item prices, sessions are currently strictly limited to 2 per rasial sub.**
 - **Additionally, there are limited seats sold for this script. You will not always be able to purchase it depending on capacity.**
 
@@ -32,7 +35,9 @@ import changes from './changes.json'
 </ContentBlock>
 
 :::hidden
+
 ## Features
+
 :::
 
 <ContentBlock title="Features">
@@ -40,13 +45,15 @@ import changes from './changes.json'
 > - Fights Rasial, averaging 1:10 - 1:30 killtimes using BIS gear, or 1:30-2:00 using T90 gear.
 > - Picks up drops, rinse and repeat.
 > - Has a number of safety mechanisms to lobby when the player is out of critical resources like item charge, runes, etc.
-> - Makes you a TON of gp! 
+> - Makes you a TON of gp!
 > - Currently ~95m / hr on average
 
 </ContentBlock>
 
 :::hidden
+
 ## Requirements
+
 :::
 <ContentBlock title="Requirements">
 
@@ -64,14 +71,17 @@ import changes from './changes.json'
 </ContentBlock>
 
 :::hidden
+
 ## Setup
+
 :::
 <ContentBlock title="Setup">
 
 <details>
 <summary>T90 Preset Setup example</summary>
 
-Brews flasks can be replaced with: 
+Brews flasks can be replaced with:
+
 - Super Guthix Brew flasks (BIS - "Best in slot")
 - Super Guthix rest flasks
 - Super Saradomin Brew Flasks
@@ -83,7 +93,8 @@ Brews flasks can be replaced with:
 <details>
 <summary>T95 Preset Setup example</summary>
 
-Brews flasks can be replaced with: 
+Brews flasks can be replaced with:
+
 - Super Guthix Brew flasks (BIS - "Best in slot")
 - Super Guthix rest flasks
 - Super Saradomin Brew Flasks
@@ -98,6 +109,7 @@ Brews flasks can be replaced with:
 This is an example of a possible T90 UI setup.
 
 All recommended settings are optional, but lead to dps increase or qol increase. Use them if you can.
+
 1. If you have T90 weapon/lantern, use this option. The bot will do the T90 dps rotation.
 2. (Recommended) If you have the limitless ability codex unlocked, check this and the bot will use limitless for reflect in P4.
 3. (Highly Recommended) If you have the undead slayer codex unlocked, the bot will incorporate it into its rotation.
@@ -110,7 +122,7 @@ All recommended settings are optional, but lead to dps increase or qol increase.
 10. (Highly recommended) Cast prism of restoration ancient magic spell. Heals familiar + restores their special points, meaning the reaver heals you more often.
 11. Enable this if for some reason your character isn't making it to the wall for the fight, or you dont want to surge at War's.
 12. (Recommended) Requires EOF or conjurer's necklace, swap to it when summoning conjures. Equates to 4%+ dps increase for the fight.
-13 (Recommended) Use the conjurer's necklace for the necklace swap. Only appears if 12 is checked.
+    13 (Recommended) Use the conjurer's necklace for the necklace swap. Only appears if 12 is checked.
 
 ![UI Settings](uisettings.png)
 
@@ -118,10 +130,10 @@ All recommended settings are optional, but lead to dps increase or qol increase.
 
 </ContentBlock>
 
-
-
 :::hidden
+
 ## Changelog
+
 :::
 
 <Changelog changes={changes}>

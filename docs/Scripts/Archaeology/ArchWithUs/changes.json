@@ -1,7 +1,32 @@
 [
-
+    {
+        "date": "2024-02-01",
+        "title": "v1.0.0",
+        "items": [
+            "The script will now equip porters to the player directly when a Grace of the Elves is not found",
+            "Fixed an issue that was causing the 'Artefact count' to increase when banking",
+            "Fixed an issue that could cause the script to idle if started while already standing at the hotspot",
+            "Increased the delay after teleporting to a digsite via Arch Guild table teleport. This should help alleviate the back-and-forth teleport some users with slower connections were experiencing"
+        ]
+    },
+    {
+        "date": "2024-01-18",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was causing the bot to bank without a full inventory while excavating at the Kharid-Et and Stormguard Citadel digsite starting zones",
+            "Fixed an issue that was causing the bot to occasionally teleport back to the Arch Guild when landing in the target digsite"
+        ]
+    },
+    {
+        "date": "2024-01-17",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed shambling horror",
+            "Bot will now ensure candles are placed before starting a ritual"
+        ]
+    },
      {
-        "date": "2024-01-26",
+        "date": "NA",
         "title": "v1.0.0",
         "items": [
             "Release"
