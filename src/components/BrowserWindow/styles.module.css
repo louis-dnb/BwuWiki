@@ -1,7 +1,7 @@
  .browserWindow {
 
     border-radius: var(--ifm-global-radius);
-    border: 3px solid var(--ifm-background-surface-color);
+    
     box-shadow: var(--ifm-global-shadow-lw);
     margin-bottom: var(--ifm-leading);
 
@@ -68,9 +68,10 @@
   }
   
   .browserWindowBody {
-    background-color: var(--ifm-background-color);
+    background-color: #1b1b1d;
     border-radius: var(--ifm-global-radius);
-    border-top-right-radius: 36px !important;
+    border-top-left-radius: 1px !important;
+    border-top-right-radius: 1px !important;
     border-bottom-right-radius: 36px !important;
     padding: 1rem;
   }

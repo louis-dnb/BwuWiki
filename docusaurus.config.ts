@@ -113,6 +113,37 @@ scripts:[
           sidebarId: 'mainSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'rulesSidebar',
+          position: 'left',
+          label: 'Rules',
+        },
+        {
+          href: 'https://discord.com/channels/973830420858810378/1176469822964510760',
+          label: 'Purchase',
+          position: 'right',
+        },
+        {
+          href: 'https://botwithus.net/sdn',
+          label: 'Script Marketplace',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/BotWithUs',
+          label: 'Github',
+          position: 'right',
+        },
+        {
+          href: 'https://botwithus.net/javadoc/net.botwithus.rs3/module-summary.html',
+          label: 'Javadoc',
+          position: 'right',
+        },
+        {
+          href: 'https://botwithus.net',
+          label: 'Website',
+          position: 'right',
         }
       ],
     },
