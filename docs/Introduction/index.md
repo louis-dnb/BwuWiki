@@ -8,7 +8,7 @@ slug: /introduction
 import React from 'react';
 import TopBanner from '@site/src/components/TopBanner';
 import ContentBlock from '@site/src/components/ContentBlock';
-import Changelog from '@site/src/components/Changelog';
+import ChangelogIntro from '@site/src/components/ChangelogIntro';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
@@ -78,6 +78,6 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 
 :::
 
-<Changelog changes={changes}>
+<ChangelogIntro changes={changes}>
 
-</Changelog>
+</ChangelogIntro>
