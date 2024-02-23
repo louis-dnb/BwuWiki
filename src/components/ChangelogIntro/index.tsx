@@ -49,7 +49,7 @@ export default function ChangelogIntro(props) {
 
   return (
     <>
-      <ContentBlock title="Changelog">
+      <ContentBlock title="ChangelogIntro">
         <div className="category-filter">
           {[
             "",
