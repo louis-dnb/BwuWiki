@@ -1,61 +1,88 @@
 [
     {
+        "version": "v1.1.2a",
         "date": "2024-02-17",
-        "title": "Patch 1.1.2a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Update to game revision 935-1",
             "Fixed variable debug"
-
         ]
-    }, 
+    },
     {
+        "version": "v1.1.2a",
         "date": "2024-02-17",
-        "title": "Patch 1.1.2a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Fixed component properties returning the wrong value.",
-            "Improved the performance of variable fetching.",
-      
-            "☕Java Core API:☕",
+            "Improved the performance of variable fetching."
+        ]
+    },
+    {
+        "version": "v1.1.2a",
+        "date": "2024-02-17",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Fixed an issue NPC type options not always populating the correct array.",
             "Fixed an issue when querying for follow index (interactId) not looking up the correct layout.",
             "Added byType and byParentType ID queries to NpcQuery.",
-            "ItemTypes now calculate the noted variant.",
-       
-            "🛠️Loader Update:🛠️",
+            "ItemTypes now calculate the noted variant."
+        ]
+    },
+    {
+        "version": "v1.1.2a",
+        "date": "2024-02-17",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Revision bump 1.1.2a"
         ]
-    },  
+    },
     {
+        "version": "v1.1.1a",
         "date": "2024-02-13",
-        "title": "patch 1.1.1a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Added varbit debug.",
             "Added distance filter to SceneObject debug.",
             "Advanced tooltips",
             "Query generation from tooltips, npc, ground items, and scene objects supported at this time",
-            "Advanced tooltips, query generation now supports items (Component and Inventory queries)",
-            
-            "☕Java Core API:☕",
+            "Advanced tooltips, query generation now supports items (Component and Inventory queries)"
+        ]
+    },
+    {
+        "version": "v1.1.1a",
+        "date": "2024-02-13",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "New snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240213.053515-21`.",
             "Bumped `apiVersion` to 2, you'll need to update your script.ini and recompile.",
             "Added support for Jagex database row reading from the cache using `ConfigManager` class.",
             "New `Discord` class, leveraging the user's Discord token. Exposes name, id, email and a `sendMessage` function allowing messages to be DM-ed to users.",
             "Standardized Influx events to work towards metrics for all scripts.",
-            "Custom icons pack added - ty @PzooT.",
-            
-            "🛠️Loader Update:🛠️",
+            "Custom icons pack added - ty @PzooT."
+        ]
+    },
+    {
+        "version": "v1.1.1a",
+        "date": "2024-02-13",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Revision bump 1.1.1a.",
             "⚠️ Scripts need recompilation and ini updates. Set `apiVersion=2`.⚠️"
         ]
     },
     {
+        "version": "v1.1.0a",
         "date": "2024-02-11",
-        "title": "Patch 1.1.0a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20240211.205614-15`.",
             "Removed empty `ActionBar` class.",
             "Added prayers and prayer book classes with all sorts of utility.",
@@ -63,183 +90,264 @@
         ]
     },
     {
+        "version": "v1.1.0a",
         "date": "2024-01-21",
-        "title": "Patch 1.1.0a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20240205.203949-14`.",
             "Fixed `Dialog.getOptions()`.",
             "Fixed `Dialog.interact(String optionText)`.",
             "Fixed `Lodestone.teleport` to account for viswax/fast teles."
         ]
-    },  
-    {
-        "date": "2024-01-23",
-        "title": "Patch 1.1.0a",
-        "items": [
-            "🔧Agent Update:🔧",
-            "Added debug console that shows your corresponding manual actions performed in-game.",
-            "Enhanced NPC Debug (Hovering over NPCs will show additional information).",
-            "Added BeginDisabled and EndDisabled and ProgressBar to ImGui.",
-
-           "☕Java Core API:☕",
-            "Fixed background script activation when a foreground script is active.",
-            "New core snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240123.223505-20`.",
-
-            "🛠️Loader Update:🛠️",
-            "Revision bump 1.1.0a."
-        ]
-        
     },
     {
-        "date": "2024-01-20",
-        "title": "Patch 1.0.9a",
+        "version": "v1.1.0a",
+        "date": "2024-01-23",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
+            "Added debug console that shows your corresponding manual actions performed in-game.",
+            "Enhanced NPC Debug (Hovering over NPCs will show additional information).",
+            "Added BeginDisabled and EndDisabled and ProgressBar to ImGui."
+        ]
+    },
+    {
+        "version": "v1.1.0a",
+        "date": "2024-01-23",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
+            "Fixed background script activation when a foreground script is active.",
+            "New core snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240123.223505-20`."
+        ]
+    },
+    {
+        "version": "v1.1.0a",
+        "date": "2024-01-23",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
+            "Revision bump 1.1.0a."
+        ]
+    },
+    {
+        "version": "v1.0.9a",
+        "date": "2024-01-20",
+        "category": "Agent Update",
+        "title": "Patch",
+        "items": [
             "Fixed auto login not re-entering password if kicked to login screen"
         ]
     },
     {
+        "version": "v1.0.9a",
         "date": "2024-01-19",
-        "title": "Patch 1.0.9a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Fixed a bug causing some CS2 script execution to wait 100ms.",
             "Fixed a crash with interfaces with extremely large text fields (Group boss interface).",
-            "Fixed autologin checkbox (can be enabled after client launch, even if autologin was not selected).",
-
-            "☕Java Core API:☕",
+            "Fixed autologin checkbox (can be enabled after client launch, even if autologin was not selected)."
+        ]
+    },
+    {
+        "version": "v1.0.9a",
+        "date": "2024-01-19",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Added capability to detect steam client runtime.",
-            "New Snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240119.204351-19`.",
-            "This update does not require you to recompile your scripts. However, we always recommend staying up to date.",
-
-            "🛠️Loader Update:🛠️",
+            "New Snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240119.204351-19`."
+        ]
+    },
+    {
+        "version": "v1.0.9a",
+        "date": "2024-01-19",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Revision bump 1.0.9a",
             "Steam support fix."
         ]
     },
     {
+        "version": "v1.0.8a",
         "date": "2024-01-18",
-        "title": "Patch 1.0.8a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Added player variable debugger (shows changed varps, can scan for value ranges, etc).",
             "Fixed interface debug left-hand side being draggable.",
-            "Moved component interacts synchronized to game ticks - Reverted.",
-            
-            "🛠️Loader Update:🛠️",
+            "Moved component interacts synchronized to game ticks - Reverted."
+        ]
+    },
+    {
+        "version": "v1.0.8a",
+        "date": "2024-01-18",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Revision bump 1.0.8a.",
             "Added support for steam/google accounts."
         ]
     },
     {
+        "version": "v1.0.7a",
         "date": "2024-01-17",
-        "title": "Patch 1.0.7a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Increased speed at which certain game entities get cached.",
             "Fixed issues with entity headbars that could cause a crash when loading between regions.",
             "Added support for checking the spot animation applied to a player/npc entity.",
             "Increased CS2 execution speed.",
             "Rewrote caching system to be synchronized with game engine ticks, improving client stability significantly.",
             "Updated projectile start and end cycle values to the correct size.",
-            "Increased text size for component params and options.",
-            
-            "☕Java Core API:☕",
+            "Increased text size for component params and options."
+        ]
+    },
+    {
+        "version": "v1.0.7a",
+        "date": "2024-01-17",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Fixed various stability issues allowing for querying at 1ms intervals.",
             "Added `getCooldownPrecise(String abilityName)` to return the milliseconds until the ability is off cooldown in ActionBar class.",
             "Added a new query filter for Player and Npc queries for the spot animation(s) linked to the entity.",
             "Added a `SpotAnimSpawnEvent` which can be subscribed to, currently only supports static spot anims (tied to a specific tile). It will fire both when a static spot animation is added and removed from rendering; if the ID is -1, it was removed.",
             "Added an `isMember()` function in Client to check if the logged-in player is a member.",
-            "New core snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240118.024345-17`.",
-            
-            "🛠️Loader Update:🛠️",
+            "New core snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240118.024345-17`."
+        ]
+    },
+    {
+        "version": "v1.0.7a",
+        "date": "2024-01-17",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Bump revision to 1.0.7a.",
             "New Jvm runtime for scripts. Scripters, make sure you refresh gradle dependencies and recompile!"
         ]
-    },  
+    },
     {
+        "version": "v1.0.6a",
         "date": "2024-01-12",
-        "title": "Patch 1.0.6a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
-            "Fixed scene object config type being null at times, causing crash"
+            "Fixed scene object config type being null at times, causing a crash"
         ]
-    }, 
+    },
     {
+        "version": "v1.0.6a",
         "date": "2024-01-11",
-        "title": "Patch 1.0.6a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Fixed scene object crash on getting the interact id",
             "Fixed getting component text crash on the loot interface (could fix others too)",
             "Fixed improper interact id being returned",
             "Fixed spot animation id offset"
         ]
-    }, 
+    },
     {
+        "version": "v1.0.6a",
         "date": "2024-01-08",
-        "title": "Agent Patch 1.0.6a",
+        "category": "Agent Update",
+        "title": "Agent Patch",
         "items": [
-            "🔧Agent Update:🔧",
-            "- Fixes for Pathing entities that resolve crashing.",
-            "- Fixed overhead text on NPCs.",
-            "- Changed return type for `ListBoxHeader` to boolean; only end your list box if the boolean was true.",
-            "- ImGui Updates.",
-            "- Updated BotWithUs RuneScape 3 to Revision 934-1",
-      
-            "☕Java Core API:☕",
+            "Fixes for Pathing entities that resolve crashing.",
+            "Fixed overhead text on NPCs.",
+            "Changed return type for `ListBoxHeader` to boolean; only end your list box if the boolean was true.",
+            "ImGui Updates.",
+            "Updated BotWithUs RuneScape 3 to Revision 934-1"
+        ]
+    },
+    {
+        "version": "v1.0.6a",
+        "date": "2024-01-08",
+        "category": "Java Core API",
+        "title": "Agent Patch",
+        "items": [
             "Fixes for prayer use on ActionBar, more functions available such as contains functions for items/abilities.",
             "Fixed overhead text on NPCs.",
-            "ImGui Updates.",
-    
-            "🛠️Loader Update:🛠️",
+            "ImGui Updates."
+        ]
+    },
+    {
+        "version": "v1.0.6a",
+        "date": "2024-01-08",
+        "category": "Loader Update",
+        "title": "Agent Patch",
+        "items": [
             "Bump revision to 1.0.6a:",
             "Ability to change an active session to not restart when the client crashes."
         ]
     },
     {
+        "version": "v1.0.5a",
         "date": "2024-01-6",
-        "title": "Patch 1.0.5a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Fixed debug menu player direction.",
             "Fixed debug menu inventory ID.",
-            "Changed debug menu text search for SceneObject to be a string contains search rather than string equals.",
-
-            "🤖Public xAPI Update:🤖",
+            "Changed debug menu text search for SceneObject to be a string contains search rather than string equals."
+        ]
+    },
+    {
+        "version": "v1.0.5a",
+        "date": "2024-01-6",
+        "category": "Public xAPI Update",
+        "title": "Patch",
+        "items": [
             "#pause and #resume have been added to the Stopwatch class.",
             "Stopwatch#elapsed has been updated to account for the pause/resume breakpoints.",
             "Bank#open will now open the Shantay Pass bank chest.",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20240106.185509-13`."
-    ]
-        
+        ]
     },
     {
+        "version": "v1.0.5a",
         "date": "2024-01-5",
-        "title": "Patch 1.0.5a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Fixed the length of component options read.",
             "Fixed player direction values.",
             "Fixed CS2 scripts causing a client crash on the release build.",
             "Fixed name/options population on certain SceneObjects.",
             "Fixed action bar functions for cooldown and ability firing on the release build.",
-            "Fixed ground item tiles.",
-           
-            "🛠️Loader Update:🛠️",
-            "The loader has been bumped to 1.0.5a.",
-
-            "☕Java Core API:☕",
+            "Fixed ground item tiles."
+        ]
+    },
+    {
+        "version": "v1.0.5a",
+        "date": "2024-01-5",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
+            "The loader has been bumped to 1.0.5a."
+        ]
+    },
+    {
+        "version": "v1.0.5a",
+        "date": "2024-01-5",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Fixed Components options length.",
             "New snapshot: `net.botwithus.rs3:botwithus-api:1.0.0-20240105.060643-15`."
         ]
     },
     {
+        "version": "v1.0.4a",
         "date": "2024-01-3",
-        "title": "Patch 1.0.4a.",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "BWU Overlay Smart Click through, BWU Overlay now can tell if you’re clicking on the overlay or the game.",
             "Queries have been reworked natively to improve logs and reduce crashes.",
             "Stance ID has been added to the Pathing Entity (NPC/Player).",
@@ -248,41 +356,61 @@
             "Added a check onto interface debug to reduce lag on searching text.",
             "CS2 (Jagex Client Script) has been reworked to reduce crashing and is now more efficient and easier to invoke.",
             "Fixed \"Open Script Logs\" opening the incorrect file.",
-            "BotWithUs Icon is now draggable!",
-
-            "☕Java Core API:☕",
+            "BotWithUs Icon is now draggable!"
+        ]
+    },
+    {
+        "version": "v1.0.4a",
+        "date": "2024-01-3",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Introduced Stance Animation and Direction methods in the NPCs and Players.",
             "CS2 (Jagex Client Script) has been completely rewritten to reduce crashing.",
             "An incubator ActionBar API has been introduced - Please note this is an incubator stage and is subject to changes.",
             "Script Logs should now be appended to the script logs file.",
             "Ground Item Query now returns the EntityResultSet.",
             "Queries now support the BiPredicate OR, AND, and NEGATE methods.",
-            " Component params are now supported.",
-
-            "🛠️Loader Update:🛠️",
-            "The loader has been bumped to 1.0.4a.",
- 
-            "🪲Bug Fixes:🪲",
+            "Component params are now supported."
+        ]
+    },
+    {
+        "version": "v1.0.4a",
+        "date": "2024-01-3",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
+            "The loader has been bumped to 1.0.4a."
+        ]
+    },
+    {
+        "version": "v1.0.4a",
+        "date": "2024-01-3",
+        "category": "Bug Fixes",
+        "title": "Patch",
+        "items": [
             "Interface debug lag when searching by text.",
             "Minimenu overlay displays correct action instead of N/A.",
             "Sprite IDs are fixed in interfaces.",
             "Various performance enhancements."
         ]
-    },    
+    },
     {
+        "version": "v1.0.2a",
         "date": "2024-01-2",
-        "title": "Patch 1.0.2a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "Fixed interaction with string/option for Equipment and Backpack classes",
             "New snapshot version: net.botwithus.xapi.public:api:1.0.0-20240103.033337-12"
         ]
-    }, 
+    },
     {
+        "version": "v1.0.3a",
         "date": "2023-12-30",
-        "title": "Patch 1.0.3a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "Further improvements to TreeTask scripts.",
             "Permissives per branch are now singularly isolated. This will help us troubleshoot which permissives are specifically causing improper script behavior.",
             "`Bank#depositAll` and `#withdrawAll` related functions will now utilize the Transfer Type \"All\" option in the player's banking interface.",
@@ -290,10 +418,11 @@
         ]
     },
     {
+        "version": "v1.0.3a",
         "date": "2023-12-23",
-        "title": "Patch 1.0.3a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "BWU Overlay Smart Click through, BWU Overlay now can tell if you're clicking on the overlay or the game.",
             "Queries have been reworked natively to improve logs and reduce crashes.",
             "Stance ID has been added to the Pathing Entity (NPC/Player).",
@@ -301,9 +430,15 @@
             "Reworked some debug windows to support searching and improved UI.",
             "Added a check onto interface debug to reduce lag on searching text.",
             "CS2 (Jagex Client Script) has been reworked to reduce crashing and is now more efficient.",
-            "Fixed \"Open Script Logs\" opening the incorrect file.",
-
-            "☕Java Core API:☕",
+            "Fixed \"Open Script Logs\" opening the incorrect file."
+        ]
+    },
+    {
+        "version": "v1.0.3a",
+        "date": "2023-12-23",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Introduced Stance Animation and Direction methods in the NPCs and Players.",
             "CS2 (Jagex Client Script) has been completely rewritten to reduce crashing.",
             "An incubator ActionBar API has been introduced (Thank Cipher) - Please note this is an incubator stage and is subject to changes.",
@@ -313,130 +448,142 @@
         ]
     },
     {
+        "version": "v1.0.2a",
         "date": "2023-12-19",
-        "title": "Patch 1.0.2a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "Bank#depositAll functions have been updated to account for items that only have a \"Deposit-1\" option. e.g., clue scrolls, strange rocks.",
             "Added `Permissive` class and its utilization in `BranchTask`.",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20231219.220946-9`."
         ]
-    },    
+    },
     {
+        "version": "v1.0.2a",
         "date": "2023-12-16",
-        "title": "Patch 1.0.2a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "Added Bresenham pathing to `Traverse#to` for `Locatables` further than 60 coordinates away.",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20231217.035222-8`."
         ]
     },
     {
+        "version": "v1.0.2a",
         "date": "2023-12-11",
-        "title": "Patch 1.0.2a",
+        "category": "Loader Update",
+        "title": "Patch",
         "items": [
-            "🛠️Loader Update:🛠️",
             "Implemented a temporary workaround for launching jagex accounts"
-
         ]
-    }, 
+    },
     {
+        "version": "v1.0.2a",
         "date": "2023-12-6",
-        "title": "Patch 1.0.2a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
-            "Added `Bank::loadLastPreset`.",
-            "`Bank::open` now supports more bank objects.",
-            "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20231206.004031-6`.",
-
-            "☕Java Core API:☕",
-            "Fixed an issue with the ScriptHandle::invokeExact type converstion from Integer to primitive int"
-        ]
-    },  
-    {
-        "date": "2023-12-6",
-        "title": "Patch 1.0.2a",
-        "items": [
-            "🤖Public xAPI Update:🤖",
             "Added `Bank::loadLastPreset`.",
             "`Bank::open` now supports more bank objects.",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20231206.004031-6`."
         ]
-    },    
+    },
     {
-        "date": "2023-12-5",
-        "title": "Patch 1.0.2a",
+        "version": "v1.0.2a",
+        "date": "2023-12-6",
+        "category": "Java Core API",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
+            "Fixed an issue with the ScriptHandle::invokeExact type conversion from Integer to primitive int"
+        ]
+    },
+    {
+        "version": "v1.0.2a",
+        "date": "2023-12-5",
+        "category": "Agent Update",
+        "title": "Patch",
+        "items": [
             "Fixed Item Offsets on components.",
             "Fixed text Offsets on components.",
-
-            "☕Java Core API:☕",
             "Fixed issue with chat segment now defining the correct sizes.",
             "Queries are `BiPredicate`; Overridden the `and`, `or`, and `negate` methods are now more friendly."
         ]
     },
     {
+        "version": "v1.0.0a",
         "date": "2023-12-4",
-        "title": "Patch v1.0.0a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Update to RuneScape Revision 933-2"
         ]
-    }, 
+    },
     {
+        "version": "v1.0.0a",
         "date": "2023-12-3",
-        "title": "Patch v1.0.0a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "Added logging to Flogger for API-level functions.",
             "Fixed an issue that was causing deposit actions in the `Bank` class from executing too quickly when attempting to deposit multiple items at once.",
             "New snapshot: `net.botwithus.xapi.public:api:1.0.0-20231203.195213-5`."
         ]
-    },    
+    },
     {
-        "date": "2024-11-29",
-        "title": "Patch v1.0.0a",
+        "version": "v1.0.0a",
+        "date": "2023-11-29",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Increase String size for chat events; this was causing crashes if the player name or message was too large.",
             "Moved Anti-AFK to Modules.",
             "Re-added the BotWithUs Icon.",
             "Fixed NPC overhead text causing crashes.",
             "Variable debugger for varps was added.",
             "Added menu items for opening various directories.",
-            "Fixed Projectiles",
-            
-            "☕Java Core API:☕",
+            "Fixed Projectiles"
+        ]
+    },
+    {
+        "version": "v1.0.0a",
+        "date": "2023-11-29",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "`ScriptLookup` now requires a resource owner (Script) so reloading releases the handles.",
             "`Ground Item Query` now returns `EntityResultSet`.",
             "Optimized the query system to use less memory.",
-            "`ScriptConsole` now has static `println` methods that print to the currently active script.",
-            
-            "🛠️Loader Update:🛠️",
+            "`ScriptConsole` now has static `println` methods that print to the currently active script."
+        ]
+    },
+    {
+        "version": "v1.0.0a",
+        "date": "2023-11-29",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Introduced version number for the loader into the title."
         ]
     },
     {
+        "version": "v1.0.0a",
         "date": "2023-11-28",
-        "title": "Patch v1.0.0a",
+        "category": "Public xAPI Update",
+        "title": "Patch",
         "items": [
-            "🤖Public xAPI Update:🤖",
             "Fixed an issue that was preventing `Bank::depositAll` and `Inventory::containsAnyExcept` from working as intended.",
             "Fixed several issues in the `LootInventory` class that were preventing it from working as intended."
         ]
     },
     {
+        "version": "v1.0.0a",
         "date": "2023-11-24",
-        "title": "Patch v1.0.0a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Bug Fixes",
-           
-            "☕Java Core API:☕",
             "Continued fixes for critical queries; all delays are now locked to a minimum of 100 ms.",
             "New Local Player API:",
-            "Local Player is now fully live information.",
             "`LocalPlayer::getTarget`",
             "`LocalPlayer::inCombat`",
             "`LocalPlayer::getCurrentHealth`",
@@ -444,23 +591,19 @@
             "`LocalPlayer::getAdrenaline`",
             "`LocalPlayer::getSummoningPoints`",
             "`LocalPlayer::getPrayerPoints`",
-           
-            "🛠️Loader Update:🛠️",
             "Fixed issue with auto updater."
         ]
     },
     {
+        "version": "v1.0.0a",
         "date": "2023-11-23",
-        "title": "Patch v1.0.0a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Removed BotWithus Icon due to Jagex not playing nice with OpenGL states.",
             "Cleaned up code and introduced new C API functions.",
-          
-            "☕Java Core API:☕",
             "Fixed a critical issue regarding queries crashing the client if queried faster than 500 ms.",
-           
-            "- New LoginManager API:",
+            "New LoginManager API:",
             "`LoginManager::setWorld(<world id>)`",
             "`LoginManager::setAutoLogin(<true or false>)`",
             "`LoginManager::getLoginStatus()`",
@@ -469,60 +612,83 @@
         ]
     },
     {
+        "version": "v1.0.0a",
         "date": "2023-11-19",
-        "title": "Patch v1.0.0a",
+        "category": "Agent Update",
+        "title": "Patch",
         "items": [
-            "🔧Agent Update:🔧",
             "Chat Event Method:",
             "Method signature changed to match RuneScape's.",
-            "Auto Login should now work as intended.",
-            
-            "☕Java Core API:☕",
+            "Auto Login should now work as intended."
+        ]
+    },
+    {
+        "version": "v1.0.0a",
+        "date": "2023-11-19",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
             "Fixed an issue preventing Bank.open from working as intended, affecting several bots.",
             "Fixed some script initialization issues."
         ]
     },
     {
+        "version": "v1.0.0a",
         "date": "2023-11-18",
-        "title": "Patch v1.0.0a",
+        "category": "ImGui Class Updates",
+        "title": "Patch",
         "items": [
-            "🖼️ImGui Class Updates:🖼️",
             "`SetItemWidth(float width)`: Sets the item width.",
             "`Columns(int count, String label, boolean border)`: Creates a number of columns with optional borders.",
             "`NextColumn()`: Advances to the next column.",
             "`SeparatorText(String text)`: Inserts a text separator.",
             "`Indent(float width)`: Applies indentation of a specified width.",
-            "Hitmarks are now accurately read from the native event.",
-          
-            "🛠️Loader Update:🛠️",
+            "Hitmarks are now accurately read from the native event."
+        ]
+    },
+    {
+        "version": "v1.0.0a",
+        "date": "2023-11-18",
+        "category": "Loader Update",
+        "title": "Patch",
+        "items": [
             "Auto login can now be toggled on game launch.",
             "Fixed issues with active sessions and game restarts.",
             "Now detects, downloads, and runs new installers for you.",
-            "Loading screen now displays text showing the loading stage.",
-           
-            "🔧Agent Update:🔧",
+            "Loading screen now displays text showing the loading stage."
+        ]
+    },
+    {
+        "version": "v1.0.0a",
+        "date": "2023-11-18",
+        "category": "Agent Update",
+        "title": "Patch",
+        "items": [
             "NPC and Player Queries are now functioning correctly.",
             "Resolved the Inventory Debug issue.",
             "Scene Object Debug has new search options and altered sorting to prevent flickering.",
-            "Script runtime memory issue has been resolved.",
-
-            "☕Java Core API:☕",
-            "Script Runtime now correctly accounts for Kotlin runtime/libraries, and adding these libraries to your scripts is no longer required.",
-            "Kotlin Libraries Includes:",
-            "Kotlin stdlib",
-            "kotlinx coroutines",
-            "insert koin"
-            
+            "Script runtime memory issue has been resolved."
         ]
     },
-    
     {
+        "version": "v1.0.0a",
+        "date": "2023-11-18",
+        "category": "Java Core API",
+        "title": "Patch",
+        "items": [
+            "Script Runtime now correctly accounts for Kotlin runtime/libraries, and adding these libraries to your scripts is no longer required.",
+            "Kotlin Libraries Includes:",
+            "- Kotlin stdlib",
+            "- kotlinx coroutines",
+            "- insert koin"
+        ]
+    },
+    {
+        "version": "v1.0.0a",
         "date": "2023-12-11",
-        "title": "v1.0.0a",
+        "title": "Patch",
         "items": [
             "Initial alpha release of the client."
-            
-            
         ]
     }
 ]

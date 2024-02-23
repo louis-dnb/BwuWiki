@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Billythebobs Gem Miner" version="v1.0.6" skill="Mining">
+<TopBanner title="Billythebobs Gem Miner" version="v1.0.6" author="Billythebobs" skill="Mining">
 </TopBanner>
 
 :::hidden
@@ -35,7 +35,11 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-> -
+> - Gem Mining Script for Al Kharid location
+
+![Example](01BillythebobsGemMiner.png)
+![Example](02BillythebobsGemMiner.png)
+![Example](03BillythebobsGemMiner.png)
 
 </ContentBlock>
 
@@ -46,31 +50,9 @@ import changes from './changes.json'
 :::
 <ContentBlock title="Requirements">
 
-- example
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
-
+Togglable Feature(Config Tab):
+-- Mysitcal Sand Seed (True by Default ), should be placed in inventory and on action bar.
+-- War Retreat Teleport (True by default),required on action bar
 </ContentBlock>
 
 :::hidden

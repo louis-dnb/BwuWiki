@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="PrifHarps" version="v1.0.6" skill="Crafting">
+<TopBanner title="PrifHarps" version="v1.0.6" author="deckerz" skill="Crafting">
 </TopBanner>
 
 :::hidden
@@ -38,39 +38,7 @@ import changes from './changes.json'
 > - Does harps at Prifddinas.
 > - Allows you to configure the % it re-tunes at.
 
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-- example
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](01PrifHarps.png)
 
 </ContentBlock>
 

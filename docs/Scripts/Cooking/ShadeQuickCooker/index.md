@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="ShadeQuickCooker" version="v1.0.6" skill="Cooking">
+<TopBanner title="ShadeQuickCooker" version="v1.0.6" author="Shade"  skill="Cooking">
 </TopBanner>
 
 :::hidden
@@ -45,39 +45,8 @@ Performs 3-tick cooking on a Portable range, Range or Bonfire. Requires any of t
 - Supports RandomsWithUs for Brooch of the Gods
 - Supports cooking the following items:
 
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
--
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](02ShadeQuickCooker.png)
+![Example](01ShadeQuickCooker.png)
 
 </ContentBlock>
 

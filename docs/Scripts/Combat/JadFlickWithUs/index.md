@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="JadFlickWithUs" version="v1.0.6" skill="Necromancy">
+<TopBanner title="JadFlickWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -50,29 +50,6 @@ import changes from './changes.json'
 
 - Susbcribe and activate
 - Deflect Magic / Deflect Ranged on your ActionBar (in one of: main or 4 extra action bars on screen)
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 
