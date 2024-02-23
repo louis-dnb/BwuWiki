@@ -635,7 +635,7 @@
     {
         "version": "v1.0.0a",
         "date": "2023-11-18",
-        "category": "ImGui Class Updates",
+        "category": "Agent Update",
         "title": "Patch",
         "items": [
             "`SetItemWidth(float width)`: Sets the item width.",
@@ -686,6 +686,7 @@
     {
         "version": "v1.0.0a",
         "date": "2023-12-11",
+        "category": "Agent Update",
         "title": "Patch",
         "items": [
             "Initial alpha release of the client."
