@@ -51,14 +51,14 @@ import changes from './changes.json'
   - If you have perished.
 
 </details>
+<details>
+<summary><strong>Settings</strong></summary>
 
-<div style={{ display: 'flex', alignItems: 'center' }}>
-  <img src="/img/BarrowBrothersSettings.png" style={{ maxWidth: '50%', height: 'auto' }} alt="Settings" />
-  <div style={{ marginLeft: '20px' }}>
-    <h3>Barrows Brothers Settings</h3>
-    <p>With these settings, you can fine-tune your script to match your charcter/goals. Note: The script will prio going to the room with the 'Hidden Tunnel' last so if the hidden room isnt 'Ahrim' it will go to linza first to make use of your adrenline.  </p>
-  </div>
-</div>
+![Settings](BarrowBrothersSettings.png)
+
+</details>
+
+
 
 </ContentBlock>
 
@@ -93,8 +93,11 @@ import changes from './changes.json'
 
 <details>
 <summary><strong>Example Preset</strong></summary>
-  <img src="img/BarrowsExamplePreset.png" style={{ maxWidth: '100%', height: 'auto' }} alt="Preset" />
+
+![Preset](BarrowsExamplePreset.png)
+
 </details>
+
 
 
 ### Additional Tips for Script Usage

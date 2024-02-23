@@ -1,10 +1,13 @@
 [
-
-     {
-        "date": "2024-01-26",
-        "title": "v1.0.0",
+    {
+        "date": "2024/02/13",
+        "title": "v1.0.2",
         "items": [
-            "Release"
+            "Should no longer get stuck at the rope if it fails to create a path.",
+            "Simplified some queries to reduce workload.",
+            "If at Barrows with all brothers already killed, will now head back into the tunnel.",
+           "Will now kill brothers in the tunnel while navigating, rather than just at the chest.",
+           "Tunnel navigation more responsive"
         ]
     },
     {
@@ -21,15 +24,13 @@
            "Tweaked various delays"
         ]
     },
-    {
-        "date": "2024/02/13",
-        "title": "v1.0.2",
+
+     {
+        "date": "2024-01-26",
+        "title": "v1.0.0",
         "items": [
-            "Should no longer get stuck at the rope if it fails to create a path.",
-            "Simplified some queries to reduce workload.",
-            "If at Barrows with all brothers already killed, will now head back into the tunnel.",
-           "Will now kill brothers in the tunnel while navigating, rather than just at the chest.",
-           "Tunnel navigation more responsive"
+            "Release"
         ]
-    }
+     }
+    
 ]
