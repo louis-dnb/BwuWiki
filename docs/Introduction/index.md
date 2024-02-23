@@ -8,11 +8,11 @@ slug: /introduction
 import React from 'react';
 import TopBanner from '@site/src/components/TopBanner';
 import ContentBlock from '@site/src/components/ContentBlock';
-import ChangelogIntro from '@site/src/components/ChangelogIntro';
+import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Introduction" skill="hello" showversion={false} showauthor={false}>
+<TopBanner title="Introduction" skill="hello">
 </TopBanner>
 :::hidden
 
@@ -74,10 +74,10 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 
 :::hidden
 
-## Change log
+## Changelog
 
 :::
 
-<ChangelogIntro changes={changes}>
+<Changelog changes={changes}>
 
-</ChangelogIntro>
+</Changelog>
