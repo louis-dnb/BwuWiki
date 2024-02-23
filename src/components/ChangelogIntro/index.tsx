@@ -10,17 +10,24 @@ import TimelineOppositeContent, {
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import Paper from "@mui/material/Paper";
+import Button from "@mui/material/Button";
 import LightbulbTwoToneIcon from "@mui/icons-material/LightbulbTwoTone";
 import LabelTwoToneIcon from "@mui/icons-material/LabelTwoTone";
 import ContentBlock from "../ContentBlock";
 
 import "./styles.module.css";
 
-// ... (existing imports)
+const categories = [
+  "Agent Update",
+  "Java Core API",
+  "Public xAPI Update",
+  "Loader Update",
+  "Bug Fixes",
+];
 
-export default function ChangelogIntro(props) {
+export default function Changelog(props) {
   const [expandedEntries, setExpandedEntries] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState(null);
 
   const handleToggleExpand = (index) => {
     setExpandedEntries((prevExpanded) => {
@@ -32,41 +39,60 @@ export default function ChangelogIntro(props) {
     });
   };
 
-  const handleCategoryChange = (category) => {
-    setSelectedCategory(category);
+  const handleCategoryClick = (category) => {
+    setSelectedCategory((prevSelected) =>
+      prevSelected === category ? null : category
+    );
   };
 
-  // Ensure props.changes is an array and has the necessary structure
-  const filteredChanges = Array.isArray(props.changes)
-    ? selectedCategory
-      ? props.changes.filter((change) =>
-          change && change.changes
-            ? change.changes.some((item) => item.category === selectedCategory)
-            : false
-        )
-      : props.changes
-    : [];
+  const currentDate = new Date().toLocaleDateString();
+
+  const sortedChanges = [...props.changes].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
 
   return (
     <>
-      <ContentBlock title="ChangelogIntro">
-        <div className="category-filter">
-          {[
-            "",
-            "Agent Update:",
-            "Java Core API:",
-            "Public xAPI Update:",
-            "Loader Update:",
-            "Bug Fixes:",
-          ].map((category, index) => (
-            <button
-              key={index}
-              onClick={() => handleCategoryChange(category)}
-              className={selectedCategory === category ? "active" : ""}
-            >
-              {category || "All"}
-            </button>
-          ))}
+      <ContentBlock title="Patch Notes">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginTop: 8,
+          }}
+        >
+          <div style={{ display: "flex", marginBottom: 8 }}>
+            {categories.map((category, index) => (
+              <Button
+                key={index}
+                variant="outlined"
+                style={{
+                  marginRight: 16,
+                  textDecoration:
+                    selectedCategory === category ? "underline" : "none",
+                  boxShadow:
+                    selectedCategory === category
+                      ? "0 4px 8px rgba(0, 0, 0, 0.1)"
+                      : "none",
+                }}
+                onClick={() => handleCategoryClick(category)}
+              >
+                {category}
+              </Button>
+            ))}
+          </div>
+          <div
+            style={{
+              fontSize: 14,
+              marginBottom: 8,
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+              padding: "8px",
+              borderRadius: "4px",
+            }}
+          >
+            Current Date: {currentDate}
+          </div>
         </div>
         <Timeline
           sx={{
@@ -75,72 +101,64 @@ export default function ChangelogIntro(props) {
             },
           }}
         >
-          {filteredChanges.map((change, index) => (
-            <TimelineItem key={index}>
-              {change && change.date && (
+          {sortedChanges
+            .filter(
+              (change) =>
+                !selectedCategory || change.category === selectedCategory
+            )
+            .map((change, index) => (
+              <TimelineItem key={index}>
                 <TimelineOppositeContent>
                   <h3 style={{ marginTop: 10 }}>{change.date}</h3>
                 </TimelineOppositeContent>
-              )}
-              <TimelineSeparator sx={{ color: "#f44336" }}>
-                <LightbulbTwoToneIcon
-                  fontSize="medium"
-                  sx={{ marginBlockStart: 2, marginBlockEnd: 2 }}
-                />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                {change &&
-                  change.changes &&
-                  change.changes.map((categoryChange, categoryIndex) => (
-                    <Paper
-                      key={categoryIndex}
-                      sx={{
-                        width: "100%",
-                        color: "#fff",
-                        borderRadius: 6,
-                        borderTopRightRadius: 36,
-                        borderBottomRightRadius: 36,
+                <TimelineSeparator sx={{ color: "#f44336" }}>
+                  <LightbulbTwoToneIcon
+                    fontSize="medium"
+                    sx={{ marginBlockStart: 2, marginBlockEnd: 2 }}
+                  />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Paper
+                    sx={{
+                      color: "#fff",
+                      borderRadius: 6,
+                      borderTopRightRadius: 36,
+                      borderBottomRightRadius: 36,
+                      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                    }}
+                    variant="outlined"
+                  >
+                    <h3
+                      style={{
+                        paddingLeft: 16,
+                        paddingTop: 8,
+                        cursor: "pointer",
                       }}
-                      variant="outlined"
+                      onClick={() => handleToggleExpand(index)}
                     >
-                      {categoryChange && (
-                        <h3
-                          style={{
-                            paddingLeft: 16,
-                            paddingTop: 8,
-                            cursor: "pointer",
-                          }}
-                          onClick={() => handleToggleExpand(index)}
-                        >
-                          {categoryChange.category}
-                        </h3>
-                      )}
-                      {index < 3 || expandedEntries.includes(index) ? (
-                        <List>
-                          {categoryChange.items &&
-                            categoryChange.items.map((item, itemIndex) => (
-                              <ListItem
-                                key={itemIndex}
-                                style={{ fontSize: 18 }}
-                              >
-                                <LabelTwoToneIcon
-                                  fontSize="medium"
-                                  style={{
-                                    marginRight: 12,
-                                    alignSelf: "flex-start",
-                                  }}
-                                />
-                                {item}
-                              </ListItem>
-                            ))}
-                        </List>
-                      ) : null}
-                    </Paper>
-                  ))}
-              </TimelineContent>
-            </TimelineItem>
-          ))}
+                      {`${change.title} - ${change.version}`}
+                    </h3>
+                    {index < 3 || expandedEntries.includes(index) ? (
+                      <List>
+                        {change.items.map((item, itemIndex) => (
+                          <ListItem key={itemIndex} style={{ fontSize: 18 }}>
+                            <LabelTwoToneIcon
+                              fontSize="medium"
+                              style={{
+                                marginRight: 12,
+                                alignSelf: "flex-start",
+                              }}
+                            />
+                            {item}
+                          </ListItem>
+                        ))}
+                      </List>
+                    ) : null}
+                  </Paper>
+                </TimelineContent>
+              </TimelineItem>
+            ))}
         </Timeline>
       </ContentBlock>
     </>
