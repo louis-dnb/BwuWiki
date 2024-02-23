@@ -41,9 +41,9 @@ These websites are not created or managed by BotWithUs. Clicking on them will re
   - WindowGrid is a modern window management program for Windows.
 - [923 Decompiled ClientScripts](https://drive.google.com/file/d/169o8y5qmHXWdO_rNTb922HvXZCjtjiQL/view)
   - Decompiled client scripts for version 923
-- [random crap 932-2 .zip](https://drive.google.com/file/d/1oMJRlrgKCP1gdNNJQG6B4naU_TGa3wx0/view?usp=sharing)
+- [932-2_cache_dump .zip](https://drive.google.com/file/d/1oMJRlrgKCP1gdNNJQG6B4naU_TGa3wx0/view?usp=sharing)
   - Archive containing random files related to version 932-2
-- [random crap 933 .zip](https://drive.google.com/file/d/1CuSjxjkkcgnnefkMuY2LtPzO6-FnudfB/view?usp=sharing)
+- [933_cache_dump .zip](https://drive.google.com/file/d/1CuSjxjkkcgnnefkMuY2LtPzO6-FnudfB/view?usp=sharing)
   - Archive containing miscellaneous files for version 933
 - [Proxmox](https://www.proxmox.com/en/)
   - Virtualization platform
