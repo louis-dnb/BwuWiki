@@ -37,11 +37,15 @@ Remember that open source projects are collaborative efforts, and your involveme
 
 <ContentBlock title="Community Scripts:">
 
-- **Notifier:** [**GitHub Link**](https://github.com/GibsonHF/ItemFindHook), [**Wiki Link**](/Item-Notifier), _Author: Gibson_
+- **Notifier:** [**GitHub Link**](https://github.com/GibsonHF/ItemFindHook), [**Wiki Link**](/Item%20Notifier), _Author: Gibson_
 
 - **ED1:** [**GitHub Link**](https://github.com/TheSn0w/ED1), [**Wiki Link**](/ED1), _Author: TheSn0w_
 
 - **Gem Miner:** [**GitHub Link**](https://github.com/unknownname/Crafting), [**Wiki Link**](/Billythebobs-Gem-Miner), _Author: billythebob_
+
+- **MikeKebabBuyer:** [**GitHub Link**](https://github.com/devMikeyB/MikeKebabBuyer), [**Wiki Link**](/MikeKebabPurchaser), _Author: Mike_
+
+- **MikeGemMineCraftFletch:** [**GitHub Link**](https://github.com/devMikeyB/MikeGemMineCraftFletch), [**Wiki Link**](/MikeGemMineCraftFletch), _Author: Mike_
 
 </ContentBlock>
 
