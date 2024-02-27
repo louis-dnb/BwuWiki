@@ -168,3 +168,76 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   font-size: 16px;
 }
+.centered-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%,
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%,
+}
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.timeline-filter-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the filter dropdowns */
+.timeline-filter {
+  margin-right: 15px;
+}
+
+.timeline-filter select {
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: #3498db; /* Blue color */
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.timeline-filter select:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+.timeline-filter span {
+  margin-right: 8px;
+  color: #777;
+}
+.custom-markdown {
+  text-align: left; /* Set the desired text alignment */
+}
+.timeline-vertical-timeline-item {
+  margin-bottom: 20px; /* You can adjust the value according to your preference */
+}
+
+
+
+
+
+
+
