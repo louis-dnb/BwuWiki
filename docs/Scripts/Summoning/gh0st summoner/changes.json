@@ -1,5 +1,18 @@
 [
-
+    {
+        "date": "2024-02-9",
+        "title": "v1.0.0",
+        "items": [
+            "Bug fixes for vampyre bats, others"
+        ]
+    },
+    {
+        "date": "2024-02-8",
+        "title": "v1.0.0",
+        "items": [
+            "Added additional minotaur support"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

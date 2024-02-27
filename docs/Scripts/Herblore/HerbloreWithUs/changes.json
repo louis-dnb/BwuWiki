@@ -1,7 +1,14 @@
 [
-
+    {
+        "date": "2024-01-23",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed making unfinished potions both in well menu / inventory",
+            "Fixed making overloads in inventory"
+        ]
+    },
      {
-        "date": "2024-01-26",
+        "date": "NA",
         "title": "v1.0.0",
         "items": [
             "Release"

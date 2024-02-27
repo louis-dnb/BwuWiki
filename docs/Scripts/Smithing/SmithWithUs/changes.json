@@ -1,5 +1,18 @@
 [
-
+    {
+        "date": "2024-1-17",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was preventing burial armor from being created"
+        ]
+    },
+    {
+        "date": "2023-12-8",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was preventing the bot from selected Steel Bar"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

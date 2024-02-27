@@ -1,5 +1,21 @@
 [
-
+    {
+        "date": "2024-01-27",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed bone shield -> stopping after Resonance",
+            "If the script is stopped for no shield, it will tele first.",
+            "Stops running for beams, if the boss is dead",
+            "Fixed Ancient Shard not working sometimes."
+        ]
+    },
+    {
+        "date": "2024-01-11",
+        "title": "v1.0.0",
+        "items": [
+            "Updated NA"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

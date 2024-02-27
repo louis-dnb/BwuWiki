@@ -1,5 +1,20 @@
 [
     {
+        "date": "2024/02/12",
+        "title": "v1.0.2",
+        "items": [
+            "Added Support to kill 'Linza'",
+            "Overload support now available",
+            "Introduced Quickloot option",
+           "Enhancements:",
+           "Implemented additional checks to avoid deaths",
+           "Checks include Sign of life, run energy, divine charges",
+           "Utilizing Adrenaline crystal",
+           "Ability to use Undead Slayer sigil for encounters with Linza",
+           "Tweaked various delays"
+        ]
+    },
+    {
         "date": "2024/02/13",
         "title": "v1.0.2",
         "items": [
