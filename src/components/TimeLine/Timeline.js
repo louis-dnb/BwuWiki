@@ -7,8 +7,10 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import timelineData from '@site/docs/Roadmap/timelineData.json';
 
 const Timeline = () => {
-  const [categoryFilter, setCategoryFilter] = useState('Website');
-  const [statusFilter, setStatusFilter] = useState('In-progress');
+  const [filters, setFilters] = useState({
+    category: 'all',
+    status: 'all',
+  });
   const [minimized, setMinimized] = useState({});
 
   const categories = [...new Set(timelineData.map((event) => event.category))];
@@ -34,6 +36,13 @@ const Timeline = () => {
     }));
   };
 
+  const handleFilterChange = (filterType, value) => {
+    setFilters((prevFilters) => ({
+      ...prevFilters,
+      [filterType]: value,
+    }));
+  };
+
   return (
     <div className="timeline-container">
       {/* Filter buttons */}
@@ -42,8 +51,8 @@ const Timeline = () => {
           <span>Category:</span>
           <select
             className="styled-dropdown"
-            value={categoryFilter}
-            onChange={(e) => setCategoryFilter(e.target.value)}
+            value={filters.category}
+            onChange={(e) => handleFilterChange('category', e.target.value)}
             style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
           >
             <option value="all" style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>All</option>
@@ -58,8 +67,8 @@ const Timeline = () => {
           <span>Status:</span>
           <select
             className="styled-dropdown"
-            value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value)}
+            value={filters.status}
+            onChange={(e) => handleFilterChange('status', e.target.value)}
             style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
           >
             <option value="all" style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>All</option>
@@ -77,8 +86,8 @@ const Timeline = () => {
         {timelineData
           .filter(
             (event) =>
-              (categoryFilter === 'all' || event.category === categoryFilter) &&
-              (statusFilter === 'all' || event.status === statusFilter)
+              (filters.category === 'all' || event.category.toLowerCase() === filters.category.toLowerCase()) &&
+              (filters.status === 'all' || event.status.toLowerCase() === filters.status.toLowerCase())
           )
           .map((event) => (
             <div key={event.id} className="timeline-vertical-timeline-item">
