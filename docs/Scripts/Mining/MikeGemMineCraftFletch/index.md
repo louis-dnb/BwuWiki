@@ -35,7 +35,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-> - NA
+> - This script is not available on the SDN and will not be maintained. It is open source only and can be found at: [https://github.com/devMikeyB/MikeGemMineCraftFletch](https://github.com/devMikeyB/MikeGemMineCraftFletch).
 
 </ContentBlock>
 
