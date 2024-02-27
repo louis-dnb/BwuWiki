@@ -16,11 +16,12 @@ const Timeline = () => {
 
   const categories = [...new Set(timelineData.map((event) => event.category))];
   const statuses = [...new Set(timelineData.map((event) => event.status))];
+  const customStatusOrder = ['In-progress', 'Idea Building', 'Completed'];
 
   const getStatusColor = (status) => {
     switch (status) {
       case 'In-progress':
-        return '#e67e22'; // Purple for 'in progress'
+        return '#e67e22'; // Orange for 'in progress'
       case 'Idea Building':
         return '#ff3333'; // Red for 'idea building'
       case 'Completed':
@@ -90,6 +91,7 @@ const Timeline = () => {
               (filters.category === 'all' || event.category.toLowerCase() === filters.category.toLowerCase()) &&
               (filters.status === 'all' || event.status.toLowerCase() === filters.status.toLowerCase())
           )
+          .sort((a, b) => customStatusOrder.indexOf(a.status) - customStatusOrder.indexOf(b.status)) // Updated sorting
           .map((event) => (
             <div key={event.id} className="timeline-vertical-timeline-item">
               <Paper
@@ -122,8 +124,7 @@ const Timeline = () => {
                 variant="outlined"
               >
                 <div className="timeline-content-header" style={{ display: 'flex', justifyContent: 'space-between', padding: '8px', alignItems: 'center' }}>
-                  <h3>{event.title}<p style={{ padding: '8px', margin: 0, color: '#fff' }}>{event.status}</p>
-</h3>
+                  <h3>{event.title}<p style={{ padding: '8px', margin: 0, color: '#fff' }}>{event.status}</p></h3>
                   <div>
                     <IconButton onClick={() => toggleMinimized(event.id)}>
                       {minimized[event.id] ? <KeyboardArrowRightIcon style={{ color: '#000' }} /> : <KeyboardArrowDownIcon style={{ color: '#000' }} />}
