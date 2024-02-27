@@ -20,7 +20,7 @@ const Timeline = () => {
   const getStatusColor = (status) => {
     switch (status) {
       case 'In-progress':
-        return '#8e44ad'; // Purple for 'in progress'
+        return '#e67e22'; // Purple for 'in progress'
       case 'Idea Building':
         return '#ff3333'; // Red for 'idea building'
       case 'Completed':
@@ -122,7 +122,8 @@ const Timeline = () => {
                 variant="outlined"
               >
                 <div className="timeline-content-header" style={{ display: 'flex', justifyContent: 'space-between', padding: '8px', alignItems: 'center' }}>
-                  <h3>{event.title}<p style={{ padding: '8px', margin: 0 }}>{event.status}</p></h3>
+                  <h3>{event.title}<p style={{ padding: '8px', margin: 0, color: '#fff' }}>{event.status}</p>
+</h3>
                   <div>
                     <IconButton onClick={() => toggleMinimized(event.id)}>
                       {minimized[event.id] ? <KeyboardArrowRightIcon style={{ color: '#000' }} /> : <KeyboardArrowDownIcon style={{ color: '#000' }} />}
