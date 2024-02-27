@@ -3,21 +3,25 @@ import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Paper from '@mui/material/Paper';
 import IconButton from '@mui/material/IconButton';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import timelineData from '@site/docs/Roadmap/timelineData.json';
 
 const Timeline = () => {
-  const [categoryFilter, setCategoryFilter] = useState('Website');
-  const [statusFilter, setStatusFilter] = useState('In-progress');
+  const [filters, setFilters] = useState({
+    category: 'all',
+    status: 'all',
+  });
   const [minimized, setMinimized] = useState({});
 
   const categories = [...new Set(timelineData.map((event) => event.category))];
   const statuses = [...new Set(timelineData.map((event) => event.status))];
+  const customStatusOrder = ['In-progress', 'Idea Building', 'Completed'];
 
   const getStatusColor = (status) => {
     switch (status) {
       case 'In-progress':
-        return '#8e44ad'; // Purple for 'in progress'
+        return '#e67e22'; // Orange for 'in progress'
       case 'Idea Building':
         return '#ff3333'; // Red for 'idea building'
       case 'Completed':
@@ -34,6 +38,13 @@ const Timeline = () => {
     }));
   };
 
+  const handleFilterChange = (filterType, value) => {
+    setFilters((prevFilters) => ({
+      ...prevFilters,
+      [filterType]: value,
+    }));
+  };
+
   return (
     <div className="timeline-container">
       {/* Filter buttons */}
@@ -42,8 +53,8 @@ const Timeline = () => {
           <span>Category:</span>
           <select
             className="styled-dropdown"
-            value={categoryFilter}
-            onChange={(e) => setCategoryFilter(e.target.value)}
+            value={filters.category}
+            onChange={(e) => handleFilterChange('category', e.target.value)}
             style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
           >
             <option value="all" style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>All</option>
@@ -58,8 +69,8 @@ const Timeline = () => {
           <span>Status:</span>
           <select
             className="styled-dropdown"
-            value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value)}
+            value={filters.status}
+            onChange={(e) => handleFilterChange('status', e.target.value)}
             style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
           >
             <option value="all" style={{ color: '#000', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>All</option>
@@ -77,9 +88,10 @@ const Timeline = () => {
         {timelineData
           .filter(
             (event) =>
-              (categoryFilter === 'all' || event.category === categoryFilter) &&
-              (statusFilter === 'all' || event.status === statusFilter)
+              (filters.category === 'all' || event.category.toLowerCase() === filters.category.toLowerCase()) &&
+              (filters.status === 'all' || event.status.toLowerCase() === filters.status.toLowerCase())
           )
+          .sort((a, b) => customStatusOrder.indexOf(a.status) - customStatusOrder.indexOf(b.status)) // Updated sorting
           .map((event) => (
             <div key={event.id} className="timeline-vertical-timeline-item">
               <Paper
@@ -111,11 +123,11 @@ const Timeline = () => {
                 }}
                 variant="outlined"
               >
-                <div className="timeline-content-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <h3>{event.title}<p>{event.status}</p></h3>
+                <div className="timeline-content-header" style={{ display: 'flex', justifyContent: 'space-between', padding: '8px', alignItems: 'center' }}>
+                  <h3>{event.title}<p style={{ padding: '8px', margin: 0, color: '#fff' }}>{event.status}</p></h3>
                   <div>
                     <IconButton onClick={() => toggleMinimized(event.id)}>
-                      <ArrowDropDownIcon style={{ color: '#000' }} />
+                      {minimized[event.id] ? <KeyboardArrowRightIcon style={{ color: '#000' }} /> : <KeyboardArrowDownIcon style={{ color: '#000' }} />}
                     </IconButton>
                   </div>
                 </div>
