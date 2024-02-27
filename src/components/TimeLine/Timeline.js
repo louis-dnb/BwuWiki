@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Paper from '@mui/material/Paper';
 import IconButton from '@mui/material/IconButton';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import timelineData from '@site/docs/Roadmap/timelineData.json';
 
 const Timeline = () => {
@@ -120,11 +121,11 @@ const Timeline = () => {
                 }}
                 variant="outlined"
               >
-                <div className="timeline-content-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <h3>{event.title}<p>{event.status}</p></h3>
+                <div className="timeline-content-header" style={{ display: 'flex', justifyContent: 'space-between', padding: '8px', alignItems: 'center' }}>
+                  <h3>{event.title}<p style={{ padding: '8px', margin: 0 }}>{event.status}</p></h3>
                   <div>
                     <IconButton onClick={() => toggleMinimized(event.id)}>
-                      <ArrowDropDownIcon style={{ color: '#000' }} />
+                      {minimized[event.id] ? <KeyboardArrowRightIcon style={{ color: '#000' }} /> : <KeyboardArrowDownIcon style={{ color: '#000' }} />}
                     </IconButton>
                   </div>
                 </div>
