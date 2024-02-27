@@ -1,8 +1,8 @@
 ---
-title: DivinationWithUs
-description: AIO Divination.
+title: DisassembleWithUs
+description: Intelligent fishing. Supports several locations, equipment retrieval, presets, Deep Sea, and more!.
 # Slug is the URL path for this page.
-slug: /DivinationWithUs
+slug: /DisassembleWithUs
 ---
 
 import React from 'react';
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="DivinationWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Divination">
+<TopBanner title="DisassembleWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Invention">
 </TopBanner>
 
 :::hidden
@@ -23,7 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - 8 / month (not including client access)
+> - $FREE USD / month (not including client access)
 
 </ContentBlock>
 
@@ -35,8 +35,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-> - Supports all main locations. Efficient prioritization of wisps/springs/enriched. Collects chronicles & Butterflies. Configurable gather type and more!
->   ![Example](01DivinationWithUs.png) > ![Example](02DivinationWithUs.png)
+> - Disassembles a queue of items and logs out when finished.
 
 </ContentBlock>
 

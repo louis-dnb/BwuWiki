@@ -25,24 +25,22 @@ export default function TopBanner(props) {
     marginBottom: 24,
   };
 
-  // You can fully customize this implementation
-  // including changing the JSX, CSS and React hooks
   return (
     <>
       <div ref={ref} className="shadow--tl container" style={stylesObj}>
         <div className="everything">
           <div className="logo">
-            {" "}
-            {image !== undefined &&
-            <img
-              src={require(`@site/static/img/${image}.png`).default}
-              className="logo"
-            />}
+            {image !== undefined && (
+              <img
+                src={require(`@site/static/img/${image}.png`).default}
+                className="logo"
+              />
+            )}
           </div>
           <div className="banner">
             <h1
               style={{
-                fontSize: 84,
+                fontSize: 48,  // Adjust the font size as needed
                 fontFamily: "Arial",
                 fontWeight: 100,
                 fontVariant: "small-caps",
@@ -54,41 +52,29 @@ export default function TopBanner(props) {
               <span style={{ fontSize: 24, verticalAlign: "top" }}></span>
             </h1>
           </div>
-          <div
-          className="revision"
-            style={{
-              fontSize: 15,
-              fontFamily: "Arial",
-              fontWeight: 100,
-              letterSpacing: 4,
-            }}
-          >
-      <div style={{ textAlign: 'center' }}>
-  {props.showofficial !== false && (
-    <span style={{ color: 'yellow', textShadow: '0 0 10px yellow' }}>
-      {props.offical}
-      &nbsp;&nbsp;&nbsp;
-    </span>
-  )}
+          <div className="revision" style={{ fontSize: 15, fontFamily: "Arial", fontWeight: 100, letterSpacing: 4 }}>
+            <div style={{ textAlign: 'center' }}>
+              {props.showofficial !== false && (
+                <span style={{ color: 'yellow', textShadow: '0 0 10px yellow' }}>
+                  {props.offical}
+                  &nbsp;&nbsp;&nbsp;
+                </span>
+              )}
 
-  {props.showversion !== false && (
-    <span style={{ color: 'yellow', textShadow: '0 0 10px #3498db' }}>
-      Version: {props.version}
-    </span>
-  )}
+              {props.showversion !== false && (
+                <span style={{ color: 'yellow', textShadow: '0 0 10px #3498db' }}>
+                  Version: {props.version}
+                </span>
+              )}
 
-  &nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;
 
-  {props.showauthor !== false && (
-    <span style={{ color: 'yellow', textShadow: '0 0 10px #3498db' }}>
-      Author: {props.author}
-    </span>
-  )}
-</div>
-
-
-
-            
+              {props.showauthor !== false && (
+                <span style={{ color: 'yellow', textShadow: '0 0 10px #3498db' }}>
+                  Author: {props.author}
+                </span>
+              )}
+            </div>
           </div>
         </div>
         {props.children}
