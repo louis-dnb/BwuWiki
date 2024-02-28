@@ -1,29 +1,27 @@
-/* src/css/dark-theme.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
 
 :root {
-  --primary-color: #3498db; /* Blue color */
-  --accent-color: #2980b9; /* Darker blue color */
-  --background-color: #2c3e50; /* Dark blue background */
-  --surface-color: #34495e; /* Slightly lighter blue surface */
+  --primary-color: #3498db;
+  --accent-color: #2980b9;
+  --background-color: #2c3e50;
+  --surface-color: #34495e;
   --menu-color-background-active: #34495e;
-  --color-emphasis-200: #ecf0f1; /* Light gray text */
-  --color-emphasis-1000: #95a5a6; /* Darker gray text */
-  --prism-background-color: #2c3e50; /* Dark blue background for code */
-  --highlighted-code-line-bg: #446e96; /* Highlighted code line color */
-  --blockquote-border-left-color: #3498db; /* Blue border for blockquote */
-  --hr-background-color: #3498db; /* Blue color for horizontal rule */
-  --footer-background-color: #1b1b1d; /* Dark blue footer background */
-  --footer-color: #95a5a6; /* Footer text color */
-  --timeline-connector-color: #3498db; /* Blue color for timeline connector */
+  --color-emphasis-200: #ecf0f1;
+  --color-emphasis-1000: #95a5a6;
+  --prism-background-color: #2c3e50;
+  --highlighted-code-line-bg: #446e96;
+  --blockquote-border-left-color: #3498db;
+  --hr-background-color: #3498db;
+  --footer-background-color: #1b1b1d;
+  --footer-color: #95a5a6;
+  --timeline-connector-color: #3498db;
   --paper-border-radius: 8px;
-  --browser-window-border-color: #2c3e50; /* Dark blue border for browser window */
-  --browser-window-shadow: 10px 10px 12px #34495e; /* Dark blue shadow for browser window */
+  --browser-window-border-color: #2c3e50;
+  --browser-window-shadow: 10px 10px 12px #34495e;
 }
 
 html[data-theme='dark'] {
-  color: #ecf0f1; /* Light gray text */
+  color: #ecf0f1;
 }
 
 h1 {
@@ -56,8 +54,8 @@ hr {
 .logo {
   width: 136px;
   height: 136px;
-  float: inline-end;
-  margin-right: 14px;
+  float: right; /* Adjusted to float right */
+  margin-left: 14px; /* Adjusted margin for spacing */
   filter: sepia(100%) brightness(85%) hue-rotate(116deg);
 }
 
@@ -144,15 +142,16 @@ code[class*="language-"], pre[class*="language-"] {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%,
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%,
+  width: 100%;
 }
+
 .centeredContent {
   display: flex;
   flex-direction: column;
@@ -168,34 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   font-size: 16px;
 }
-.centered-content {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 100%,
-}
 
-h1, h2, h3, h4, h5, h6 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 100%,
-}
-.centeredContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.button {
-  margin: 5px;
-  padding: 10px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 16px;
-}
 .timeline-filter-buttons {
   display: flex;
   justify-content: center;
@@ -215,29 +187,54 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-radius: 4px;
   outline: none;
-  background-color: #3498db; /* Blue color */
+  background-color: #3498db;
   color: #fff;
   transition: background-color 0.3s ease;
 }
 
 .timeline-filter select:hover {
-  background-color: #2980b9; /* Darker blue color on hover */
+  background-color: #2980b9;
 }
 
 .timeline-filter span {
   margin-right: 8px;
   color: #777;
 }
+
 .custom-markdown {
-  text-align: left; /* Set the desired text alignment */
+  text-align: left;
 }
+
 .timeline-vertical-timeline-item {
-  margin-bottom: 20px; /* You can adjust the value according to your preference */
+  margin-bottom: 20px;
 }
 
+/* Additional mobile-friendly adjustments as needed */
+@media only screen and (max-width: 600px) {
+  /* Adjustments for small screens */
+  .MuiTimelineConnector-root {
+    height: 1px; /* Adjust the height for smaller screens */
+  }
 
+  /* Reduce the font size of the date text for smaller screens */
+  .MuiTimelineOppositeContent-root h3 {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
 
+  /* Add more mobile-specific styles as needed... */
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .logo {
+    float: none; /* Reset float for small screens */
+    margin: 0; /* Reset margin for small screens */
+  }
 
-
-
+  h1 {
+    margin-bottom: 10px; /* Add margin between title and other content */
+  }
+}
