@@ -1,5 +1,28 @@
-[
+[   
+    {
+        "date": "2024-02-1",
+        "title": "v1.0.0",
+        "items": [
+            "Users can now use wildcards in their Pickup Items list. Item names are still case sensitive."
 
+        ]
+    },  
+{
+    "date": "2024-01-17",
+    "title": "v1.0.0",
+    "items": [
+        "Crashing on looting certain items fixed"
+    ]
+},
+    {
+        "date": "2024-01-15",
+        "title": "v1.0.0",
+        "items": [
+            "Added support for saving tasks for future use",
+            "Added support for potions that regenerate prayer",
+            "Fixed bug that was preventing the bot from eating food"
+        ]
+    },
      {
         "date": "NA",
         "title": "v1.0.0",

@@ -1,5 +1,28 @@
 [
-
+    {
+        "date": "2024-02-27",
+        "title": "v1.0.0",
+        "items": [
+            "Spam fix" 
+        ]
+    },
+    {
+        "date": "2024-02-25",
+        "title": "v1.0.0",
+        "items": [
+            "Fix spam of webhook on loot drops",
+            "Fixed add loot if it was empty making a non removeable drop therefore spamming webhook"    
+        ]
+    },
+    {
+        "date": "2024-02-21",
+        "title": "v1.0.0",
+        "items": [
+            "Added Tooltips to checkboxes to explain it more.",
+            "Kill count option to include kill count if drop received",
+            "fix save settings saving webhook url"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

@@ -1,5 +1,30 @@
 [
-
+    {
+        "date": "2024-1-30",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed lodestone teleing when no wildy sword/glory",
+            "Fixed an issue where script incorrectly thought it was out of essence"
+        ]
+    },
+    {
+        "date": "2023-1-14",
+        "title": "v1.0.0",
+        "items": [
+            "Uses surge when off cooldown and ability is present on main or 4 extra action bars",
+            "UI reworked to have an info and stats tab",
+            "War's retreat requirement for abyss titan removed, recharges at obelisk near ge shortcut now.",
+            "Reworked to use new Load Last Preset bank feature",
+            "Bladed dive was tested but removed until further investigation into a finding during testing"
+        ]
+    },    
+    {
+        "date": "2023-12-6",
+        "title": "v1.0.0",
+        "items": [
+            "Received additional bug fixes"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

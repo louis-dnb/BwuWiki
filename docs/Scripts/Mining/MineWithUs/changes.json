@@ -1,5 +1,32 @@
 [
-
+    {
+        "date": "2024-2-13",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was causing the bot to fill its Ore Box as soon as ore was added to the inventory"
+        ]
+    },
+    {
+        "date": "2024-1-17",
+        "title": "v1.0.0",
+        "items": [
+            "Added Necrite at Port Phasmatys, banking via Arch Journal"
+        ]
+    },
+    {
+        "date": "2023-12-19",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was preventing the bot from depositing items that did not have a Deposit-All option"
+        ]
+    },
+    {
+        "date": "2023-12-16",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed traversal to the Banite ore in the Arctic Habitat north of Relleka"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

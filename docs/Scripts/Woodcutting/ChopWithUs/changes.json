@@ -1,5 +1,32 @@
 [
-
+    {
+        "date": "2024-02-63",
+        "title": "v1.0.0",
+        "items": [
+            "Modified banking logic, will use deposit all button and if you had a woodbox in your inventory, will rewithdraw it.",
+            "Fixed menaphos VIP area banking + getting stuck"
+        ]
+    },
+    {
+        "date": "2024-2-61",
+        "title": "v1.0.0",
+        "items": [
+            "Added stats tab to UI: Runtime, logs chopped, logs/hr, xp gained, xp/hr, levels gained, TTL",
+            "Optimized tree finding calculations",
+            "Uses any woodbox and correctly calculates its capacity, no trying to fill when full.",
+            "Added support for picking up bird nests (and banking them if not using woodbox)",
+            "Crystallize, light form support added. Use light form with upgraded GOTE.",
+            "Fort Forinthry Grove support added (tree stump detection a little buggy, use at your own risk)",
+            "Fixed a bug in banking logic that would cause some not to work, such as deposit boxes in menaphos"
+        ]
+    },
+    {
+        "date": "2023-12-6",
+        "title": "v1.0.0",
+        "items": [
+            "fixed an issue with regular trees in draynor being chopped too far from bank"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

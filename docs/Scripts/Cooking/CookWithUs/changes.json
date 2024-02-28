@@ -1,5 +1,16 @@
 [
-
+    {
+        "date": "2024-02-21",
+        "title": "v1.0.0",
+        "items": [
+            "Performs mainscape 3-tick cooking on a Portable range. Requires a Portable range to already be present within render distance of a bank that supports Load Last Preset.",
+            "Untested regular range and bonfire support added by Cipher",
+            "Supports urns and enhancers",
+            "Supports random delays to look more legitimate",
+            "Supports missing ticks randomly to look more legitimate",
+            "Supports RandomsWithUs for Brooch of the Gods"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

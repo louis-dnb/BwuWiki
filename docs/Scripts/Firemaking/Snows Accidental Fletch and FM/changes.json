@@ -1,5 +1,14 @@
 [
-
+    {
+        "date": "2024-02-8",
+        "title": "v1.0.0",
+        "items": [
+            "now includes all activites within the fletching and firemaking minigame, including: Eggsperimentation, Zygomite Carestyling and Seggregation.",
+            "implemented random delays to look more human with % to go afk quickly",
+            "improved UI",
+            "draw distance minimum distance has been fixed, script will now work regardless of quality detail/draw distance"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

@@ -1,5 +1,19 @@
 [
-
+    {
+        "date": "2024-02-24",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was causing the task complete count to reset to 1 for certain Proteans",
+            "Fixed an issue that was causing the bot to ignore portables for Protean Proteins"
+        ]
+    },
+    {
+        "date": "2024-01-29",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was preventing the bot from using proteans directly from the player's inventory"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

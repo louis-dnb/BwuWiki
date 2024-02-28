@@ -1,5 +1,42 @@
 [
-
+    {
+        "date": "2024-2-13",
+        "title": "v1.0.0",
+        "items": [
+            "Added a failsafe trigger for running out of materials. When the failsafe is triggered, the bot will exit to lobby and auto-login will disable."
+        ]
+    },
+    {
+        "date": "2024-02-1",
+        "title": "v1.0.0",
+        "items": [
+            "Improved overall responsiveness when handling disturbances"
+        ]
+    },
+    {
+        "date": "2024-01-29",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed the placement of Reagent III glyphs",
+            "Fixed an issue that was preventing the bot from cycling between Foundational and Alteration glyphs in the Glyph menu"
+        ]
+    },
+    {
+        "date": "2024-01-23",
+        "title": "v1.0.0",
+        "items": [
+            "Increased reliability of capturing shambling horror",
+            "Added support for defile disturbance"
+        ]
+    },
+    {
+        "date": "2024-01-17",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed shambling horror",
+            "Bot will now ensure candles are placed before starting a ritual"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",
