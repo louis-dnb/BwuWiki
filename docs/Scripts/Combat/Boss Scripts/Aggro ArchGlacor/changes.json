@@ -1,5 +1,20 @@
 [
     {
+        "date": "2024-02-25",
+        "title": "1.28.7",
+        "items": [
+            "Fixed issues with Normal Prayers"
+        ]
+    },
+    {
+        "date": "2024-02-15",
+        "title": "v1.0.0",
+        "items": [
+            "Ruination support",
+            "Better scythe AOE support"
+        ]
+    },
+    {
         "date": "2024-01-27",
         "title": "v1.0.0",
         "items": [

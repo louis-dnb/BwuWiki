@@ -1,5 +1,29 @@
 [
-
+    {
+        "date": "2024-02-27",
+        "title": "v1.0.0",
+        "items": [
+            "added Sara Brews Option",
+            "added Sara brews + Blubber one tick eating option",
+            "added vuln bombs support, will cast vuln bomb on target and refresh",
+            "added smoke cloud, will cast smoke cloud on target and refresh",
+            "added invoke death, will auto invoke death",
+            "added teleporting to wars if out of brews/food and health is low",
+            "added support for combat dummy, Agility dummy and Thieving dummy",
+            "added Start/Stop button in GUI for easy script starting/Stopping",
+            "cleaned up GUI and moved things around for easier finding",
+            "added Penance and Protection powder support",
+            "added Torstol, Lantadyme and Kwuarm incence stick support",
+            "added Logout timer Support - will log out after x amount of time, if in combat, will wait till out of combat and logout"
+        ]
+    },
+    {
+        "date": "2024-02-25",
+        "title": "v1.0.0",
+        "items": [
+            "Now has all skills XP/Level Tracking just like Runemetrics"
+        ]
+    },
      {
         "date": "NA",
         "title": "v1.0.0",

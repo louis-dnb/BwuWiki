@@ -1,5 +1,14 @@
 [
-
+    {
+        "date": "2024-02-18",
+        "title": "v1.0.0",
+        "items": [
+            "fixed premature logout during lag spikes on high populated world",
+            "using proteans does now not require a bank, make sure you have them in inventory when you start script",
+            "gui now shows, levels gained",
+            "added a fastmode that minimizes delays"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

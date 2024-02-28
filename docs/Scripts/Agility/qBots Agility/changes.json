@@ -1,5 +1,13 @@
 [
     {
+        "date": "2024-02-15",
+        "title": "v1.0.0",
+        "items": [
+            "Will now teleport using action bar if the teleport is there",
+            "Script now stops in wilderness course if out of food"
+        ]
+    },
+    {
         "date": "2024-01-11",
         "title": "v1.0.0",
         "items": [

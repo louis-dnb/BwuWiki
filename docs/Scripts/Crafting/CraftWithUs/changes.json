@@ -1,5 +1,12 @@
 [
     {
+        "date": "2024-2-27",
+        "title": "v1.0.0",
+        "items": [
+            "Added a new setting called 'useLoadLastPreset'. If you're a user who is experiencing the backpack interaction bug, uncheck this setting as a temporary workaround."
+        ]
+    },
+    {
         "date": "2024-1-17",
         "title": "v1.0.0",
         "items": [

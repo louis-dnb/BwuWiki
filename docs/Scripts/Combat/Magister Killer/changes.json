@@ -1,5 +1,22 @@
 [
-
+    {
+        "date": "2024-02-27",
+        "title": "v1.0.0",
+        "items": [
+            "Price reduction, $30/mo -> $20/mo"
+        ]
+    },
+    {
+        "date": "2024-02-13",
+        "title": "v1.0.0",
+        "items": [
+            "Added Deflect magic prayer option",
+            "Fixed Walking to portal more human like",
+            "After coming back to wars if health is below 5000 it will wait at bank until health is full again.",
+            "Updated to v2 api",
+            "Added support for all overloads"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

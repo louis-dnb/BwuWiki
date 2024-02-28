@@ -1,5 +1,20 @@
 [
-
+    {
+        "date": "2024-02-24",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was preventing the bot from banking when out of equipment",
+            "Added logic that will stop the bot when out of equipment/bait",
+            "Added feature to override equipment/bait check"
+        ]
+    },
+    {
+        "date": "2024-02-13",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was causing the bot to spam click the fishing destination when traversing for some locations"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

@@ -1,5 +1,41 @@
 [
     {
+        "date": "2024-2-27",
+        "title": "v1.0.0",
+        "items": [
+            "Navigation for Infernal Source Middle and Bottom levels will now use the appropriate menu option when interacting with the digsite's entrance.",
+            "Fixed an issue that was causing the 'quick-bank' logic to not take  Complete tomes, Rex skeleton fragments, and Pylon batteries into account.",
+            "Fixed an issue that'd cause the bot to stand idly when a Dialog prompt was opened but the bot needed to destroy Pylon batteries or Rex skeleton fragments."
+           ]
+    },
+    {
+        "date": "2024-2-24",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was causing inconsistent behavior when entering the Fortress Entrance at the Kharid-Et site"
+
+           ]
+    },
+    {
+        "date": "2024-2-21",
+        "title": "v1.0.0",
+        "items": [
+            "Eating should be fixed",
+            "Added Gnome Stronghold",
+            "Added Watchtower Trellis",
+            "Added northern back and forth in Anachronia"
+
+           ]
+    },
+    {
+        "date": "2024-2-13",
+        "title": "v1.0.0",
+        "items": [
+            "Pylon batteries and Rex Skeleton Fragments are now destroyed upon receiving them",
+            "When using a Dark Facetted GotE necklace, the bot will now continue interacting with your bank, loading your preset and charging the necklace, until it has >1500 charges"
+           ]
+    },
+    {
         "date": "2024-2-7",
         "title": "v1.0.0",
         "items": [
