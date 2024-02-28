@@ -84,6 +84,8 @@ const ChangelogEntry = ({ change, index, isExpanded, onToggleExpand }) => {
             padding: "8px",
             backgroundColor: getCategoryIcon(change.category).color,
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+            maxWidth: "90%", // Set maximum width for the expanded category
+            margin: "auto", // Center the expanded category
           }}
           variant="outlined"
         >
@@ -181,13 +183,14 @@ const Changelog = (props) => {
             marginTop: 8,
           }}
         >
-          <div style={{ display: "flex", marginBottom: 8 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", marginBottom: 8 }}>
             {categories.map((category, index) => (
               <Button
                 key={index}
                 variant="outlined"
                 style={{
                   marginRight: 16,
+                  marginBottom: 8,
                   textDecoration:
                     selectedCategory === category.name ? "underline" : "none",
                   boxShadow:
