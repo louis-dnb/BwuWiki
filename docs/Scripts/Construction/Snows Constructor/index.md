@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Snows Constructor" version="v1.0.6" skill="Construction">
+<TopBanner title="Snows Constructor" version="v1.0.6" author="Snow" skill="Construction">
 </TopBanner>
 
 :::hidden
@@ -40,6 +40,8 @@ import changes from './changes.json'
 > - works with protean planks
 > - auto logout if no planks/portables are detected
 
+![Example](01SnowsConstructor.png)
+
 </ContentBlock>
 
 :::hidden
@@ -50,29 +52,6 @@ import changes from './changes.json'
 <ContentBlock title="Requirements">
 
 - use near a bank chest, if using portables yourself, have it on action bar
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

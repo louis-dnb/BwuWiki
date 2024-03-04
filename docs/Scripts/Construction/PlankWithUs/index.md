@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="PlankWithUs" version="v1.0.6" skill="Construction">
+<TopBanner title="PlankWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Construction">
 </TopBanner>
 
 :::hidden
@@ -40,6 +40,8 @@ import changes from './changes.json'
 > - Makes planks into refined planks
 > - Makes refined planks into frames
 
+![Example](01PlanksWithus.png)
+
 </ContentBlock>
 
 :::hidden
@@ -51,29 +53,6 @@ import changes from './changes.json'
 
 - Create a bank preset
 - Use at fort forinthry
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

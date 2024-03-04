@@ -1,0 +1,34 @@
+[
+    {
+        "date": "2024-02-26",
+        "title": "Release v1.0.0",
+        "items": [
+            "Fixed rare nullpointer while handling nutritious gas",
+            "Minor visibility improvements to stats UI",
+            "Added persistent UI settings feature"
+        ]
+    },
+    {
+        "date": "2024-02-24",
+        "title": "Release v1.0.0",
+        "items": [
+            "Gathers flowers from bushes at Het's Oasis",
+            "Supports all 4 bush types: Rose, Iris, Hydrangea, Hollyhock",
+            "Disperses nutritious gas",
+            "Shoo's pesty scarabs",
+            "Tracks many stats: xp, levels gained, flowers collected, etc. Totals and per/hr.",
+            "Minimum level 30 farming",
+            "Free on the SDN"
+        ]
+    },
+     {
+        "date": "2024-02-24",
+        "title": "Release v1.0.0",
+        "items": [
+            "Gathers flowers from bushes at Het's Oasis",
+            "Supports all 4 bush types: Rose, Iris, Hydrangea, Hollyhock",
+            "Disperses nutritious gas and shoo's scarabs",
+            "Tracks stats"
+        ]
+    }
+]

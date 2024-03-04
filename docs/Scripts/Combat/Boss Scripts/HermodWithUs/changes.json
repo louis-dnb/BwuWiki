@@ -1,0 +1,17 @@
+[
+    {
+        "date": "2024-02-27",
+        "title": "v1.0.0",
+        "items": [
+            "The bot will now check if the runes for Invoke Death are within the player's backpack before using the ability.",
+            "Fixed an issue that was causing the bot to spam the Invoke Death under certain conditions."
+        ]
+    },
+     {
+        "date": "2024-01-26",
+        "title": "v1.0.0",
+        "items": [
+            "Release"
+        ]
+    }
+]

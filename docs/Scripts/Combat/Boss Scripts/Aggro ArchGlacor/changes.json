@@ -1,0 +1,41 @@
+[
+    {
+        "date": "2024-02-25",
+        "title": "1.28.7",
+        "items": [
+            "Fixed issues with Normal Prayers"
+        ]
+    },
+    {
+        "date": "2024-02-15",
+        "title": "v1.0.0",
+        "items": [
+            "Ruination support",
+            "Better scythe AOE support"
+        ]
+    },
+    {
+        "date": "2024-01-27",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed bone shield -> stopping after Resonance",
+            "If the script is stopped for no shield, it will tele first.",
+            "Stops running for beams, if the boss is dead",
+            "Fixed Ancient Shard not working sometimes."
+        ]
+    },
+    {
+        "date": "2024-01-11",
+        "title": "v1.0.0",
+        "items": [
+            "Updated NA"
+        ]
+    },
+     {
+        "date": "2024-01-26",
+        "title": "v1.0.0",
+        "items": [
+            "Release"
+        ]
+    }
+]

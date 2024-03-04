@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="ChopWithUs" version="v1.0.6" skill="Woodcutting">
+<TopBanner title="ChopWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Woodcutting">
 </TopBanner>
 
 :::hidden
@@ -41,6 +41,10 @@ import changes from './changes.json'
 > - Picks up bird nests
 > - Stat tracker
 
+![Example](01ChopWithUs.png)
+![Example](02ChopWithUs.png)
+![Example](03ChopWithUs.png)
+
 ##### Supported Logs
 
 - Logs, Oak, Willow, Teak, Mahogany, Acadia, Maple, Yew, Magic, Ivy
@@ -60,29 +64,6 @@ import changes from './changes.json'
 <ContentBlock title="Requirements">
 
 - Start within ~75 tiles of your desired chopping area, near the bank.
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 
