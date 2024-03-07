@@ -9,11 +9,19 @@
 
   },
   {
-"date": "2024-03-06",
+    "date": "2024-03-06",
     "title": "v1.0.6",
     "items": [
       "Fixes: Bank UI Crash prevented by using Load Last preset instead of navigating the bank interface."
     ]
+  },
+  {
+    "date": "2024-03-07",
+    "title": "v1.0.7",
+    "items": [
+      "Fixes: A crash which could occur after interacting with Karim's Dialogue interface."
+    ]
   }
+
 
 ]
