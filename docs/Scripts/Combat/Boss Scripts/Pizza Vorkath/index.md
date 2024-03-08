@@ -153,6 +153,7 @@ import changes from './changes.json'
 > - Make sure when making an instance for vorkath that ur player count is set to 1
 > - Make sure you have plenty of divine charges/book charges/runes and other items to run for a long time.
 > - Make sure if you are using a reaver to set the autofire rate to 3-6.
+> - If using auras make sure ur aura mangment is NOT in list view
 
 </details>
 
