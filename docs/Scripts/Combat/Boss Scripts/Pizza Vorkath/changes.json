@@ -1,0 +1,21 @@
+[
+    {
+        "date": "2024-01-26",
+        "title": "v1.0.1",
+        "items": [
+            "fixed prism spam",
+            "fixed delay on teleport after killing vorky",
+            "fixed dive cd check",
+            "added option for regular/super adrens",
+            "added a button for starting/stopping script",
+            "added Regular/Super Adren option."
+             ]
+    },
+    {
+        "date": "2024-01-26",
+        "title": "v1.0.0",
+        "items": [
+            "Release"
+        ]
+    }
+]
