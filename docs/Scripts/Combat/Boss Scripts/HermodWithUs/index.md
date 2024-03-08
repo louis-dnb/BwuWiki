@@ -1,6 +1,6 @@
 ---
 title: HermodWithUs
-description: Example.
+description: Kills Hermond.
 # Slug is the URL path for this page.
 slug: /HermodWithUs
 ---
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="HermodWithUs" version="v1.0.6" skill="Necromancy">
+<TopBanner title="HermodWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -43,39 +43,9 @@ import changes from './changes.json'
 > - Banking via War's Retreat
 > - Instance configuration
 
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-- example
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](01HermodWithUs.png)
+![Example](02HermodWithUs.png)
+![Example](03HermodWithUs.png)
 
 </ContentBlock>
 

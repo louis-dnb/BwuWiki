@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Magister Killer" version="v1.0.6" skill="Necromancy">
+<TopBanner title="Magister Killer" version="v1.0.6" author="Gibson" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -37,6 +37,9 @@ import changes from './changes.json'
 
 > - Kills magister efficiently. High level and requirements needed
 
+![Example](01MagisterKiller.png)
+![Example](02MagisterKiller.png)
+
 </ContentBlock>
 
 :::hidden
@@ -58,29 +61,6 @@ import changes from './changes.json'
 8. Make sure Prayers/Darkness are on the action bar.
    Make sure the Wars Retreat Portal is set to the Magister.
    Make sure you loaded the preset with the correct gear and inventory first.
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

@@ -1,6 +1,6 @@
 ---
 title: FletchWithUs
-description: Example.
+description: Fleches logs.
 # Slug is the URL path for this page.
 slug: /FletchWithUs
 ---
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="letchWithUs" version="v1.0.6" skill="Fletching">
+<TopBanner title="FletchWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Fletching">
 </TopBanner>
 
 :::hidden
@@ -40,6 +40,8 @@ import changes from './changes.json'
 > - Logs out when out of supplies
 > - Optionally make use of deployed portables
 
+![Example](01FlechWithUs.png)
+
 </ContentBlock>
 
 :::hidden
@@ -51,29 +53,6 @@ import changes from './changes.json'
 
 - Use near a bank chest/banker
 - Load your preset with the proper resources (i.e if making unfinished bows, have logs of a level you can fletch)
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Example" version="v1.0.6" skill="Divination">
+<TopBanner title="DivinationWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Divination">
 </TopBanner>
 
 :::hidden
@@ -36,40 +36,7 @@ import changes from './changes.json'
 <ContentBlock title="Features">
 
 > - Supports all main locations. Efficient prioritization of wisps/springs/enriched. Collects chronicles & Butterflies. Configurable gather type and more!
-
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-- none
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+>   ![Example](01DivinationWithUs.png) > ![Example](02DivinationWithUs.png)
 
 </ContentBlock>
 

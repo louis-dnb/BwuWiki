@@ -1,5 +1,41 @@
 [
-
+    {
+        "date": "2024-2-27",
+        "title": "v1.0.0",
+        "items": [
+            "Added a new setting called 'useLoadLastPreset'. If you're a user who is experiencing the backpack interaction bug, uncheck this setting as a temporary workaround."
+        ]
+    },
+    {
+        "date": "2024-1-17",
+        "title": "v1.0.0",
+        "items": [
+            "Now tracks Necromancy XP when creating necroplasm"
+        ]
+    },
+    {
+        "date": "2023-12-30",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue that was causing the bot to load preset 1 when a preset wasn't configured to be used",
+            "Fixed an issue that was preventing the creation of Ring of Slaying (8)"
+        ]
+    },
+    
+    {
+        "date": "2023-12-28",
+        "title": "v1.0.0",
+        "items": [
+            "Added option to craft Regular, Greater, and Powerful Ghostly Ink"
+        ]
+    },
+    {
+        "date": "2023-12-16",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed cutting gems directly from inventory"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

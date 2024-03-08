@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Incense Stick Maker" version="v1.0.6" skill="Firemaking">
+<TopBanner title="Incense Stick Maker" version="v1.0.6" author="Sadness" skill="Firemaking">
 </TopBanner>
 
 :::hidden
@@ -41,6 +41,8 @@ import changes from './changes.json'
 > - 2. Ash Incense Sticks: Adding ash to the crafted incense sticks
 > - 3. Herb Incense Sticks: Adding the herb to the ashed incense sticks, completing the process
 
+![Example](01IncenseStickMaker.png)
+
 </ContentBlock>
 
 :::hidden
@@ -57,30 +59,7 @@ To start:
     - 13 incense sticks and 26 ashes (2:1 ratio)
     - 27 incense sticks and 27 of the corresponding herb
 2.  Select one of the three script options and it's corresponding preset
-3.           Click start script
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+3.              Click start script
 
 </ContentBlock>
 

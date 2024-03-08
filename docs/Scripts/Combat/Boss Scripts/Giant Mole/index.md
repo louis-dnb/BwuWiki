@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Giant mole" version="v1.0.0" skill="Necromancy">
+<TopBanner title="Giant mole" version="v1.0.0" author="KBD" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -36,41 +36,9 @@ import changes from './changes.json'
 <ContentBlock title="Features">
 
 > - Kills Giant mole up to 3 times before banking.
->   \*NOT suggested for low level combat
+>   NOT suggested for low level combat
 
-</ContentBlock>
-
-:::hidden
-
-## Requirements
-
-:::
-<ContentBlock title="Requirements">
-
-- example
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
+![Example](01GiantMole.png)
 
 </ContentBlock>
 

@@ -31,6 +31,11 @@ input format:
 :::
 
 </ContentBlock>
+:::hidden
+
+## Data Table
+
+:::
 <VarTable variables={names}>
 
 </VarTable>

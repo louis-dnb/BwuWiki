@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="gh0st summoner" version="v1.0.6" skill="Summoning">
+<TopBanner title="gh0st summoner" version="v1.0.6" author="Ghost" skill="Summoning">
 </TopBanner>
 
 :::hidden
@@ -39,6 +39,10 @@ import changes from './changes.json'
 > - Uses auto item selector (Important: please ensure item requirements are in inventory)
 > - Script will shut down when out of ingredients by logging you to lobby.
 
+![Example](01gh0stsummoner.png)
+![Example](02gh0stsummoner.png)
+![Example](03gh0stsummoner.png)
+
 ## Locations Supported
 
 - **Priffddinas** (recommended: Attuned Crystal Teleport Seed equipped + on action bar, item is NOT required)
@@ -61,29 +65,6 @@ import changes from './changes.json'
   - Charms
   - Pouches
   - Item ingredients
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 

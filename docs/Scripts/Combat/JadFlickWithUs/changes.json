@@ -1,7 +1,15 @@
 [
-
+    {
+        "date": "2024-02-18",
+        "title": "v1.0.0",
+        "items": [
+            "A free utility background script that flicks between deflect ranged/magic prayers",
+            "Only designed for 1 jad at a time",
+            "Open source, written in Kotlin based off the skeleton: https://github.com/BotWithUs/BwuJadFlicker "
+        ]
+    },
      {
-        "date": "2024-01-26",
+        "date": "NA",
         "title": "v1.0.0",
         "items": [
             "Release"

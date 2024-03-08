@@ -1,0 +1,21 @@
+[
+    {
+        "date": "2024-02-22",
+        "title": "v1.0.0",
+        "items": [
+            "Gem Mining Script for Al Kharid location",
+            "Free on SDN",
+            "Open source: https://github.com/unknownname/Crafting",
+            "Togglable Feature Config Tab:",
+            "Mystical Sand Seed (True by Default ), should be placed in inventory and on action bar.",
+            "War Retreat Teleport (True by default),required on action bar"
+        ]
+    },
+     {
+        "date": "2024-01-26",
+        "title": "v1.0.0",
+        "items": [
+            "Release"
+        ]
+    }
+]

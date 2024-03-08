@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Safe Cracker" version="v1.0.6" skill="Thieving">
+<TopBanner title="Safe Cracker" version="v1.0.6" author="pzoot" skill="Thieving">
 </TopBanner>
 
 :::hidden
@@ -39,6 +39,11 @@ import changes from './changes.json'
 > - Contains prests of optimal safe routes for all levels 62-99
 > - Will trade in loot for coins/pilfer points
 
+![Example](01SafeCracker.png)
+![Example](02SafeCracker.png)
+![Example](03SafeCracker.png)
+![Example](04SafeCracker.png)
+
 </ContentBlock>
 
 :::hidden
@@ -51,29 +56,6 @@ import changes from './changes.json'
 - 62 thieving
 - basic lodestones unlocked
 - A Guild of Our Own quest complete\
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 
