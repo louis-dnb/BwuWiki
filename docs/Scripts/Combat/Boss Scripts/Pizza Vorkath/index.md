@@ -79,7 +79,6 @@ import changes from './changes.json'
 > - Ancient Summoning unlocked for Blood Reaver (Default) Or Hellhound (Toggle).
 > - 99+ Necromancy and all necromancy abilities and incantations unlocked from the well of Souls.
 > - Overloads and Antifire protection potions (overload Salves cover this requirement).
-> - 118 archaeology for Conservation of Energy (or boost from 110).
 > - Jas book OR Erethidors Grimiore.
 > - Adrenline pots idealy renewals.
 > - Atleast 1 Vorkath kill to unlock Hardmode + the Portal
@@ -97,6 +96,8 @@ import changes from './changes.json'
 > - Smoke cloud requires Ingenuity of the Humans also.
 > - Protection powders(From Whirligigs at Hets Oasis OR GE)
 > - Access to Mahjarat and other auras (Supreme Invigorate, Vampyrism, Dark Magic, Inspiration)
+> -  118 archaeology for Conservation of Energy (or boost from 110).
+
 
 </ContentBlock>
 </ContentBlock>
