@@ -8,11 +8,11 @@ slug: /introduction
 import React from 'react';
 import TopBanner from '@site/src/components/TopBanner';
 import ContentBlock from '@site/src/components/ContentBlock';
-import Changelog from '@site/src/components/Changelog';
+import ChangelogIntro from '@site/src/components/ChangelogIntro';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Introduction" skill="hello">
+<TopBanner title="Introduction" skill="hello" showversion={false} showauthor={false}>
 </TopBanner>
 :::hidden
 
@@ -66,7 +66,7 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 | Staff     | Cipher       | @ciphers.   |542130351535816734|
 | Staff     | Sudo         | @sudopro    |184095892377174016|
 | Staff     | ARMAR X K1NG | @armarxk1ng |206909863928791041|
-| Staff     | Timmy        | @timmyb     |83203731226628096 |
+| Staff     | Timmy        | @timmy     |83203731226628096 |
 | Web Dev   | offline      | @anjato     |200439921549377536|
 | Moderator | KBD          | @KBD        |132004845275054081|
 </div>
@@ -78,6 +78,6 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 
 :::
 
-<Changelog changes={changes}>
+<ChangelogIntro changes={changes}>
 
-</Changelog>
+</ChangelogIntro>

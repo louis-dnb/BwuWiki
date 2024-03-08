@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Website Redesign 2.0",
+    "status": "In-progress",
+    "category": "Website",
+    "description": "We're embarking on a journey to revamp the website, aiming for a modern and sleek appearance. The upcoming enhancements encompass a range of features, such as:\n\n- **Improved Design Elements:** Elevating the visual appeal with enhanced design elements.\n\n- **New Script Market:**\n  - *Direct Linking to Wiki:* Seamlessly connect to relevant information.\n  - *Flexible Script Purchases:* Acquire scripts for varying durations.\n  - *Rating and Comments:* Express your opinions with a 5-star rating system and leave comments.\n  - *Script Metrics Overview:* Gain insights into script performance.\n\n- **Streamlined Payment Page:**\n  Simplifying your transactions with a unified cart system, allowing you to add items and complete a single transaction for all your needs.\n\n\n\n- **User Profile Section:**\n  Access a consolidated view of user data, encompassing payment history and current subscriptions.\n\nThese upgrades are geared towards providing a more seamless and enriched user experience.",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "title": "Loader 2.0",
+    "status": "In-progress",
+    "category": "Loader",
+    "description": "Exploring innovative features and improvements. While the details are still in development, we envision a range of enhancements that will elevate the user experience. Stay tuned for updates as we progress through the planning and implementation stages.\n\n- **Improved Design Elements:** Our commitment to enhancing visual appeal and user experience remains a top priority. Expect a more modern and streamlined appearance with refined design elements.\n\n- **Fix for Jagex Accounts:** Ensuring a seamless connection is crucial, particularly for Jagex accounts. This update will be specifically tailored to address any launching issues related to Jagex accounts.\n\n- **Tabbed Clients:** Simplify your navigation experience with the introduction of tabbed clients. Whether managing multiple accounts or seamlessly switching between different tasks, the tabbed clients feature adds a layer of convenience to your usage.\n\n- **Increased Security:** Your security is our top priority. We're implementing enhanced security measures to fortify the protection of both clients and their valuable data.\n\n- **Better Loader Updates:** Experience a smoother and more user-friendly update process. Our aim is to ensure seamless integration and minimal disruption during loader updates.\n\n- **Script Market:** Explore, add, search, and browse all our script listings without leaving the launcher or client. The Script Market offers a seamless experience for discovering and managing scripts directly from the launcher.\n\n- **Remember Me Option:** Bid farewell to frequent logins. With the new \"Remember Me\" option, enjoy a more streamlined experience by eliminating the need to repeatedly log in.\n\n- **Proxy Support:** Enhance your security and privacy with added proxy support. The upcoming update includes proxy integration, offering users the ability to utilize proxies seamlessly within the client for an added layer of protection.\n\n- **Push Notifications:** Stay informed in real-time with push notifications. Receive timely updates and alerts directly through the client, ensuring that you are always in the loop and aware of important information.\n\n- **Scheduled Client Reloads:** Customize your experience with scheduled client reloads. This feature allows users to automate client reloads at specified intervals, ensuring optimal performance and efficiency without manual intervention.\n\n- **Multi-launch:** Simplify your account management with multi-launch capabilities. Tick all the accounts you want to launch and hit a single button, making it easy to launch multiple accounts simultaneously for a more efficient and streamlined user experience."
+  },
+  {
+    "id": 3,
+    "title": "Java Update",
+    "status": "In-progress",
+    "category": "Client",
+    "description": "We are excited to announce that we are in the process of upgrading to Java 22. This update brings a range of improvements, including enhanced security features, performance optimizations, and new functionalities. The transition to Java 22 aligns with our commitment to staying current with the latest technology, ensuring our software remains robust and up-to-date. "
+  },
+  {
+    "id": 4,
+    "title": "User Metrics Dashboard",
+    "status": "Idea Building",
+    "category": "Website",
+    "description": "Explore comprehensive metrics related to your accounts.  Inlcudes Exp gained,script runtimes."
+  },
+  {
+    "id": 5,
+    "title": "Create a Wiki",
+    "status": "Completed",
+    "category": "Website",
+    "description": "Set up and establish a comprehensive wiki system to enhance the overall user experience."
+  },
+  {
+    "id": 6,
+    "title": "Price Reworking",
+    "status": "Idea Building",
+    "category": "Website",
+    "description": "Engage in comprehensive discussions and collaborative efforts aimed at refining and enhancing pricing options for both client services and script sales. This initiative seeks to explore and implement strategies that not only align with client needs but also optimize the monetization potential of script sales. The overarching goal is to create a pricing structure that is not only competitive but also reflective of the value provided to clients and the inherent quality of the scripts."
+  }
+]

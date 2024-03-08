@@ -1,10 +1,19 @@
 [
 
-     {
-        "date": "2024-01-26",
-        "title": "v1.0.0",
-        "items": [
-            "Release"
-        ]
-    }
+  {
+    "date": "2024-01-26",
+    "title": "v1.0.0",
+    "items": [
+      "Release"
+    ]
+
+  },
+  {
+"date": "2024-03-06",
+    "title": "v1.0.6",
+    "items": [
+      "Fixes: Bank UI Crash prevented by using Load Last preset instead of navigating the bank interface."
+    ]
+  }
+
 ]

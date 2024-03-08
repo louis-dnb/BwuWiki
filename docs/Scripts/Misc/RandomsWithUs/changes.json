@@ -1,5 +1,11 @@
 [
-
+    {
+        "date": "2024-01-30",
+        "title": "v1.0.0",
+        "items": [
+            "Fixed an issue with persistent data corrupting"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

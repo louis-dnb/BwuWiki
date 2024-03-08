@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Pizzas Barrows " version="v1.3" skill="Necromancy">
+<TopBanner title="Pizzas Barrows " version="v1.3" author="Pizza" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -35,10 +35,10 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-
 > - **Barrows Brother Script**: Designed to complete the Barrows Brothers minigame.
 > - **Customizable Settings**: Tailor the bot's settings to suit individual goals.
 > - **Safety Features**: Various failsafes to ensure you don't die or get stuck.
+
 <details>
 <summary><strong>Safety Features Details</strong></summary>
 
@@ -57,8 +57,6 @@ import changes from './changes.json'
 ![Settings](BarrowBrothersSettings.png)
 
 </details>
-
-
 
 </ContentBlock>
 
@@ -80,7 +78,9 @@ import changes from './changes.json'
 
 :::
 <ContentBlock title="Setup">
+
 > Follow these steps to prepare for using the script:
+>
 > - **Start at War's Retreat.**
 > - **Load a preset** with some food and a way to replenish prayer, using 'Load last preset'.
 > - Ensure your preset has **enough free spaces for loot**; it will not clear space automatically.
@@ -98,8 +98,6 @@ import changes from './changes.json'
 
 </details>
 
-
-
 ### Additional Tips for Script Usage
 
 > - **Puzzle Navigation:** If you run into navigation issues within the tunnels, consider increasing your 'Draw Distance' in the game settings and restart your client. This helps with smoother script operation.
@@ -110,12 +108,9 @@ import changes from './changes.json'
 
 > - **Surge Solutions:** Solutions for surges have been simplified out of lazyness. They may not always work perfectly, so your understanding is appreciated (If faraway surge).
 
-> - **Feedback and Bug Reporting:** If you detect any glitches or bugs, or if there are improvements you believe could be made, please do not hesitate to inform me. 
+> - **Feedback and Bug Reporting:** If you detect any glitches or bugs, or if there are improvements you believe could be made, please do not hesitate to inform me.
 
 Thank you, and best of luck with your adventures!
-
-
-
 
 </ContentBlock>
 

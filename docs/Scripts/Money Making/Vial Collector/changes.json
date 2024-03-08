@@ -1,5 +1,11 @@
 [
-
+    {
+        "date": "2024-02-8",
+        "title": "v1.0.0",
+        "items": [
+            "Optimized the code and switched to using bot states"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",

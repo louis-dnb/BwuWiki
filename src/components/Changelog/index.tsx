@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -16,8 +17,18 @@ import ContentBlock from "../ContentBlock";
 import "./styles.module.css";
 
 export default function Changelog(props) {
-  // You can fully customize this implementation
-  // including changing the JSX, CSS and React hooks
+  const [expandedEntries, setExpandedEntries] = useState([]);
+
+  const handleToggleExpand = (index) => {
+    setExpandedEntries((prevExpanded) => {
+      if (prevExpanded.includes(index)) {
+        return prevExpanded.filter((item) => item !== index);
+      } else {
+        return [...prevExpanded, index];
+      }
+    });
+  };
+
   return (
     <>
       <ContentBlock title="Changelog">
@@ -28,8 +39,8 @@ export default function Changelog(props) {
             },
           }}
         >
-          {props.changes.map((change) => (
-            <TimelineItem>
+          {props.changes.map((change, index) => (
+            <TimelineItem key={index}>
               <TimelineOppositeContent>
                 <h3 style={{ marginTop: 10 }}>{change.date}</h3>
               </TimelineOppositeContent>
@@ -51,22 +62,29 @@ export default function Changelog(props) {
                   }}
                   variant="outlined"
                 >
-                  <h3 style={{ paddingLeft: 16, paddingTop: 8 }}>
+                  <h3
+                    style={{
+                      paddingLeft: 16,
+                      paddingTop: 8,
+                      cursor: "pointer",
+                    }}
+                    onClick={() => handleToggleExpand(index)}
+                  >
                     {change.title}
                   </h3>
-                  <List>
-                    {change.items.map((item) => (
-                      <>
-                        <ListItem style={{ fontSize: 18 }}>
+                  {index < 3 || expandedEntries.includes(index) ? (
+                    <List>
+                      {change.items.map((item, itemIndex) => (
+                        <ListItem key={itemIndex} style={{ fontSize: 18 }}>
                           <LabelTwoToneIcon
                             fontSize="medium"
                             style={{ marginRight: 12, alignSelf: "flex-start" }}
                           />
                           {item}
                         </ListItem>
-                      </>
-                    ))}
-                  </List>
+                      ))}
+                    </List>
+                  ) : null}
                 </Paper>
               </TimelineContent>
             </TimelineItem>

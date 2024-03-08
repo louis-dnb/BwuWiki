@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="BurialsPowderHelper" version="v1.0.6" skill="Prayer">
+<TopBanner title="BurialsPowderHelper" version="v1.0.6" author="louisdnb1" skill="Prayer">
 </TopBanner>
 
 :::hidden
@@ -38,6 +38,9 @@ import changes from './changes.json'
 > - Bury bones and scatter ashes using Powder of burials.
 > - This script only works with Bank chest.
 
+![Example](01BurialsPowderHelper.png)
+![Example](02BurialsPowderHelper.png)
+
 </ContentBlock>
 
 :::hidden
@@ -50,9 +53,9 @@ import changes from './changes.json'
 - Stand close to a Bank chest.
 - Load the preset you want to use before starting the script.
 - A preset containing the following items:
-    - Powder of burials
-    - Any type of bones
-    - Any type of ashes (optional)
+  - Powder of burials
+  - Any type of bones
+  - Any type of ashes (optional)
 
 </ContentBlock>
 
@@ -79,10 +82,10 @@ import changes from './changes.json'
 <summary>UI Settings Guide</summary>
 
 - Settings
-    - Logout when out of bones: this option will automatically logout your account when out of bones.
+  - Logout when out of bones: this option will automatically logout your account when out of bones.
 - Debug
-    - Min Script Delay: this will change the minimum delay in the onLoop function.
-    - Max Script Delay: this will change the maximum delay in the onLoop function.
+  - Min Script Delay: this will change the minimum delay in the onLoop function.
+  - Max Script Delay: this will change the maximum delay in the onLoop function.
 
 </details>
 

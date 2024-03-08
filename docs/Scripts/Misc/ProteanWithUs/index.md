@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="ProteanWithUs" version="v1.0.6" skill="Necromancy">
+<TopBanner title="ProteanWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -37,6 +37,8 @@ import changes from './changes.json'
 
 > - Supports all proteans that can be consumed via Portable or directly in inventory
 
+![Example](01ProteanWithus.png)
+
 </ContentBlock>
 
 :::hidden
@@ -47,29 +49,6 @@ import changes from './changes.json'
 <ContentBlock title="Requirements">
 
 - have proteans in your inventory.
-
-</ContentBlock>
-
-:::hidden
-
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
 
 </ContentBlock>
 
