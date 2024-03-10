@@ -51,6 +51,7 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 0.1.6
 ```
 
+:::
 </ContentBlock>
 
 :::hidden
