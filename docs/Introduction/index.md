@@ -25,18 +25,15 @@ import changes from './changes.json'
 Non-Jagex accounts: ✅ |
 Jagex Accounts: ✅ |
 Google accounts: ✅ |
-Steam: 🔴
+Steam: ✅
 </div>
-:::warning Jagex accounts
-Jagex accounts are currently manually injected due to an update to the Jagex launcher. An elegant solution is in progress.
-:::
 
 # Current API Versions:
 
 :::tip The current version of the core API is:
 
 ```kotlin
-net.botwithus.rs3:botwithus-api:1.0.0-20240213.053515-21
+net.botwithus.rs3:botwithus-api:1.0.0-20240310.003809-28
 ```
 
 :::
@@ -48,6 +45,11 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 ```
 
 :::
+
+:::tip The current version of the loader is:
+```kotlin
+0.1.6
+```
 
 </ContentBlock>
 
