@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Agility AIO" version="v0.01-1" author="KBD" skill="Agility">
+<TopBanner title="Agility AIO" version="v0.03" author="KBD" skill="Agility">
 </TopBanner>
 
 :::hidden
@@ -31,7 +31,6 @@ import changes from './changes.json'
 - Agility Pyramid
 - Penguin Agility Course
 - Anachronia: Beginner island travel
-- Barbarian Outpost Agility Course
 - Agility Arena - High-level obstacles
 - Ape Atoll Agility Course
 - Anachronia: Novice island travel
@@ -66,6 +65,7 @@ import changes from './changes.json'
 <details>
 <summary> Finished Courses & Activities</summary>
 - Gnome Agility Course
+- Barbarian Outpost Agility Course
 
 </details>
 

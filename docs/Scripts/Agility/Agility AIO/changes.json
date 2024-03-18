@@ -1,5 +1,21 @@
 [
-
+	{
+	"date": "2024-03-17 7:24pm",
+        "title": "v0.03",
+        "items": [
+			"Full rewrite",
+			"Removed courses from AgilityScript",
+			"Courses are now individual files",
+			"Forced failsafe for HCIM/Ironman",
+			"If AIO is enabled(resets course selection) & vise versa",
+			"Added account type check",
+			"Added Health Check",
+			"Added Bank(LLPf(for food))",
+			"Added lap counter",
+			"Added time till level up",
+			"Added xp per hour"
+        ]
+    },
      {
         "date": "2024-03-11 5:02pm",
         "title": "v0.01-1",
