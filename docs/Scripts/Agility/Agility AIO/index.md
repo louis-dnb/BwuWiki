@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Agility AIO" version="v0.03" author="KBD" skill="Agility">
+<TopBanner title="Agility AIO" version="v0.04" author="KBD" skill="Agility">
 </TopBanner>
 
 :::hidden
