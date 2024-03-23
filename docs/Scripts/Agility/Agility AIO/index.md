@@ -37,7 +37,6 @@ import changes from './changes.json'
 - Wilderness Agility Course
 - Werewolf Agility Course
 - Statues in the Bandos Throne Room
-- Het's Oasis Agility Course
 - Anachronia: Advanced island travel
 - Hefin Serenity Posts
 - Hefin Agility Course
@@ -66,6 +65,7 @@ import changes from './changes.json'
 <summary> Finished Courses & Activities</summary>
 - Gnome Agility Course
 - Barbarian Outpost Agility Course
+- Het's Oasis Agility Course
 
 </details>
 
