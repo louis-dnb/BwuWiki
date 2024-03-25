@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Agility AIO" version="v0.04" author="KBD" skill="Agility">
+<TopBanner title="Agility AIO" version="v1.0-r1" author="KBD" skill="Agility">
 </TopBanner>
 
 :::hidden
@@ -41,9 +41,8 @@ import changes from './changes.json'
 - Hefin Serenity Posts
 - Hefin Agility Course
 - Dorgesh-Kaan Agility Course
-- Advanced Gnome Stronghold Course
 - Anachronia: Island-wide agility Course
-- Advanced Barbarian Outpost Course
+
 
 </details>
 
@@ -66,6 +65,8 @@ import changes from './changes.json'
 - Gnome Agility Course
 - Barbarian Outpost Agility Course
 - Het's Oasis Agility Course
+- Advanced Barbarian Outpost Course
+- Advanced Gnome Stronghold Course
 
 </details>
 

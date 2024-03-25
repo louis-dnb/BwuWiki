@@ -1,4 +1,13 @@
 [
+{
+	"date": "2024-03-24 5:55am",
+        "title": "v1.0-r1",
+        "items": [
+			"Added Advanced Barbarian Outpost Agility Course",
+			"Added Advanced Gnome Stronghold Agility Course",
+			"Added Support button"
+        ]
+    },
 	{
 	"date": "2024-03-23 9:55am",
         "title": "v0.04",
