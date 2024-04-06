@@ -30,9 +30,7 @@ import changes from './changes.json'
 - Agility Arena - Medium-level obstacles
 - Agility Pyramid
 - Ape Atoll Agility Course
-- Burthorpe Agility Course
 - Dorgesh-Kaan Agility Course
-- Hefin Agility Course
 - Hefin Serenity Posts
 - Penguin Agility Course
 - Statues in the Bandos Throne Room
@@ -65,7 +63,9 @@ import changes from './changes.json'
 - Anachronia: Island-wide agility Course
 - Anachronia: Novice island travel
 - Barbarian Outpost Agility Course
+- Burthorpe Agility Course
 - Gnome Agility Course
+- Hefin Agility Course
 - Het's Oasis Agility Course
 
 </details>
