@@ -80,7 +80,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - Unavailable
+> - Currently 8 coins + cost of membership
 
 </ContentBlock>
 
