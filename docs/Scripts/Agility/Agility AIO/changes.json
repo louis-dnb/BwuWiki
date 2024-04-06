@@ -1,5 +1,18 @@
 [
 	{
+	"date": "2024-04-6 6:45am",
+        "title": "v1.1-r1",
+        "items": [
+			"Added: Anachronia: Beginner island travel",
+			"Added: Anachronia: Novice island travel",
+			"Added: Anachronia: Advanced island travel",
+			"Added: Anachronia: Island-wide agility Course(Supports: Double Surge & Brawling gloves (Agility))",
+			"Added: Wiki button",
+			"Moved: Intructions to seperate tab"
+
+        ]
+    },
+	{
 	"date": "2024-03-25 12:05pm",
         "title": "v1.0-r2",
         "items": [
