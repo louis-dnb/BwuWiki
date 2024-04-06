@@ -26,47 +26,47 @@ import changes from './changes.json'
 <details>
 <summary> Unfinished Courses</summary>
 - Agility Arena - Entry-level obstacles
-- Burthorpe Agility Course
+- Agility Arena - High-level obstacles
 - Agility Arena - Medium-level obstacles
 - Agility Pyramid
-- Penguin Agility Course
-- Agility Arena - High-level obstacles
 - Ape Atoll Agility Course
-- Wilderness Agility Course
-- Werewolf Agility Course
-- Statues in the Bandos Throne Room
-- Hefin Serenity Posts
-- Hefin Agility Course
+- Burthorpe Agility Course
 - Dorgesh-Kaan Agility Course
+- Hefin Agility Course
+- Hefin Serenity Posts
+- Penguin Agility Course
+- Statues in the Bandos Throne Room
+- Werewolf Agility Course
+- Wilderness Agility Course
 
 
 </details>
 
 <details>
 <summary> Unfinished Activities</summary>
-- Werewolf Skullball
-- Gnome Ball
-- Toy mouse
-- Penguin suit
-- Blast Furnace
 - Barbarian Fishing
+- Blast Furnace
+- Gnome Ball
 - Livid Farm
+- Penguin suit
 - Serenity posts
+- Toy mouse
+- Werewolf Skullball
 
 
 </details>
 
 <details>
 <summary> Finished Courses & Activities</summary>
-- Gnome Agility Course
-- Barbarian Outpost Agility Course
-- Het's Oasis Agility Course
 - Advanced Barbarian Outpost Course
-- Anachronia: Novice island travel
-- Anachronia: Beginner island travel
-- Anachronia: Advanced island travel
-- Anachronia: Island-wide agility Course
 - Advanced Gnome Stronghold Course
+- Anachronia: Advanced island travel
+- Anachronia: Beginner island travel
+- Anachronia: Island-wide agility Course
+- Anachronia: Novice island travel
+- Barbarian Outpost Agility Course
+- Gnome Agility Course
+- Het's Oasis Agility Course
 
 </details>
 
