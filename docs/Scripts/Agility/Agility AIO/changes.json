@@ -1,5 +1,61 @@
 [
+	{
+	"date": "2024-04-6 6:45am",
+        "title": "v1.1-r1",
+        "items": [
+			"Added: Anachronia: Beginner island travel",
+			"Added: Anachronia: Novice island travel",
+			"Added: Anachronia: Advanced island travel",
+			"Added: Anachronia: Island-wide agility Course(Supports: Double Surge & Brawling gloves (Agility))",
+			"Added: Wiki button",
+			"Moved: Intructions to seperate tab"
 
+        ]
+    },
+	{
+	"date": "2024-03-25 12:05pm",
+        "title": "v1.0-r2",
+        "items": [
+			"Changed banking location to Archaeology guild",
+			"Adjusted Nav if AIO = Enabled (Gnome agility -> seers -> barbarian outpost agility",
+			"*previously would try to take shortcut north of Gnome agility without required level",
+			"Added food count to console printout"
+        ]
+    },
+	{
+	"date": "2024-03-24 5:55am",
+        "title": "v1.0-r1",
+        "items": [
+			"Added Advanced Barbarian Outpost Agility Course",
+			"Added Advanced Gnome Stronghold Agility Course",
+			"Added Support button"
+        ]
+    },
+	{
+	"date": "2024-03-23 9:55am",
+        "title": "v0.04",
+        "items": [
+			"Finished Het's Oasis Agility Course",
+			"Added average lap time"
+        ]
+    },
+	{
+	"date": "2024-03-17 7:24pm",
+        "title": "v0.03",
+        "items": [
+			"Full rewrite",
+			"Removed courses from AgilityScript",
+			"Courses are now individual files",
+			"Forced failsafe for HCIM/Ironman",
+			"If AIO is enabled(resets course selection) & vise versa",
+			"Added account type check",
+			"Added Health Check",
+			"Added Bank(LLPf(for food))",
+			"Added lap counter",
+			"Added time till level up",
+			"Added xp per hour"
+        ]
+    },
      {
         "date": "2024-03-11 5:02pm",
         "title": "v0.01-1",

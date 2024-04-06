@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Agility AIO" version="v0.01-1" author="KBD" skill="Agility">
+<TopBanner title="Agility AIO" version="v1.0-r2" author="KBD" skill="Agility">
 </TopBanner>
 
 :::hidden
@@ -26,46 +26,47 @@ import changes from './changes.json'
 <details>
 <summary> Unfinished Courses</summary>
 - Agility Arena - Entry-level obstacles
-- Burthorpe Agility Course
+- Agility Arena - High-level obstacles
 - Agility Arena - Medium-level obstacles
 - Agility Pyramid
-- Penguin Agility Course
-- Anachronia: Beginner island travel
-- Barbarian Outpost Agility Course
-- Agility Arena - High-level obstacles
 - Ape Atoll Agility Course
-- Anachronia: Novice island travel
-- Wilderness Agility Course
-- Werewolf Agility Course
-- Statues in the Bandos Throne Room
-- Het's Oasis Agility Course
-- Anachronia: Advanced island travel
-- Hefin Serenity Posts
-- Hefin Agility Course
 - Dorgesh-Kaan Agility Course
-- Advanced Gnome Stronghold Course
-- Anachronia: Island-wide agility Course
-- Advanced Barbarian Outpost Course
+- Hefin Serenity Posts
+- Penguin Agility Course
+- Statues in the Bandos Throne Room
+- Werewolf Agility Course
+- Wilderness Agility Course
+
 
 </details>
 
 <details>
 <summary> Unfinished Activities</summary>
-- Werewolf Skullball
-- Gnome Ball
-- Toy mouse
-- Penguin suit
-- Blast Furnace
 - Barbarian Fishing
+- Blast Furnace
+- Gnome Ball
 - Livid Farm
+- Penguin suit
 - Serenity posts
+- Toy mouse
+- Werewolf Skullball
 
 
 </details>
 
 <details>
 <summary> Finished Courses & Activities</summary>
+- Advanced Barbarian Outpost Course
+- Advanced Gnome Stronghold Course
+- Anachronia: Advanced island travel
+- Anachronia: Beginner island travel
+- Anachronia: Island-wide agility Course
+- Anachronia: Novice island travel
+- Barbarian Outpost Agility Course
+- Burthorpe Agility Course
 - Gnome Agility Course
+- Hefin Agility Course
+- Het's Oasis Agility Course
 
 </details>
 
@@ -79,7 +80,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - Unavailable
+> - Currently 8 coins + cost of membership
 
 </ContentBlock>
 
