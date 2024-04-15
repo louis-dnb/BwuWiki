@@ -33,7 +33,7 @@ Steam: ✅
 :::tip The current version of the core API is:
 
 ```kotlin
-net.botwithus.rs3:botwithus-api:1.0.0-20240310.003809-28
+net.botwithus.rs3:botwithus-api:1.0.0-20240414.055842-34
 ```
 
 :::
@@ -48,7 +48,7 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 
 :::tip The current version of the loader is:
 ```kotlin
-0.1.6
+0.1.10
 ```
 
 :::
@@ -72,6 +72,7 @@ net.botwithus.xapi.public:api:1.0.0-20240211.205614-15
 | Staff     | Timmy        | @timmy     |83203731226628096 |
 | Web Dev   | offline      | @anjato     |200439921549377536|
 | Moderator | KBD          | @KBD        |132004845275054081|
+| Moderator | sadness      | @sadness_23128     |1198431596110426133s|
 </div>
 </ContentBlock>
 
