@@ -47,6 +47,10 @@ Remember that open source projects are collaborative efforts, and your involveme
 
 - **MikeGemMineCraftFletch:** [**GitHub Link**](https://github.com/devMikeyB/MikeGemMineCraftFletch), [**Wiki Link**](/MikeGemMineCraftFletch), _Author: Mike_
 
+- **Incense Maker:** [**GitHub Link**](https://github.com/notsadness/IncenseMaker), [**Wiki Link**](/Incense-Stick-Maker), _Author: sadness_
+
+- **GemCutter3000:** [**GitHub Link**](https://github.com/notsadness/GemCutter3000), [**Wiki Link**](/GemCutter3000), _Author: sadness_
+
 </ContentBlock>
 
 <ContentBlock title="Additional Resources and Tutorials:">
