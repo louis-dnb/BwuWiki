@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="LividFarmWithUs" version="v1.0.6" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Farming">
+<TopBanner title="LividFarmWithUs" version="v1.1.0" author="BotWithUs" offical="OFFICAL SCRIPT" skill="Farming">
 </TopBanner>
 
 :::hidden
@@ -46,35 +46,17 @@ import changes from './changes.json'
 :::
 <ContentBlock title="Requirements">
 
-- the player must possess 100 or more of the following runes in their inventory - "Astral rune," "Water rune," "Earth rune," and "Nature rune."
-- Additionally, the player must initiate the script within the Livid Farm area.
+- The player must possess one of the following 
+> - 100 or more of the following runes in their inventory - "Astral rune," "Water rune," "Earth rune," and "Nature rune."
+> - Wicked pouch
+> - Elemental battlestaff, 100+ Astral & Nature runes
+> - Elemental battlestaff + Wicked pouch
+
 
 </ContentBlock>
 
 :::hidden
 
-## Setup
-
-:::
-<ContentBlock title="Setup">
-
-<details>
-<summary>example</summary>
-
-- example
-
-</details>
-
-<details>
-<summary>UI Settings Guide</summary>
-
-- example
-
-</details>
-
-</ContentBlock>
-
-:::hidden
 
 ## Changelog
 
