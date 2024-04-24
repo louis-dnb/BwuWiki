@@ -23,8 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - 225 Coins (Monthly) + Cost of membership
-> - Can purchase a minimum of 2 days sub for 15 Coins.
+> - 2 days sub for 15 Coins.
 
 </ContentBlock>
 
@@ -72,6 +71,8 @@ import changes from './changes.json'
 <ContentBlock title="Requirements/Instructions">
 
 > - First of all have a weapon of your choice worn in your preset & have a revo bar for it (Any weapons will do).
+> - Have equipment & inventory tabs open & in view at all times.
+> - Have Magic spellbook open at all times.
 > - Before starting the script make sure to withdraw your current active clue from bank (active clues shouldn't be in your preset only sealed ones/ charos' clue carrier)
 > - For scan clues (elites/masters) you need to disable walk markers from settings.
 > - Have emotes tab open & in view at all times (I'd just make it as small as possible and tuck it somewhere on screen).
