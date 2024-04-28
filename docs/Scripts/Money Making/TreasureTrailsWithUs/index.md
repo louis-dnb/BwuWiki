@@ -71,6 +71,7 @@ import changes from './changes.json'
 <ContentBlock title="Requirements/Instructions">
 
 > - First of all have a weapon of your choice worn in your preset & have a revo bar for it (Any weapons will do).
+> - War's retreat teleport unlocked (if you don't have it unlocked go kill 10 kbds and buy the unlock from war shop).
 > - Have equipment & inventory tabs open & in view at all times.
 > - Have Magic spellbook open at all times.
 > - Before starting the script make sure to withdraw your current active clue from bank (active clues shouldn't be in your preset only sealed ones/ charos' clue carrier)
@@ -276,6 +277,26 @@ import changes from './changes.json'
 >  - RS Wiki Page: https://runescape.wiki/w/Clue_scroll_(master)#Requirements
 >  - Any requirement that needs partial completion of a quest will require the completion of the quest for this script.
 >  - If not using globetrotter outfit for emote clues YOU NEED TO HAVE SPACE IN YOUR PRESET FOR THE ITEMS IT REQUIRES TO WITHDRAW (and enough inventory space to remove all equipped items if needed).
+>  - You need to have some supplies to go on uncharted islands.
+
+<details>
+<summary>Skilling Steps Additional requirements</summary>
+>  - Skilling clues require all these https://runescape.wiki/w/Treasure_Trails/Guide/Skill_riddle_challenges.
+>  - You need to have these ingredients/items in your bank:
+>  - - torstol potion (unf) , jangerberries to make zamorak brews. 
+>  - - toadflax potion (unf) , crushed bird nest to make saradomin brews. 
+>  - - black dragon leathers , threads to make black dragonhide bodies. 
+>  - - decorated cooking urn (nr), a fire rune to make decorated cooking urns.
+>  - - decorated cooking urn (nr), a fire rune to make decorated cooking urns.
+>  - - raw sharks.
+>  - - elder logs & magic logs.
+>  - - raw wild pies.
+>  - - pure essence.
+>  - You need to have some rune bars in your metal bank.
+>  - You need to have some banite ores in your metal bank. 
+>  - You need to have some cash in your money pouch to buy cleansing crystals. 
+>  - You need to set your runspan portal to high level, from wizards tower the guy near the east portal can change ur portal direction to high runspan level.
+</details>
 <details>
 <summary>Required Items (for emote clues)</summary>
 
