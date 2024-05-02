@@ -278,6 +278,9 @@ import changes from './changes.json'
 >  - Any requirement that needs partial completion of a quest will require the completion of the quest for this script.
 >  - If not using globetrotter outfit for emote clues YOU NEED TO HAVE SPACE IN YOUR PRESET FOR THE ITEMS IT REQUIRES TO WITHDRAW (and enough inventory space to remove all equipped items if needed).
 >  - You need to have some supplies to go on uncharted islands.
+>  - If you have completed 'Gower Quest' you need to have Disk of Returning in your preset.
+>  - Your inventory needs to have atleast 3 free spaces.
+>  - You cannot put skilling clue items in your preset only teleport items allowed.
 
 <details>
 <summary>Skilling Steps Additional requirements</summary>
@@ -287,7 +290,6 @@ import changes from './changes.json'
 >  - - toadflax potion (unf) , crushed bird nest to make saradomin brews. 
 >  - - black dragon leathers , threads to make black dragonhide bodies. 
 >  - - decorated cooking urn (nr), a fire rune to make decorated cooking urns.
->  - - decorated cooking urn (nr), a fire rune to make decorated cooking urns.
 >  - - raw sharks.
 >  - - elder logs & magic logs.
 >  - - raw wild pies.
@@ -296,6 +298,8 @@ import changes from './changes.json'
 >  - You need to have some banite ores in your metal bank. 
 >  - You need to have some cash in your money pouch to buy cleansing crystals. 
 >  - You need to set your runspan portal to high level, from wizards tower the guy near the east portal can change ur portal direction to high runspan level.
+>  - You need to have your Prayer tab open and in view at all times for the prayer skilling step.
+
 </details>
 <details>
 <summary>Required Items (for emote clues)</summary>
