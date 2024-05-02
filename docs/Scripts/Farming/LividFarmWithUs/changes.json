@@ -1,5 +1,16 @@
 [
-
+{
+        "date": "2024-04-20",
+        "title": "v1.1.0",
+        "items": [
+            "Fixed exception when converting lumber",
+			"Fixed message spam upon idle and lumber less than goal",
+			"Fixed Strain failure rate(near 0)",
+			"No longer need to start in Livid farm area",
+			"Added options for item required other than just runes",
+			"Added Agent 006 encounter"
+        ]
+    },
      {
         "date": "2024-01-26",
         "title": "v1.0.0",
