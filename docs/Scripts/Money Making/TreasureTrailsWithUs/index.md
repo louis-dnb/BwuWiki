@@ -77,7 +77,7 @@ import changes from './changes.json'
 > - Before starting the script make sure to withdraw your current active clue from bank (active clues shouldn't be in your preset only sealed ones/ charos' clue carrier)
 > - For scan clues (elites/masters) you need to disable walk markers from settings.
 > - Have emotes tab open & in view at all times (I'd just make it as small as possible and tuck it somewhere on screen).
-> - If use meerkats option is on you need to meerkats pouch & scrolls in your preset.
+> - If use meerkats option is on you need to have meerkats pouch & scrolls in your preset.
 > - If no path was found for a step you need to open that clue and see what your missing probably either a light source or trollhiem access (If no spell to teleport to trollhiem was found you need to have rock climbing boots in your inventory/equipment).
 > - If your doing tetracompasses simply have any amount of them (powered) in your inventory and start the script.
 
@@ -294,6 +294,7 @@ import changes from './changes.json'
 >  - - elder logs & magic logs.
 >  - - raw wild pies.
 >  - - pure essence.
+>  - - Great white shark bait.
 >  - You need to have some rune bars in your metal bank.
 >  - You need to have some banite ores in your metal bank. 
 >  - You need to have some cash in your money pouch to buy cleansing crystals. 
