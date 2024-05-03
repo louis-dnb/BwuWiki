@@ -174,7 +174,9 @@ import changes from './changes.json'
 >  - RS Wiki Page: https://runescape.wiki/w/Clue_scroll_(medium)#Requirements
 >  - Any requirement that needs partial completion of a quest will require the completion of the quest for this script.
 >  - If not using globetrotter outfit for emote clues YOU NEED TO HAVE SPACE IN YOUR PRESET FOR THE ITEMS IT REQUIRES TO WITHDRAW (and enough inventory space to remove all equipped items if needed).
->
+>  - You need a rope in your preset for Baxtorian Falls step.
+
+
 <details>
 <summary>Required Items(for emote clues)</summary>
 
@@ -292,7 +294,7 @@ import changes from './changes.json'
 >  - - decorated cooking urn (nr), a fire rune to make decorated cooking urns.
 >  - - raw sharks.
 >  - - elder logs & magic logs.
->  - - raw wild pies.
+>  - - raw wild pies.(You can use wilder pies instead if you have 90 cooking)
 >  - - pure essence.
 >  - - Great white shark bait.
 >  - You need to have some rune bars in your metal bank.
