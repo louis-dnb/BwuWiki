@@ -296,7 +296,7 @@ import changes from './changes.json'
 >  - - elder logs & magic logs.
 >  - - raw wild pies.(You can use wilder pies instead if you have 90 cooking)
 >  - - pure essence.
->  - - Great white shark bait.
+>  - - Great white shark bait (If you have the tier 5 prawnbroker perk you can enable the option in settings to use that instead but its much slower and not worth it since each bait gives you 50 great white sharks and you can buy them on GE).
 >  - You need to have some rune bars in your metal bank.
 >  - You need to have some banite ores in your metal bank. 
 >  - You need to have some cash in your money pouch to buy cleansing crystals. 
