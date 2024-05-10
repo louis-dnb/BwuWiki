@@ -42,10 +42,10 @@ scripts:[
     [
       'classic',
       {
-        gtag: {
-          trackingID: 'G-YM97NPBVRX',
-          anonymizeIP: false,
-        },
+        // gtag: {
+        //   trackingID: 'G-YM97NPBVRX',
+        //   anonymizeIP: false,
+        // },
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
