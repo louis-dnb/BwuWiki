@@ -77,7 +77,7 @@ import changes from './changes.json'
 
 :::
 
-<ContentBlock title="What Script does">
+<ContentBlock title="UI Game Configuration">
 > - Render Distance : medium.
 > - Face NORTH in **Minimap** before starting script.
 > - Dagannoths Kings Boss Instance teleport on the left portal.
