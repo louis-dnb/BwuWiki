@@ -1,5 +1,12 @@
 [
-     {
+    {
+        "date": "2024-05-22",
+        "title": "v1.0.1",
+        "items": [
+            "Optimized Fighting Phase. Fighting should be more efficient and more reliable/stable"
+        ]
+    },
+    {
         "date": "2024-05-21",
         "title": "v1.0.0",
         "items": [
