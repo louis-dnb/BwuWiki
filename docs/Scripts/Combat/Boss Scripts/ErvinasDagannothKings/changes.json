@@ -1,5 +1,12 @@
 [
     {
+        "date": "2024-05-23",
+        "title": "v1.0.2",
+        "items": [
+            "Added regular/curse protection prayers support for accounts which doesn't have split soul or do not sustain hp with soul split"
+        ]
+    },
+    {
         "date": "2024-05-22",
         "title": "v1.0.1",
         "items": [

@@ -35,7 +35,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Requirements">
 
-> - Access to Soul Split.
+> - Access to Soul Split. **RECOMMENDED**
 > - Access to War's Retreat.
 > - Access to Dagannoth Kings instance teleport.
 > - Be able to have/use Overloads.
@@ -69,6 +69,8 @@ import changes from './changes.json'
 > - Uses Pocket Item if it's available.
 > - Endless cycle, even if you have backed to War's Retreat mid fight.
 > - Uses Revolution.
+> - Uses Soul Split
+> - Uses Regular/Curse Protection Prayers if Soul Split is turned off in settings.
 </ContentBlock>
 
 :::hidden
@@ -86,6 +88,7 @@ import changes from './changes.json'
 > - Soul Split somewhere in action bar.
 > - Revolution Bars are setuped individually, how you want you character to perform.
 > - Make sure in Combat Options you are enabled threshold and ultimate ability autocast.
+> - **Soul Split** and **Protection Prayers** has to be somewhere in Action Bar if you are planning to use.
 </ContentBlock>
 
 :::hidden
@@ -108,6 +111,7 @@ import changes from './changes.json'
 > - Equipment Pocket Slot - Mainly used for books: Wen/Jas/Grimoire/Illumination etc, as long it has "Activate/Deactivate" option.
 > - Food - **HIGHLY RECOMMENDED**, it will pop a new text insertion in which you have to write **PRECISE** name of a food, which has option **EAT**.
 > - Weapon and Armour is fully written in the script. Read closely.
+> - Familiars (Fighting and Inventory) **NOT AVAILABLE YET**
 
 </details>
 
@@ -129,6 +133,7 @@ import changes from './changes.json'
 > - Have atleast 5 free inventory spaces for loot.
 > - Have some food to **jumpstart** the script at bosses.
 > - Have 150k coins in your backpack for instance creation.
+> - **Soul Split** and **Protection Prayers** has to be somewhere in Action Bar.
 > - Happy Botting.
 </ContentBlock>
 
