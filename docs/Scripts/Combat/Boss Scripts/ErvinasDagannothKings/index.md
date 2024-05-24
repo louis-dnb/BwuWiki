@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Ervinas Dagannoths Kings" version="v1.0.0" author="Ervinas" skill="Attack">
+<TopBanner title="Ervinas Dagannoths Kings" version="v1.1.0" author="Ervinas" skill="Attack">
 </TopBanner>
 
 :::hidden
@@ -35,12 +35,13 @@ import changes from './changes.json'
 
 <ContentBlock title="Requirements">
 
-> - Access to Soul Split.
+> - Access to Soul Split. **RECOMMENDED**
 > - Access to War's Retreat.
 > - Access to Dagannoth Kings instance teleport.
 > - Be able to have/use Overloads.
 > - Render distance : medium.
 > - Atleast T80 Weapons/Armour or T70 with Blood amulet of fury should be enough to self sustain life.
+> - Higher summoning for better BoB. Or better DPS.
 > - Magic notepaper - the more, the better.
 
 </ContentBlock>
@@ -69,6 +70,11 @@ import changes from './changes.json'
 > - Uses Pocket Item if it's available.
 > - Endless cycle, even if you have backed to War's Retreat mid fight.
 > - Uses Revolution.
+> - Uses Soul Split
+> - Uses Regular/Curse Protection Prayers if Soul Split is turned off in settings.
+> - Uses Familiars, such as BoB or DPS.
+> - Eats from BoB.
+> - Resummons familiars if time left < 10 mins.
 </ContentBlock>
 
 :::hidden
@@ -86,6 +92,7 @@ import changes from './changes.json'
 > - Soul Split somewhere in action bar.
 > - Revolution Bars are setuped individually, how you want you character to perform.
 > - Make sure in Combat Options you are enabled threshold and ultimate ability autocast.
+> - **Soul Split** and **Protection Prayers** has to be somewhere in Action Bar if you are planning to use.
 </ContentBlock>
 
 :::hidden
@@ -108,6 +115,16 @@ import changes from './changes.json'
 > - Equipment Pocket Slot - Mainly used for books: Wen/Jas/Grimoire/Illumination etc, as long it has "Activate/Deactivate" option.
 > - Food - **HIGHLY RECOMMENDED**, it will pop a new text insertion in which you have to write **PRECISE** name of a food, which has option **EAT**.
 > - Weapon and Armour is fully written in the script. Read closely.
+> - Familiars (Fighting and Inventory) Supported :
+>> - Beast of Burden :
+>>> - Spirit Terrorbird
+>>> - War Tortoise
+>>> - Pack Yak
+>>> - Pack Mammoth
+>> - DPS :
+>>> - Ripper Demon
+>>> - Kalgerion Demon
+>>> - Abyssal Demon
 
 </details>
 
@@ -129,6 +146,7 @@ import changes from './changes.json'
 > - Have atleast 5 free inventory spaces for loot.
 > - Have some food to **jumpstart** the script at bosses.
 > - Have 150k coins in your backpack for instance creation.
+> - **Soul Split** and **Protection Prayers** has to be somewhere in Action Bar.
 > - Happy Botting.
 </ContentBlock>
 
@@ -140,6 +158,9 @@ import changes from './changes.json'
 
 <ContentBlock title="Preset And Gear">
 > - Script is using preset - **"Load Last Preset from"**
+> - If BoB is turned on, please setup it before starting!
+>> - Summon BoB, load with same food as you are planning to use and save BoB inventory.
+>> - Add a pouch to your preset and you are ready to go.
 <details>
 <summary>My Personal Preset</summary>
 
@@ -171,7 +192,7 @@ import changes from './changes.json'
 
 :::
 
-<ContentBlock title="Preset And Gear">
+<ContentBlock title="Loot">
 > - Script provides ability to loot. Take a look at Script Settings "Loot" Tab.
 <details>
 <summary>Loot Tab</summary>
@@ -200,9 +221,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Additional Information">
-> - Script is for a bit stronger account than usual due to soul split.
-> - Upcoming releases will add functionality for account without soul split.
-> - There is no familiar support due to this script being personal/private.
+> - Script is suitable now for account which doesn't have **Soul Split**, will use regular protection prayers instead for each individual dagannoth.
 > - If you encouter bugs, please contact me @Ervinas in discord, providing a video would help a lot.
 > - If there are suggestions or desires what to add to this script - @Ervinas.
 > - Happy Botting. AGAIN.
