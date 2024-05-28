@@ -1,0 +1,100 @@
+[
+    {
+        "date": "2024-05-22",
+        "title": "a7474ac",
+        "items": [
+            "Update Changelog.kt test"
+        ]
+    },
+    {
+        "date": "2024-05-22",
+        "title": "b283dc6",
+        "items": [
+            "New Test"
+        ]
+    },
+    {
+        "date": "2024-05-22",
+        "title": "ecaffda",
+        "items": [
+            "Added Desert Strykewyrms"
+        ]
+    },
+    {
+        "date": "2024-05-22",
+        "title": "06122a9",
+        "items": [
+            "Added Strykewyrm burrow dodge"
+        ]
+    },
+    {
+        "date": "2024-05-22",
+        "title": "cc41ca1",
+        "items": [
+            "Added Custom-Loot press option"
+        ]
+    },
+    {
+        "date": "2024-05-22",
+        "title": "e4b985d",
+        "items": [
+            "Private Beta"
+        ]
+    },
+    {
+        "date": "2024-05-23",
+        "title": "70d1725",
+        "items": [
+            "Spiritual Mages (Nav not supported) Bone burying switched to ComponentQuery"
+        ]
+    },
+    {
+        "date": "2024-05-23",
+        "title": "c9c3127",
+        "items": [
+            "Glacor Task added (Glacytes)"
+        ]
+    },
+    {
+        "date": "2024-05-24",
+        "title": "180e0bd",
+        "items": [
+            "Grifolaroo Task added"
+        ]
+    },
+    {
+        "date": "2024-05-24",
+        "title": "7be9cc6",
+        "items": [
+            "Ankou Task added"
+        ]
+    },
+    {
+        "date": "2024-05-24",
+        "title": "96f482f",
+        "items": [
+            "Will switch the Bank Tab if we arent at the 'view all' one"
+        ]
+    },
+    {
+        "date": "2024-05-24",
+        "title": "b2dd3e7",
+        "items": [
+            "Risen ghost Task added"
+        ]
+    },
+    {
+        "date": "2024-05-24",
+        "title": "368c99a",
+        "items": [
+            "Elven ritual shard support added"
+        ]
+    },
+    {
+        "date": "2024-05-24",
+        "title": "dc47995",
+        "items": [
+            "Skipping Tasks added"
+        ]
+    }
+]
