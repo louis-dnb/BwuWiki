@@ -96,6 +96,9 @@ import changes from './changes.json'
 > - Click save button in script "Configuration" tab.
 > - Lastly, press Run:
 ![Example](8.png)
+> - Result after the session of 10-12 hours maybe (imagine running 10 accounts during 2 day period. That's a nice account preparation with zero effort) :
+![Example](10.png)
+
 </ContentBlock>
 
 :::hidden
@@ -130,7 +133,7 @@ import changes from './changes.json'
 
 :::
 
-<ContentBlock title="Additional Information">
+<ContentBlock title="Information">
 > - Tested till 40 levels. All of them achievent maximum.
 > - If you are in combat area and somehow it bugs and stops attacking, press Pause and Run again, should be fixed.
 > - Script is made intentionally to level up and prepare account for botting at higher levels.
@@ -138,6 +141,25 @@ import changes from './changes.json'
 > - If you encouter bugs, please contact me @Ervinas in discord, providing a video would help a lot.
 > - If there are suggestions or desires what to add to this script - @Ervinas.
 > - Happy Botting. AGAIN.
+</ContentBlock>
+
+:::hidden
+
+## My Recommendation
+
+:::
+
+<ContentBlock title="My Recommendation">
+> - Do not input high levels in configuration, it will take longer to level up, because of rotations.
+>> - Example :
+>>> - Inputing 80 at all levels in configuration will give you worse results.
+>>> - Iterations : Attack will be leveled to (80/4)*1 which is 20, then strength to (x/4)*1 and ect.
+>>> - If you input 40 in skill, it will be leveled up in faster iterations, meaning it will give you more damage output due to smaller iteration of leveling strength, example: 40 in a configuation, which means 40/4*1 is 10. 
+>>>> - First Attack to 10 (if selected)
+>>>> - Second Strength to 10 (if selected)
+>>>> - Third Defense to 10 (if selected)
+>>>> - ect...
+>> - Recommending starting till 40, and if it's done, then switch to higher level. :)
 </ContentBlock>
 
 :::
