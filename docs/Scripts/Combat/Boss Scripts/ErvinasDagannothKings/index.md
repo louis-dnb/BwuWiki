@@ -206,6 +206,23 @@ import changes from './changes.json'
 </details>
 </ContentBlock>
 
+
+
+:::hidden
+
+## Youtube Video
+
+:::
+
+<ContentBlock title="Youtube Video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DvsdVobusuQ?si=aLhZqSB_k2XfdbJt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</ContentBlock>
+
+
+
+
+
+
 :::danger Discomfort
 
 - **Please read "General Information" tab in script Settings before trying to START it**
